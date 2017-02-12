@@ -1,0 +1,31 @@
+<?php  if ( ! defined('BASEPATH')) exit('No direct script access allowed'); ?>
+
+ERROR - 2016-04-01 22:30:39 --> Severity: Notice  --> Only variable references should be returned by reference /Applications/XAMPP/xamppfiles/htdocs/plataforma/system/core/Common.php 257
+ERROR - 2016-04-01 22:30:39 --> Severity: Notice  --> Only variable references should be returned by reference /Applications/XAMPP/xamppfiles/htdocs/plataforma/system/core/Common.php 257
+ERROR - 2016-04-01 22:30:39 --> Severity: Notice  --> Only variable references should be returned by reference /Applications/XAMPP/xamppfiles/htdocs/plataforma/system/core/Common.php 257
+ERROR - 2016-04-01 22:30:40 --> Severity: Notice  --> Only variable references should be returned by reference /Applications/XAMPP/xamppfiles/htdocs/plataforma/system/core/Common.php 257
+ERROR - 2016-04-01 23:08:06 --> Severity: Notice  --> Only variable references should be returned by reference /Applications/XAMPP/xamppfiles/htdocs/plataforma/system/core/Common.php 257
+ERROR - 2016-04-01 23:08:06 --> Severity: Notice  --> Only variable references should be returned by reference /Applications/XAMPP/xamppfiles/htdocs/plataforma/system/core/Common.php 257
+ERROR - 2016-04-01 23:08:06 --> Severity: Notice  --> Only variable references should be returned by reference /Applications/XAMPP/xamppfiles/htdocs/plataforma/system/core/Common.php 257
+ERROR - 2016-04-01 23:08:06 --> Severity: Notice  --> Only variable references should be returned by reference /Applications/XAMPP/xamppfiles/htdocs/plataforma/system/core/Common.php 257
+ERROR - 2016-04-01 23:20:21 --> Severity: Notice  --> Only variable references should be returned by reference /Applications/XAMPP/xamppfiles/htdocs/plataforma/system/core/Common.php 257
+ERROR - 2016-04-01 23:20:22 --> Severity: Notice  --> Only variable references should be returned by reference /Applications/XAMPP/xamppfiles/htdocs/plataforma/system/core/Common.php 257
+ERROR - 2016-04-01 23:20:22 --> Severity: Notice  --> Only variable references should be returned by reference /Applications/XAMPP/xamppfiles/htdocs/plataforma/system/core/Common.php 257
+ERROR - 2016-04-01 23:20:30 --> Severity: Notice  --> Only variable references should be returned by reference /Applications/XAMPP/xamppfiles/htdocs/plataforma/system/core/Common.php 257
+ERROR - 2016-04-01 23:20:30 --> Severity: Notice  --> Only variable references should be returned by reference /Applications/XAMPP/xamppfiles/htdocs/plataforma/system/core/Common.php 257
+ERROR - 2016-04-01 23:20:30 --> Severity: Notice  --> Only variable references should be returned by reference /Applications/XAMPP/xamppfiles/htdocs/plataforma/system/core/Common.php 257
+ERROR - 2016-04-01 23:20:32 --> Severity: Notice  --> Only variable references should be returned by reference /Applications/XAMPP/xamppfiles/htdocs/plataforma/system/core/Common.php 257
+ERROR - 2016-04-01 23:20:32 --> Severity: Notice  --> Only variable references should be returned by reference /Applications/XAMPP/xamppfiles/htdocs/plataforma/system/core/Common.php 257
+ERROR - 2016-04-01 23:20:32 --> Severity: Notice  --> Only variable references should be returned by reference /Applications/XAMPP/xamppfiles/htdocs/plataforma/system/core/Common.php 257
+ERROR - 2016-04-01 23:20:33 --> Severity: Notice  --> Only variable references should be returned by reference /Applications/XAMPP/xamppfiles/htdocs/plataforma/system/core/Common.php 257
+ERROR - 2016-04-01 23:20:33 --> Severity: Notice  --> Only variable references should be returned by reference /Applications/XAMPP/xamppfiles/htdocs/plataforma/system/core/Common.php 257
+ERROR - 2016-04-01 23:20:33 --> Severity: Notice  --> Only variable references should be returned by reference /Applications/XAMPP/xamppfiles/htdocs/plataforma/system/core/Common.php 257
+ERROR - 2016-04-01 23:20:35 --> Severity: Notice  --> Only variable references should be returned by reference /Applications/XAMPP/xamppfiles/htdocs/plataforma/system/core/Common.php 257
+ERROR - 2016-04-01 23:20:35 --> Severity: Notice  --> Only variable references should be returned by reference /Applications/XAMPP/xamppfiles/htdocs/plataforma/system/core/Common.php 257
+ERROR - 2016-04-01 23:20:35 --> Severity: Notice  --> Only variable references should be returned by reference /Applications/XAMPP/xamppfiles/htdocs/plataforma/system/core/Common.php 257
+ERROR - 2016-04-01 23:20:37 --> Severity: Notice  --> Only variable references should be returned by reference /Applications/XAMPP/xamppfiles/htdocs/plataforma/system/core/Common.php 257
+ERROR - 2016-04-01 23:20:37 --> Severity: Notice  --> Only variable references should be returned by reference /Applications/XAMPP/xamppfiles/htdocs/plataforma/system/core/Common.php 257
+ERROR - 2016-04-01 23:20:37 --> Severity: Notice  --> Only variable references should be returned by reference /Applications/XAMPP/xamppfiles/htdocs/plataforma/system/core/Common.php 257
+ERROR - 2016-04-01 23:20:39 --> Severity: Notice  --> Only variable references should be returned by reference /Applications/XAMPP/xamppfiles/htdocs/plataforma/system/core/Common.php 257
+ERROR - 2016-04-01 23:20:40 --> Severity: Notice  --> Only variable references should be returned by reference /Applications/XAMPP/xamppfiles/htdocs/plataforma/system/core/Common.php 257
+ERROR - 2016-04-01 23:20:40 --> Severity: Notice  --> Only variable references should be returned by reference /Applications/XAMPP/xamppfiles/htdocs/plataforma/system/core/Common.php 257

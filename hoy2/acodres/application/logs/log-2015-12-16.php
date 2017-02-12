@@ -1,0 +1,33 @@
+<?php  if ( ! defined('BASEPATH')) exit('No direct script access allowed'); ?>
+
+ERROR - 2015-12-16 23:36:49 --> Severity: Notice  --> Undefined variable: sticky C:\wamp\www\centro\admin\application\views\blueline\theme\application.php 142
+ERROR - 2015-12-16 23:36:49 --> Severity: Notice  --> Undefined variable: sticky C:\wamp\www\centro\admin\application\views\blueline\theme\application.php 142
+ERROR - 2015-12-16 23:36:54 --> Severity: Notice  --> Undefined variable: sticky C:\wamp\www\centro\admin\application\views\blueline\theme\application.php 142
+ERROR - 2015-12-16 23:36:54 --> Severity: Notice  --> Undefined variable: sticky C:\wamp\www\centro\admin\application\views\blueline\theme\application.php 142
+ERROR - 2015-12-16 23:37:32 --> You did not select a file to upload.
+ERROR - 2015-12-16 23:37:53 --> Severity: Notice  --> Undefined variable: sticky C:\wamp\www\centro\admin\application\views\blueline\theme\application.php 142
+ERROR - 2015-12-16 23:37:53 --> Severity: Notice  --> Undefined variable: sticky C:\wamp\www\centro\admin\application\views\blueline\theme\application.php 142
+ERROR - 2015-12-16 23:51:23 --> You did not select a file to upload.
+ERROR - 2015-12-16 23:51:23 --> You did not select a file to upload.
+ERROR - 2015-12-16 23:51:23 --> Severity: Notice  --> Undefined variable: sticky C:\wamp\www\centro\admin\application\views\blueline\theme\application.php 142
+ERROR - 2015-12-16 23:51:23 --> Severity: Notice  --> Undefined variable: sticky C:\wamp\www\centro\admin\application\views\blueline\theme\application.php 142
+ERROR - 2015-12-16 23:53:02 --> You did not select a file to upload.
+ERROR - 2015-12-16 23:53:02 --> You did not select a file to upload.
+ERROR - 2015-12-16 23:53:03 --> Severity: Notice  --> Undefined variable: sticky C:\wamp\www\centro\admin\application\views\blueline\theme\application.php 142
+ERROR - 2015-12-16 23:53:03 --> Severity: Notice  --> Undefined variable: sticky C:\wamp\www\centro\admin\application\views\blueline\theme\application.php 142
+ERROR - 2015-12-16 23:53:52 --> You did not select a file to upload.
+ERROR - 2015-12-16 23:53:52 --> You did not select a file to upload.
+ERROR - 2015-12-16 23:53:53 --> Severity: Notice  --> Undefined variable: sticky C:\wamp\www\centro\admin\application\views\blueline\theme\application.php 142
+ERROR - 2015-12-16 23:53:53 --> Severity: Notice  --> Undefined variable: sticky C:\wamp\www\centro\admin\application\views\blueline\theme\application.php 142
+ERROR - 2015-12-16 23:55:04 --> You did not select a file to upload.
+ERROR - 2015-12-16 23:55:04 --> You did not select a file to upload.
+ERROR - 2015-12-16 23:55:06 --> Severity: Notice  --> Undefined variable: sticky C:\wamp\www\centro\admin\application\views\blueline\theme\application.php 142
+ERROR - 2015-12-16 23:55:06 --> Severity: Notice  --> Undefined variable: sticky C:\wamp\www\centro\admin\application\views\blueline\theme\application.php 142
+ERROR - 2015-12-16 23:55:34 --> You did not select a file to upload.
+ERROR - 2015-12-16 23:55:34 --> You did not select a file to upload.
+ERROR - 2015-12-16 23:55:36 --> Severity: Notice  --> Undefined variable: sticky C:\wamp\www\centro\admin\application\views\blueline\theme\application.php 142
+ERROR - 2015-12-16 23:55:36 --> Severity: Notice  --> Undefined variable: sticky C:\wamp\www\centro\admin\application\views\blueline\theme\application.php 142
+ERROR - 2015-12-16 23:56:32 --> You did not select a file to upload.
+ERROR - 2015-12-16 23:56:32 --> You did not select a file to upload.
+ERROR - 2015-12-16 23:56:34 --> Severity: Notice  --> Undefined variable: sticky C:\wamp\www\centro\admin\application\views\blueline\theme\application.php 142
+ERROR - 2015-12-16 23:56:34 --> Severity: Notice  --> Undefined variable: sticky C:\wamp\www\centro\admin\application\views\blueline\theme\application.php 142

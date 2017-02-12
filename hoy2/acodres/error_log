@@ -1,0 +1,1337 @@
+[21-Sep-2015 21:49:00 UTC] PHP Fatal error:  Uncaught exception 'ActiveRecord\DatabaseException' with message 'exception 'PDOException' with message 'SQLSTATE[28000] [1045] Access denied for user 'root'@'localhost' (using password: NO)' in /home/fymingenieros/public_html/fymadmin/sparks/php-activerecord/0.0.3/vendor/php-activerecord/lib/Connection.php:239
+Stack trace:
+#0 /home/fymingenieros/public_html/fymadmin/sparks/php-activerecord/0.0.3/vendor/php-activerecord/lib/Connection.php(239): PDO->__construct('mysql:host=loca...', 'root', '', Array)
+#1 /home/fymingenieros/public_html/fymadmin/sparks/php-activerecord/0.0.3/vendor/php-activerecord/lib/Connection.php(101): ActiveRecord\Connection->__construct(Object(stdClass))
+#2 /home/fymingenieros/public_html/fymadmin/sparks/php-activerecord/0.0.3/vendor/php-activerecord/lib/ConnectionManager.php(33): ActiveRecord\Connection::instance('mysql://root:@l...')
+#3 /home/fymingenieros/public_html/fymadmin/sparks/php-activerecord/0.0.3/vendor/php-activerecord/lib/Table.php(103): ActiveRecord\ConnectionManager::get_ in /home/fymingenieros/public_html/fymadmin/sparks/php-activerecord/0.0.3/vendor/php-activerecord/lib/Connection.php on line 241
+[22-Dec-2015 21:24:42 America/Mexico_City] PHP Fatal error:  Uncaught exception 'ActiveRecord\DatabaseException' with message 'exception 'PDOException' with message 'SQLSTATE[HY000] [1045] Access denied for user 'ceramica_tejar_'@'localhost' (using password: YES)' in /home2/ceramicasangerar/public_html/tejar/admin/sparks/php-activerecord/0.0.3/vendor/php-activerecord/lib/Connection.php:239
+Stack trace:
+#0 /home2/ceramicasangerar/public_html/tejar/admin/sparks/php-activerecord/0.0.3/vendor/php-activerecord/lib/Connection.php(239): PDO->__construct('mysql:host=loca...', 'ceramica_tejar_', '88306612', Array)
+#1 /home2/ceramicasangerar/public_html/tejar/admin/sparks/php-activerecord/0.0.3/vendor/php-activerecord/lib/Connection.php(101): ActiveRecord\Connection->__construct(Object(stdClass))
+#2 /home2/ceramicasangerar/public_html/tejar/admin/sparks/php-activerecord/0.0.3/vendor/php-activerecord/lib/ConnectionManager.php(33): ActiveRecord\Connection::instance('mysql://ceramic...')
+#3 /home2/ceramicasangerar/public_html/tejar/admin/sparks/php-activerecord/0.0.3/vendor/php-act in /home2/ceramicasangerar/public_html/tejar/admin/sparks/php-activerecord/0.0.3/vendor/php-activerecord/lib/Connection.php on line 241
+[22-Dec-2015 21:33:35 America/Mexico_City] PHP Fatal error:  Uncaught exception 'ActiveRecord\DatabaseException' with message 'exception 'PDOException' with message 'SQLSTATE[HY000] [1045] Access denied for user 'ceramica_tejar_'@'localhost' (using password: YES)' in /home2/ceramicasangerar/public_html/admin/sparks/php-activerecord/0.0.3/vendor/php-activerecord/lib/Connection.php:239
+Stack trace:
+#0 /home2/ceramicasangerar/public_html/admin/sparks/php-activerecord/0.0.3/vendor/php-activerecord/lib/Connection.php(239): PDO->__construct('mysql:host=loca...', 'ceramica_tejar_', '88306612', Array)
+#1 /home2/ceramicasangerar/public_html/admin/sparks/php-activerecord/0.0.3/vendor/php-activerecord/lib/Connection.php(101): ActiveRecord\Connection->__construct(Object(stdClass))
+#2 /home2/ceramicasangerar/public_html/admin/sparks/php-activerecord/0.0.3/vendor/php-activerecord/lib/ConnectionManager.php(33): ActiveRecord\Connection::instance('mysql://ceramic...')
+#3 /home2/ceramicasangerar/public_html/admin/sparks/php-activerecord/0.0.3/vendor/php-activerecord/lib/Table.php(103):  in /home2/ceramicasangerar/public_html/admin/sparks/php-activerecord/0.0.3/vendor/php-activerecord/lib/Connection.php on line 241
+[08-Feb-2016 22:41:00 UTC] PHP Fatal error:  Uncaught exception 'ActiveRecord\UndefinedPropertyException' with message 'Undefined property: Cliente->url in /home/httpceramicasang/public_html/admin/sparks/php-activerecord/0.0.3/vendor/php-activerecord/lib/Model.php on line 420' in /home/httpceramicasang/public_html/admin/sparks/php-activerecord/0.0.3/vendor/php-activerecord/lib/Model.php:1203
+Stack trace:
+#0 /home/httpceramicasang/public_html/admin/sparks/php-activerecord/0.0.3/vendor/php-activerecord/lib/Model.php(261): ActiveRecord\Model->set_attributes_via_mass_assignment(Array, true)
+#1 /home/httpceramicasang/public_html/admin/sparks/php-activerecord/0.0.3/vendor/php-activerecord/lib/Model.php(757): ActiveRecord\Model->__construct(Array)
+#2 /home/httpceramicasang/public_html/admin/application/controllers/aliados.php(58): ActiveRecord\Model::create(Array)
+#3 [internal function]: Aliados->save()
+#4 /home/httpceramicasang/public_html/admin/system/core/CodeIgniter.php(359): call_user_func_array(Array, Array)
+#5 /home/httpceramicasang/public_html/admin/in in /home/httpceramicasang/public_html/admin/sparks/php-activerecord/0.0.3/vendor/php-activerecord/lib/Model.php on line 1203
+[08-Feb-2016 22:41:31 UTC] PHP Fatal error:  Uncaught exception 'ActiveRecord\UndefinedPropertyException' with message 'Undefined property: Cliente->url in /home/httpceramicasang/public_html/admin/sparks/php-activerecord/0.0.3/vendor/php-activerecord/lib/Model.php on line 420' in /home/httpceramicasang/public_html/admin/sparks/php-activerecord/0.0.3/vendor/php-activerecord/lib/Model.php:1203
+Stack trace:
+#0 /home/httpceramicasang/public_html/admin/sparks/php-activerecord/0.0.3/vendor/php-activerecord/lib/Model.php(261): ActiveRecord\Model->set_attributes_via_mass_assignment(Array, true)
+#1 /home/httpceramicasang/public_html/admin/sparks/php-activerecord/0.0.3/vendor/php-activerecord/lib/Model.php(757): ActiveRecord\Model->__construct(Array)
+#2 /home/httpceramicasang/public_html/admin/application/controllers/aliados.php(58): ActiveRecord\Model::create(Array)
+#3 [internal function]: Aliados->save()
+#4 /home/httpceramicasang/public_html/admin/system/core/CodeIgniter.php(359): call_user_func_array(Array, Array)
+#5 /home/httpceramicasang/public_html/admin/in in /home/httpceramicasang/public_html/admin/sparks/php-activerecord/0.0.3/vendor/php-activerecord/lib/Model.php on line 1203
+[08-Feb-2016 22:41:54 UTC] PHP Fatal error:  Uncaught exception 'ActiveRecord\UndefinedPropertyException' with message 'Undefined property: Cliente->url in /home/httpceramicasang/public_html/admin/sparks/php-activerecord/0.0.3/vendor/php-activerecord/lib/Model.php on line 420' in /home/httpceramicasang/public_html/admin/sparks/php-activerecord/0.0.3/vendor/php-activerecord/lib/Model.php:1203
+Stack trace:
+#0 /home/httpceramicasang/public_html/admin/sparks/php-activerecord/0.0.3/vendor/php-activerecord/lib/Model.php(261): ActiveRecord\Model->set_attributes_via_mass_assignment(Array, true)
+#1 /home/httpceramicasang/public_html/admin/sparks/php-activerecord/0.0.3/vendor/php-activerecord/lib/Model.php(757): ActiveRecord\Model->__construct(Array)
+#2 /home/httpceramicasang/public_html/admin/application/controllers/aliados.php(58): ActiveRecord\Model::create(Array)
+#3 [internal function]: Aliados->save()
+#4 /home/httpceramicasang/public_html/admin/system/core/CodeIgniter.php(359): call_user_func_array(Array, Array)
+#5 /home/httpceramicasang/public_html/admin/in in /home/httpceramicasang/public_html/admin/sparks/php-activerecord/0.0.3/vendor/php-activerecord/lib/Model.php on line 1203
+[08-Feb-2016 22:42:10 UTC] PHP Fatal error:  Uncaught exception 'ActiveRecord\UndefinedPropertyException' with message 'Undefined property: Cliente->url in /home/httpceramicasang/public_html/admin/sparks/php-activerecord/0.0.3/vendor/php-activerecord/lib/Model.php on line 420' in /home/httpceramicasang/public_html/admin/sparks/php-activerecord/0.0.3/vendor/php-activerecord/lib/Model.php:1203
+Stack trace:
+#0 /home/httpceramicasang/public_html/admin/sparks/php-activerecord/0.0.3/vendor/php-activerecord/lib/Model.php(261): ActiveRecord\Model->set_attributes_via_mass_assignment(Array, true)
+#1 /home/httpceramicasang/public_html/admin/sparks/php-activerecord/0.0.3/vendor/php-activerecord/lib/Model.php(757): ActiveRecord\Model->__construct(Array)
+#2 /home/httpceramicasang/public_html/admin/application/controllers/aliados.php(58): ActiveRecord\Model::create(Array)
+#3 [internal function]: Aliados->save()
+#4 /home/httpceramicasang/public_html/admin/system/core/CodeIgniter.php(359): call_user_func_array(Array, Array)
+#5 /home/httpceramicasang/public_html/admin/in in /home/httpceramicasang/public_html/admin/sparks/php-activerecord/0.0.3/vendor/php-activerecord/lib/Model.php on line 1203
+[08-Feb-2016 22:43:11 UTC] PHP Fatal error:  Uncaught exception 'ActiveRecord\UndefinedPropertyException' with message 'Undefined property: Cliente->url in /home/httpceramicasang/public_html/admin/sparks/php-activerecord/0.0.3/vendor/php-activerecord/lib/Model.php on line 420' in /home/httpceramicasang/public_html/admin/sparks/php-activerecord/0.0.3/vendor/php-activerecord/lib/Model.php:1203
+Stack trace:
+#0 /home/httpceramicasang/public_html/admin/sparks/php-activerecord/0.0.3/vendor/php-activerecord/lib/Model.php(261): ActiveRecord\Model->set_attributes_via_mass_assignment(Array, true)
+#1 /home/httpceramicasang/public_html/admin/sparks/php-activerecord/0.0.3/vendor/php-activerecord/lib/Model.php(757): ActiveRecord\Model->__construct(Array)
+#2 /home/httpceramicasang/public_html/admin/application/controllers/aliados.php(58): ActiveRecord\Model::create(Array)
+#3 [internal function]: Aliados->save()
+#4 /home/httpceramicasang/public_html/admin/system/core/CodeIgniter.php(359): call_user_func_array(Array, Array)
+#5 /home/httpceramicasang/public_html/admin/in in /home/httpceramicasang/public_html/admin/sparks/php-activerecord/0.0.3/vendor/php-activerecord/lib/Model.php on line 1203
+[08-Feb-2016 22:48:30 UTC] PHP Fatal error:  Uncaught exception 'ActiveRecord\UndefinedPropertyException' with message 'Undefined property: Cliente->url in /home/httpceramicasang/public_html/admin/sparks/php-activerecord/0.0.3/vendor/php-activerecord/lib/Model.php on line 420' in /home/httpceramicasang/public_html/admin/sparks/php-activerecord/0.0.3/vendor/php-activerecord/lib/Model.php:1203
+Stack trace:
+#0 /home/httpceramicasang/public_html/admin/sparks/php-activerecord/0.0.3/vendor/php-activerecord/lib/Model.php(261): ActiveRecord\Model->set_attributes_via_mass_assignment(Array, true)
+#1 /home/httpceramicasang/public_html/admin/sparks/php-activerecord/0.0.3/vendor/php-activerecord/lib/Model.php(757): ActiveRecord\Model->__construct(Array)
+#2 /home/httpceramicasang/public_html/admin/application/controllers/aliados.php(58): ActiveRecord\Model::create(Array)
+#3 [internal function]: Aliados->save()
+#4 /home/httpceramicasang/public_html/admin/system/core/CodeIgniter.php(359): call_user_func_array(Array, Array)
+#5 /home/httpceramicasang/public_html/admin/in in /home/httpceramicasang/public_html/admin/sparks/php-activerecord/0.0.3/vendor/php-activerecord/lib/Model.php on line 1203
+[08-Feb-2016 22:48:45 UTC] PHP Fatal error:  Uncaught exception 'ActiveRecord\UndefinedPropertyException' with message 'Undefined property: Cliente->url in /home/httpceramicasang/public_html/admin/sparks/php-activerecord/0.0.3/vendor/php-activerecord/lib/Model.php on line 420' in /home/httpceramicasang/public_html/admin/sparks/php-activerecord/0.0.3/vendor/php-activerecord/lib/Model.php:1203
+Stack trace:
+#0 /home/httpceramicasang/public_html/admin/sparks/php-activerecord/0.0.3/vendor/php-activerecord/lib/Model.php(261): ActiveRecord\Model->set_attributes_via_mass_assignment(Array, true)
+#1 /home/httpceramicasang/public_html/admin/sparks/php-activerecord/0.0.3/vendor/php-activerecord/lib/Model.php(757): ActiveRecord\Model->__construct(Array)
+#2 /home/httpceramicasang/public_html/admin/application/controllers/aliados.php(58): ActiveRecord\Model::create(Array)
+#3 [internal function]: Aliados->save()
+#4 /home/httpceramicasang/public_html/admin/system/core/CodeIgniter.php(359): call_user_func_array(Array, Array)
+#5 /home/httpceramicasang/public_html/admin/in in /home/httpceramicasang/public_html/admin/sparks/php-activerecord/0.0.3/vendor/php-activerecord/lib/Model.php on line 1203
+[08-Feb-2016 22:55:47 UTC] PHP Fatal error:  Uncaught exception 'ActiveRecord\UndefinedPropertyException' with message 'Undefined property: Cliente->url in /home/httpceramicasang/public_html/admin/sparks/php-activerecord/0.0.3/vendor/php-activerecord/lib/Model.php on line 420' in /home/httpceramicasang/public_html/admin/sparks/php-activerecord/0.0.3/vendor/php-activerecord/lib/Model.php:1203
+Stack trace:
+#0 /home/httpceramicasang/public_html/admin/sparks/php-activerecord/0.0.3/vendor/php-activerecord/lib/Model.php(261): ActiveRecord\Model->set_attributes_via_mass_assignment(Array, true)
+#1 /home/httpceramicasang/public_html/admin/sparks/php-activerecord/0.0.3/vendor/php-activerecord/lib/Model.php(757): ActiveRecord\Model->__construct(Array)
+#2 /home/httpceramicasang/public_html/admin/application/controllers/aliados.php(58): ActiveRecord\Model::create(Array)
+#3 [internal function]: Aliados->save()
+#4 /home/httpceramicasang/public_html/admin/system/core/CodeIgniter.php(359): call_user_func_array(Array, Array)
+#5 /home/httpceramicasang/public_html/admin/in in /home/httpceramicasang/public_html/admin/sparks/php-activerecord/0.0.3/vendor/php-activerecord/lib/Model.php on line 1203
+[08-Feb-2016 22:56:27 UTC] PHP Fatal error:  Uncaught exception 'ActiveRecord\UndefinedPropertyException' with message 'Undefined property: Cliente->url in /home/httpceramicasang/public_html/admin/sparks/php-activerecord/0.0.3/vendor/php-activerecord/lib/Model.php on line 420' in /home/httpceramicasang/public_html/admin/sparks/php-activerecord/0.0.3/vendor/php-activerecord/lib/Model.php:1203
+Stack trace:
+#0 /home/httpceramicasang/public_html/admin/sparks/php-activerecord/0.0.3/vendor/php-activerecord/lib/Model.php(261): ActiveRecord\Model->set_attributes_via_mass_assignment(Array, true)
+#1 /home/httpceramicasang/public_html/admin/sparks/php-activerecord/0.0.3/vendor/php-activerecord/lib/Model.php(757): ActiveRecord\Model->__construct(Array)
+#2 /home/httpceramicasang/public_html/admin/application/controllers/aliados.php(58): ActiveRecord\Model::create(Array)
+#3 [internal function]: Aliados->save()
+#4 /home/httpceramicasang/public_html/admin/system/core/CodeIgniter.php(359): call_user_func_array(Array, Array)
+#5 /home/httpceramicasang/public_html/admin/in in /home/httpceramicasang/public_html/admin/sparks/php-activerecord/0.0.3/vendor/php-activerecord/lib/Model.php on line 1203
+[08-Feb-2016 22:56:51 UTC] PHP Fatal error:  Uncaught exception 'ActiveRecord\UndefinedPropertyException' with message 'Undefined property: Cliente->url in /home/httpceramicasang/public_html/admin/sparks/php-activerecord/0.0.3/vendor/php-activerecord/lib/Model.php on line 420' in /home/httpceramicasang/public_html/admin/sparks/php-activerecord/0.0.3/vendor/php-activerecord/lib/Model.php:1203
+Stack trace:
+#0 /home/httpceramicasang/public_html/admin/sparks/php-activerecord/0.0.3/vendor/php-activerecord/lib/Model.php(261): ActiveRecord\Model->set_attributes_via_mass_assignment(Array, true)
+#1 /home/httpceramicasang/public_html/admin/sparks/php-activerecord/0.0.3/vendor/php-activerecord/lib/Model.php(757): ActiveRecord\Model->__construct(Array)
+#2 /home/httpceramicasang/public_html/admin/application/controllers/aliados.php(58): ActiveRecord\Model::create(Array)
+#3 [internal function]: Aliados->save()
+#4 /home/httpceramicasang/public_html/admin/system/core/CodeIgniter.php(359): call_user_func_array(Array, Array)
+#5 /home/httpceramicasang/public_html/admin/in in /home/httpceramicasang/public_html/admin/sparks/php-activerecord/0.0.3/vendor/php-activerecord/lib/Model.php on line 1203
+[09-Feb-2016 12:04:32 UTC] PHP Fatal error:  Uncaught exception 'ActiveRecord\UndefinedPropertyException' with message 'Undefined property: Cliente->url in /home/httpceramicasang/public_html/admin/sparks/php-activerecord/0.0.3/vendor/php-activerecord/lib/Model.php on line 420' in /home/httpceramicasang/public_html/admin/sparks/php-activerecord/0.0.3/vendor/php-activerecord/lib/Model.php:1203
+Stack trace:
+#0 /home/httpceramicasang/public_html/admin/sparks/php-activerecord/0.0.3/vendor/php-activerecord/lib/Model.php(261): ActiveRecord\Model->set_attributes_via_mass_assignment(Array, true)
+#1 /home/httpceramicasang/public_html/admin/sparks/php-activerecord/0.0.3/vendor/php-activerecord/lib/Model.php(757): ActiveRecord\Model->__construct(Array)
+#2 /home/httpceramicasang/public_html/admin/application/controllers/aliados.php(58): ActiveRecord\Model::create(Array)
+#3 [internal function]: Aliados->save()
+#4 /home/httpceramicasang/public_html/admin/system/core/CodeIgniter.php(359): call_user_func_array(Array, Array)
+#5 /home/httpceramicasang/public_html/admin/in in /home/httpceramicasang/public_html/admin/sparks/php-activerecord/0.0.3/vendor/php-activerecord/lib/Model.php on line 1203
+[09-Feb-2016 12:13:44 UTC] PHP Fatal error:  Uncaught exception 'ActiveRecord\UndefinedPropertyException' with message 'Undefined property: Cliente->url in /home/httpceramicasang/public_html/admin/sparks/php-activerecord/0.0.3/vendor/php-activerecord/lib/Model.php on line 420' in /home/httpceramicasang/public_html/admin/sparks/php-activerecord/0.0.3/vendor/php-activerecord/lib/Model.php:1203
+Stack trace:
+#0 /home/httpceramicasang/public_html/admin/sparks/php-activerecord/0.0.3/vendor/php-activerecord/lib/Model.php(261): ActiveRecord\Model->set_attributes_via_mass_assignment(Array, true)
+#1 /home/httpceramicasang/public_html/admin/sparks/php-activerecord/0.0.3/vendor/php-activerecord/lib/Model.php(757): ActiveRecord\Model->__construct(Array)
+#2 /home/httpceramicasang/public_html/admin/application/controllers/aliados.php(58): ActiveRecord\Model::create(Array)
+#3 [internal function]: Aliados->save()
+#4 /home/httpceramicasang/public_html/admin/system/core/CodeIgniter.php(359): call_user_func_array(Array, Array)
+#5 /home/httpceramicasang/public_html/admin/in in /home/httpceramicasang/public_html/admin/sparks/php-activerecord/0.0.3/vendor/php-activerecord/lib/Model.php on line 1203
+[09-Feb-2016 21:14:10 UTC] PHP Fatal error:  Uncaught exception 'ActiveRecord\RecordNotFound' with message 'Couldn't find Tendencia with ID=3' in /home/httpceramicasang/public_html/admin/sparks/php-activerecord/0.0.3/vendor/php-activerecord/lib/Model.php:1596
+Stack trace:
+#0 /home/httpceramicasang/public_html/admin/sparks/php-activerecord/0.0.3/vendor/php-activerecord/lib/Model.php(1564): ActiveRecord\Model::find_by_pk('3', Array)
+#1 /home/httpceramicasang/public_html/admin/application/controllers/tendencias.php(109): ActiveRecord\Model::find('3')
+#2 [internal function]: Tendencias->update()
+#3 /home/httpceramicasang/public_html/admin/system/core/CodeIgniter.php(359): call_user_func_array(Array, Array)
+#4 /home/httpceramicasang/public_html/admin/index.php(210): require_once('/home/httpceram...')
+#5 {main}
+  thrown in /home/httpceramicasang/public_html/admin/sparks/php-activerecord/0.0.3/vendor/php-activerecord/lib/Model.php on line 1596
+[09-Feb-2016 21:18:15 UTC] PHP Fatal error:  Uncaught exception 'ActiveRecord\RecordNotFound' with message 'Couldn't find Tendencia with ID=5' in /home/httpceramicasang/public_html/admin/sparks/php-activerecord/0.0.3/vendor/php-activerecord/lib/Model.php:1596
+Stack trace:
+#0 /home/httpceramicasang/public_html/admin/sparks/php-activerecord/0.0.3/vendor/php-activerecord/lib/Model.php(1564): ActiveRecord\Model::find_by_pk('5', Array)
+#1 /home/httpceramicasang/public_html/admin/application/controllers/tendencias.php(109): ActiveRecord\Model::find('5')
+#2 [internal function]: Tendencias->update()
+#3 /home/httpceramicasang/public_html/admin/system/core/CodeIgniter.php(359): call_user_func_array(Array, Array)
+#4 /home/httpceramicasang/public_html/admin/index.php(210): require_once('/home/httpceram...')
+#5 {main}
+  thrown in /home/httpceramicasang/public_html/admin/sparks/php-activerecord/0.0.3/vendor/php-activerecord/lib/Model.php on line 1596
+[10-Feb-2016 12:40:38 UTC] PHP Fatal error:  Uncaught exception 'ActiveRecord\UndefinedPropertyException' with message 'Undefined property: Producto->tipoinmueble_id in /home/httpceramicasang/public_html/admin/sparks/php-activerecord/0.0.3/vendor/php-activerecord/lib/Model.php on line 521' in /home/httpceramicasang/public_html/admin/sparks/php-activerecord/0.0.3/vendor/php-activerecord/lib/Model.php:521
+Stack trace:
+#0 /home/httpceramicasang/public_html/admin/sparks/php-activerecord/0.0.3/vendor/php-activerecord/lib/Model.php(333): ActiveRecord\Model->read_attribute('tipoinmueble_id')
+#1 /home/httpceramicasang/public_html/admin/application/views/blueline/productos/_edit.php(25): ActiveRecord\Model->__get('tipoinmueble_id')
+#2 /home/httpceramicasang/public_html/admin/system/core/Loader.php(833): include('/home/httpceram...')
+#3 /home/httpceramicasang/public_html/admin/system/core/Loader.php(419): CI_Loader->_ci_load(Array)
+#4 /home/httpceramicasang/public_html/admin/application/core/MY_Controller.php(64): CI_Loader->view('blueline/produc...', Array, true in /home/httpceramicasang/public_html/admin/sparks/php-activerecord/0.0.3/vendor/php-activerecord/lib/Model.php on line 521
+[10-Feb-2016 12:57:25 UTC] PHP Fatal error:  Uncaught exception 'ActiveRecord\UndefinedPropertyException' with message 'Undefined property: Producto->tipoinmueble_id in /home/httpceramicasang/public_html/admin/sparks/php-activerecord/0.0.3/vendor/php-activerecord/lib/Model.php on line 521' in /home/httpceramicasang/public_html/admin/sparks/php-activerecord/0.0.3/vendor/php-activerecord/lib/Model.php:521
+Stack trace:
+#0 /home/httpceramicasang/public_html/admin/sparks/php-activerecord/0.0.3/vendor/php-activerecord/lib/Model.php(333): ActiveRecord\Model->read_attribute('tipoinmueble_id')
+#1 /home/httpceramicasang/public_html/admin/application/views/blueline/productos/_edit.php(25): ActiveRecord\Model->__get('tipoinmueble_id')
+#2 /home/httpceramicasang/public_html/admin/system/core/Loader.php(833): include('/home/httpceram...')
+#3 /home/httpceramicasang/public_html/admin/system/core/Loader.php(419): CI_Loader->_ci_load(Array)
+#4 /home/httpceramicasang/public_html/admin/application/core/MY_Controller.php(64): CI_Loader->view('blueline/produc...', Array, true in /home/httpceramicasang/public_html/admin/sparks/php-activerecord/0.0.3/vendor/php-activerecord/lib/Model.php on line 521
+[10-Feb-2016 12:57:42 UTC] PHP Fatal error:  Uncaught exception 'ActiveRecord\UndefinedPropertyException' with message 'Undefined property: Producto->tipoinmueble_id in /home/httpceramicasang/public_html/admin/sparks/php-activerecord/0.0.3/vendor/php-activerecord/lib/Model.php on line 521' in /home/httpceramicasang/public_html/admin/sparks/php-activerecord/0.0.3/vendor/php-activerecord/lib/Model.php:521
+Stack trace:
+#0 /home/httpceramicasang/public_html/admin/sparks/php-activerecord/0.0.3/vendor/php-activerecord/lib/Model.php(333): ActiveRecord\Model->read_attribute('tipoinmueble_id')
+#1 /home/httpceramicasang/public_html/admin/application/views/blueline/productos/_edit.php(25): ActiveRecord\Model->__get('tipoinmueble_id')
+#2 /home/httpceramicasang/public_html/admin/system/core/Loader.php(833): include('/home/httpceram...')
+#3 /home/httpceramicasang/public_html/admin/system/core/Loader.php(419): CI_Loader->_ci_load(Array)
+#4 /home/httpceramicasang/public_html/admin/application/core/MY_Controller.php(64): CI_Loader->view('blueline/produc...', Array, true in /home/httpceramicasang/public_html/admin/sparks/php-activerecord/0.0.3/vendor/php-activerecord/lib/Model.php on line 521
+[10-Feb-2016 13:01:37 UTC] PHP Fatal error:  Uncaught exception 'ActiveRecord\UndefinedPropertyException' with message 'Undefined property: Producto->tipoinmueble_id in /home/httpceramicasang/public_html/admin/sparks/php-activerecord/0.0.3/vendor/php-activerecord/lib/Model.php on line 521' in /home/httpceramicasang/public_html/admin/sparks/php-activerecord/0.0.3/vendor/php-activerecord/lib/Model.php:521
+Stack trace:
+#0 /home/httpceramicasang/public_html/admin/sparks/php-activerecord/0.0.3/vendor/php-activerecord/lib/Model.php(333): ActiveRecord\Model->read_attribute('tipoinmueble_id')
+#1 /home/httpceramicasang/public_html/admin/application/views/blueline/productos/_edit.php(25): ActiveRecord\Model->__get('tipoinmueble_id')
+#2 /home/httpceramicasang/public_html/admin/system/core/Loader.php(833): include('/home/httpceram...')
+#3 /home/httpceramicasang/public_html/admin/system/core/Loader.php(419): CI_Loader->_ci_load(Array)
+#4 /home/httpceramicasang/public_html/admin/application/core/MY_Controller.php(64): CI_Loader->view('blueline/produc...', Array, true in /home/httpceramicasang/public_html/admin/sparks/php-activerecord/0.0.3/vendor/php-activerecord/lib/Model.php on line 521
+[10-Feb-2016 13:39:32 UTC] PHP Fatal error:  Uncaught exception 'ActiveRecord\RecordNotFound' with message 'Couldn't find Tendencia with ID=10' in /home/httpceramicasang/public_html/admin/sparks/php-activerecord/0.0.3/vendor/php-activerecord/lib/Model.php:1596
+Stack trace:
+#0 /home/httpceramicasang/public_html/admin/sparks/php-activerecord/0.0.3/vendor/php-activerecord/lib/Model.php(1564): ActiveRecord\Model::find_by_pk('10', Array)
+#1 /home/httpceramicasang/public_html/admin/application/controllers/tendencias.php(109): ActiveRecord\Model::find('10')
+#2 [internal function]: Tendencias->update()
+#3 /home/httpceramicasang/public_html/admin/system/core/CodeIgniter.php(359): call_user_func_array(Array, Array)
+#4 /home/httpceramicasang/public_html/admin/index.php(210): require_once('/home/httpceram...')
+#5 {main}
+  thrown in /home/httpceramicasang/public_html/admin/sparks/php-activerecord/0.0.3/vendor/php-activerecord/lib/Model.php on line 1596
+[12-Feb-2016 21:00:46 UTC] PHP Fatal error:  Uncaught exception 'ActiveRecord\RecordNotFound' with message 'Couldn't find Tendencia with ID=8' in /home/httpceramicasang/public_html/admin/sparks/php-activerecord/0.0.3/vendor/php-activerecord/lib/Model.php:1596
+Stack trace:
+#0 /home/httpceramicasang/public_html/admin/sparks/php-activerecord/0.0.3/vendor/php-activerecord/lib/Model.php(1564): ActiveRecord\Model::find_by_pk('8', Array)
+#1 /home/httpceramicasang/public_html/admin/application/controllers/tendencias.php(109): ActiveRecord\Model::find('8')
+#2 [internal function]: Tendencias->update()
+#3 /home/httpceramicasang/public_html/admin/system/core/CodeIgniter.php(359): call_user_func_array(Array, Array)
+#4 /home/httpceramicasang/public_html/admin/index.php(210): require_once('/home/httpceram...')
+#5 {main}
+  thrown in /home/httpceramicasang/public_html/admin/sparks/php-activerecord/0.0.3/vendor/php-activerecord/lib/Model.php on line 1596
+[18-Feb-2016 21:20:54 UTC] PHP Fatal error:  Uncaught exception 'ActiveRecord\DatabaseException' with message 'exception 'PDOException' with message 'SQLSTATE[HY000]: General error: 2006 MySQL server has gone away' in /home/httpceramicasang/public_html/admin/sparks/php-activerecord/0.0.3/vendor/php-activerecord/lib/Connection.php:309
+Stack trace:
+#0 /home/httpceramicasang/public_html/admin/sparks/php-activerecord/0.0.3/vendor/php-activerecord/lib/Connection.php(309): PDOStatement->execute(Array)
+#1 /home/httpceramicasang/public_html/admin/sparks/php-activerecord/0.0.3/vendor/php-activerecord/lib/Table.php(218): ActiveRecord\Connection->query('SELECT * FROM `...', Array)
+#2 /home/httpceramicasang/public_html/admin/sparks/php-activerecord/0.0.3/vendor/php-activerecord/lib/Table.php(209): ActiveRecord\Table->find_by_sql('SELECT * FROM `...', Array, false, NULL)
+#3 /home/httpceramicasang/public_html/admin/sparks/php-activerecord/0.0.3/vendor/php-activerecord/lib/Model.php(1567): ActiveRecord\Table->find(Array)
+#4 [internal function]: ActiveRecord\Model::fin in /home/httpceramicasang/public_html/admin/sparks/php-activerecord/0.0.3/vendor/php-activerecord/lib/Connection.php on line 312
+[18-Feb-2016 21:21:08 UTC] PHP Fatal error:  Uncaught exception 'ActiveRecord\DatabaseException' with message 'exception 'PDOException' with message 'SQLSTATE[HY000]: General error: 2006 MySQL server has gone away' in /home/httpceramicasang/public_html/admin/sparks/php-activerecord/0.0.3/vendor/php-activerecord/lib/Connection.php:309
+Stack trace:
+#0 /home/httpceramicasang/public_html/admin/sparks/php-activerecord/0.0.3/vendor/php-activerecord/lib/Connection.php(309): PDOStatement->execute(Array)
+#1 /home/httpceramicasang/public_html/admin/sparks/php-activerecord/0.0.3/vendor/php-activerecord/lib/Table.php(218): ActiveRecord\Connection->query('SELECT * FROM `...', Array)
+#2 /home/httpceramicasang/public_html/admin/sparks/php-activerecord/0.0.3/vendor/php-activerecord/lib/Table.php(209): ActiveRecord\Table->find_by_sql('SELECT * FROM `...', Array, false, NULL)
+#3 /home/httpceramicasang/public_html/admin/sparks/php-activerecord/0.0.3/vendor/php-activerecord/lib/Model.php(1567): ActiveRecord\Table->find(Array)
+#4 [internal function]: ActiveRecord\Model::fin in /home/httpceramicasang/public_html/admin/sparks/php-activerecord/0.0.3/vendor/php-activerecord/lib/Connection.php on line 312
+[22-Feb-2016 22:13:55 UTC] PHP Fatal error:  Uncaught exception 'ActiveRecord\RecordNotFound' with message 'Couldn't find Tendencia with ID=16' in /home/httpceramicasang/public_html/admin/sparks/php-activerecord/0.0.3/vendor/php-activerecord/lib/Model.php:1596
+Stack trace:
+#0 /home/httpceramicasang/public_html/admin/sparks/php-activerecord/0.0.3/vendor/php-activerecord/lib/Model.php(1564): ActiveRecord\Model::find_by_pk('16', Array)
+#1 /home/httpceramicasang/public_html/admin/application/controllers/tendencias.php(109): ActiveRecord\Model::find('16')
+#2 [internal function]: Tendencias->update()
+#3 /home/httpceramicasang/public_html/admin/system/core/CodeIgniter.php(359): call_user_func_array(Array, Array)
+#4 /home/httpceramicasang/public_html/admin/index.php(210): require_once('/home/httpceram...')
+#5 {main}
+  thrown in /home/httpceramicasang/public_html/admin/sparks/php-activerecord/0.0.3/vendor/php-activerecord/lib/Model.php on line 1596
+[05-Mar-2016 13:52:37 UTC] PHP Fatal error:  Uncaught exception 'ActiveRecord\RecordNotFound' with message 'Couldn't find Tendencia with ID=1' in /home/httpceramicasang/public_html/admin/sparks/php-activerecord/0.0.3/vendor/php-activerecord/lib/Model.php:1596
+Stack trace:
+#0 /home/httpceramicasang/public_html/admin/sparks/php-activerecord/0.0.3/vendor/php-activerecord/lib/Model.php(1564): ActiveRecord\Model::find_by_pk('1', Array)
+#1 /home/httpceramicasang/public_html/admin/application/controllers/tendencias.php(109): ActiveRecord\Model::find('1')
+#2 [internal function]: Tendencias->update()
+#3 /home/httpceramicasang/public_html/admin/system/core/CodeIgniter.php(359): call_user_func_array(Array, Array)
+#4 /home/httpceramicasang/public_html/admin/index.php(210): require_once('/home/httpceram...')
+#5 {main}
+  thrown in /home/httpceramicasang/public_html/admin/sparks/php-activerecord/0.0.3/vendor/php-activerecord/lib/Model.php on line 1596
+[05-Mar-2016 13:54:44 UTC] PHP Fatal error:  Uncaught exception 'ActiveRecord\RecordNotFound' with message 'Couldn't find Tendencia with ID=1' in /home/httpceramicasang/public_html/admin/sparks/php-activerecord/0.0.3/vendor/php-activerecord/lib/Model.php:1596
+Stack trace:
+#0 /home/httpceramicasang/public_html/admin/sparks/php-activerecord/0.0.3/vendor/php-activerecord/lib/Model.php(1564): ActiveRecord\Model::find_by_pk('1', Array)
+#1 /home/httpceramicasang/public_html/admin/application/controllers/tendencias.php(109): ActiveRecord\Model::find('1')
+#2 [internal function]: Tendencias->update()
+#3 /home/httpceramicasang/public_html/admin/system/core/CodeIgniter.php(359): call_user_func_array(Array, Array)
+#4 /home/httpceramicasang/public_html/admin/index.php(210): require_once('/home/httpceram...')
+#5 {main}
+  thrown in /home/httpceramicasang/public_html/admin/sparks/php-activerecord/0.0.3/vendor/php-activerecord/lib/Model.php on line 1596
+[31-Aug-2016 14:36:36 UTC] PHP Fatal error:  Uncaught exception 'ActiveRecord\DatabaseException' with message 'exception 'PDOException' with message 'SQLSTATE[28000] [1045] Access denied for user 'frontera_docum'@'localhost' (using password: YES)' in /home/fronteradigitalc/public_html/plataforma/sparks/php-activerecord/0.0.3/vendor/php-activerecord/lib/Connection.php:239
+Stack trace:
+#0 /home/fronteradigitalc/public_html/plataforma/sparks/php-activerecord/0.0.3/vendor/php-activerecord/lib/Connection.php(239): PDO->__construct('mysql:host=loca...', 'frontera_docum', '1090499097', Array)
+#1 /home/fronteradigitalc/public_html/plataforma/sparks/php-activerecord/0.0.3/vendor/php-activerecord/lib/Connection.php(101): ActiveRecord\Connection->__construct(Object(stdClass))
+#2 /home/fronteradigitalc/public_html/plataforma/sparks/php-activerecord/0.0.3/vendor/php-activerecord/lib/ConnectionManager.php(33): ActiveRecord\Connection::instance('mysql://fronter...')
+#3 /home/fronteradigitalc/public_html/plataforma/sparks/php-activerecord/0.0.3/vendor/php-activerecord/ in /home/fronteradigitalc/public_html/plataforma/sparks/php-activerecord/0.0.3/vendor/php-activerecord/lib/Connection.php on line 241
+[31-Aug-2016 15:10:18 UTC] PHP Fatal error:  Uncaught exception 'ActiveRecord\UndefinedPropertyException' with message 'Undefined property: Setting->empresa in /home/fronteradigitalc/public_html/plataforma/sparks/php-activerecord/0.0.3/vendor/php-activerecord/lib/Model.php on line 521' in /home/fronteradigitalc/public_html/plataforma/sparks/php-activerecord/0.0.3/vendor/php-activerecord/lib/Model.php:521
+Stack trace:
+#0 /home/fronteradigitalc/public_html/plataforma/sparks/php-activerecord/0.0.3/vendor/php-activerecord/lib/Model.php(333): ActiveRecord\Model->read_attribute('empresa')
+#1 /home/fronteradigitalc/public_html/plataforma/application/views/blueline/theme/modal.php(32): ActiveRecord\Model->__get('empresa')
+#2 /home/fronteradigitalc/public_html/plataforma/system/core/Loader.php(833): include('/home/fronterad...')
+#3 /home/fronteradigitalc/public_html/plataforma/system/core/Loader.php(419): CI_Loader->_ci_load(Array)
+#4 /home/fronteradigitalc/public_html/plataforma/application/core/MY_Controller.php(68): CI_Loader->view('blueline/theme/...', Array in /home/fronteradigitalc/public_html/plataforma/sparks/php-activerecord/0.0.3/vendor/php-activerecord/lib/Model.php on line 521
+[31-Aug-2016 15:18:45 UTC] PHP Fatal error:  Uncaught exception 'ActiveRecord\UndefinedPropertyException' with message 'Undefined property: Setting->empresa in /home/fronteradigitalc/public_html/plataforma/sparks/php-activerecord/0.0.3/vendor/php-activerecord/lib/Model.php on line 521' in /home/fronteradigitalc/public_html/plataforma/sparks/php-activerecord/0.0.3/vendor/php-activerecord/lib/Model.php:521
+Stack trace:
+#0 /home/fronteradigitalc/public_html/plataforma/sparks/php-activerecord/0.0.3/vendor/php-activerecord/lib/Model.php(333): ActiveRecord\Model->read_attribute('empresa')
+#1 /home/fronteradigitalc/public_html/plataforma/application/views/blueline/theme/modal.php(32): ActiveRecord\Model->__get('empresa')
+#2 /home/fronteradigitalc/public_html/plataforma/system/core/Loader.php(833): include('/home/fronterad...')
+#3 /home/fronteradigitalc/public_html/plataforma/system/core/Loader.php(419): CI_Loader->_ci_load(Array)
+#4 /home/fronteradigitalc/public_html/plataforma/application/core/MY_Controller.php(68): CI_Loader->view('blueline/theme/...', Array in /home/fronteradigitalc/public_html/plataforma/sparks/php-activerecord/0.0.3/vendor/php-activerecord/lib/Model.php on line 521
+[31-Aug-2016 15:20:19 UTC] PHP Fatal error:  Uncaught exception 'ActiveRecord\UndefinedPropertyException' with message 'Undefined property: Setting->empresa in /home/fronteradigitalc/public_html/plataforma/sparks/php-activerecord/0.0.3/vendor/php-activerecord/lib/Model.php on line 521' in /home/fronteradigitalc/public_html/plataforma/sparks/php-activerecord/0.0.3/vendor/php-activerecord/lib/Model.php:521
+Stack trace:
+#0 /home/fronteradigitalc/public_html/plataforma/sparks/php-activerecord/0.0.3/vendor/php-activerecord/lib/Model.php(333): ActiveRecord\Model->read_attribute('empresa')
+#1 /home/fronteradigitalc/public_html/plataforma/application/views/blueline/theme/modal.php(32): ActiveRecord\Model->__get('empresa')
+#2 /home/fronteradigitalc/public_html/plataforma/system/core/Loader.php(833): include('/home/fronterad...')
+#3 /home/fronteradigitalc/public_html/plataforma/system/core/Loader.php(419): CI_Loader->_ci_load(Array)
+#4 /home/fronteradigitalc/public_html/plataforma/application/core/MY_Controller.php(68): CI_Loader->view('blueline/theme/...', Array in /home/fronteradigitalc/public_html/plataforma/sparks/php-activerecord/0.0.3/vendor/php-activerecord/lib/Model.php on line 521
+[31-Aug-2016 15:20:25 UTC] PHP Fatal error:  Uncaught exception 'ActiveRecord\UndefinedPropertyException' with message 'Undefined property: Setting->empresa in /home/fronteradigitalc/public_html/plataforma/sparks/php-activerecord/0.0.3/vendor/php-activerecord/lib/Model.php on line 521' in /home/fronteradigitalc/public_html/plataforma/sparks/php-activerecord/0.0.3/vendor/php-activerecord/lib/Model.php:521
+Stack trace:
+#0 /home/fronteradigitalc/public_html/plataforma/sparks/php-activerecord/0.0.3/vendor/php-activerecord/lib/Model.php(333): ActiveRecord\Model->read_attribute('empresa')
+#1 /home/fronteradigitalc/public_html/plataforma/application/views/blueline/theme/modal.php(32): ActiveRecord\Model->__get('empresa')
+#2 /home/fronteradigitalc/public_html/plataforma/system/core/Loader.php(833): include('/home/fronterad...')
+#3 /home/fronteradigitalc/public_html/plataforma/system/core/Loader.php(419): CI_Loader->_ci_load(Array)
+#4 /home/fronteradigitalc/public_html/plataforma/application/core/MY_Controller.php(68): CI_Loader->view('blueline/theme/...', Array in /home/fronteradigitalc/public_html/plataforma/sparks/php-activerecord/0.0.3/vendor/php-activerecord/lib/Model.php on line 521
+[31-Aug-2016 15:24:47 UTC] PHP Fatal error:  Cannot redeclare Settings::user_delete() in /home/fronteradigitalc/public_html/plataforma/application/controllers/settings.php on line 862
+[31-Aug-2016 15:24:50 UTC] PHP Fatal error:  Cannot redeclare Settings::user_delete() in /home/fronteradigitalc/public_html/plataforma/application/controllers/settings.php on line 862
+[31-Aug-2016 15:24:55 UTC] PHP Fatal error:  Cannot redeclare Settings::user_delete() in /home/fronteradigitalc/public_html/plataforma/application/controllers/settings.php on line 862
+[31-Aug-2016 15:26:11 UTC] PHP Fatal error:  Uncaught exception 'ActiveRecord\UndefinedPropertyException' with message 'Undefined property: Setting->empresa in /home/fronteradigitalc/public_html/plataforma/sparks/php-activerecord/0.0.3/vendor/php-activerecord/lib/Model.php on line 521' in /home/fronteradigitalc/public_html/plataforma/sparks/php-activerecord/0.0.3/vendor/php-activerecord/lib/Model.php:521
+Stack trace:
+#0 /home/fronteradigitalc/public_html/plataforma/sparks/php-activerecord/0.0.3/vendor/php-activerecord/lib/Model.php(333): ActiveRecord\Model->read_attribute('empresa')
+#1 /home/fronteradigitalc/public_html/plataforma/application/views/blueline/theme/modal.php(32): ActiveRecord\Model->__get('empresa')
+#2 /home/fronteradigitalc/public_html/plataforma/system/core/Loader.php(833): include('/home/fronterad...')
+#3 /home/fronteradigitalc/public_html/plataforma/system/core/Loader.php(419): CI_Loader->_ci_load(Array)
+#4 /home/fronteradigitalc/public_html/plataforma/application/core/MY_Controller.php(68): CI_Loader->view('blueline/theme/...', Array in /home/fronteradigitalc/public_html/plataforma/sparks/php-activerecord/0.0.3/vendor/php-activerecord/lib/Model.php on line 521
+[31-Aug-2016 15:26:27 UTC] PHP Fatal error:  Uncaught exception 'ActiveRecord\UndefinedPropertyException' with message 'Undefined property: Setting->empresa in /home/fronteradigitalc/public_html/plataforma/sparks/php-activerecord/0.0.3/vendor/php-activerecord/lib/Model.php on line 521' in /home/fronteradigitalc/public_html/plataforma/sparks/php-activerecord/0.0.3/vendor/php-activerecord/lib/Model.php:521
+Stack trace:
+#0 /home/fronteradigitalc/public_html/plataforma/sparks/php-activerecord/0.0.3/vendor/php-activerecord/lib/Model.php(333): ActiveRecord\Model->read_attribute('empresa')
+#1 /home/fronteradigitalc/public_html/plataforma/application/views/blueline/theme/modal.php(32): ActiveRecord\Model->__get('empresa')
+#2 /home/fronteradigitalc/public_html/plataforma/system/core/Loader.php(833): include('/home/fronterad...')
+#3 /home/fronteradigitalc/public_html/plataforma/system/core/Loader.php(419): CI_Loader->_ci_load(Array)
+#4 /home/fronteradigitalc/public_html/plataforma/application/core/MY_Controller.php(68): CI_Loader->view('blueline/theme/...', Array in /home/fronteradigitalc/public_html/plataforma/sparks/php-activerecord/0.0.3/vendor/php-activerecord/lib/Model.php on line 521
+[31-Aug-2016 15:27:45 UTC] PHP Fatal error:  Cannot redeclare Settings::user_delete() in /home/fronteradigitalc/public_html/plataforma/application/controllers/settings.php on line 862
+[31-Aug-2016 15:27:48 UTC] PHP Fatal error:  Cannot redeclare Settings::user_delete() in /home/fronteradigitalc/public_html/plataforma/application/controllers/settings.php on line 862
+[31-Aug-2016 15:28:01 UTC] PHP Parse error:  syntax error, unexpected end of file in /home/fronteradigitalc/public_html/plataforma/application/controllers/settings.php on line 591
+[31-Aug-2016 15:28:06 UTC] PHP Fatal error:  Cannot redeclare Settings::user_delete() in /home/fronteradigitalc/public_html/plataforma/application/controllers/settings.php on line 863
+[31-Aug-2016 15:28:19 UTC] PHP Fatal error:  Uncaught exception 'ActiveRecord\UndefinedPropertyException' with message 'Undefined property: Setting->empresa in /home/fronteradigitalc/public_html/plataforma/sparks/php-activerecord/0.0.3/vendor/php-activerecord/lib/Model.php on line 521' in /home/fronteradigitalc/public_html/plataforma/sparks/php-activerecord/0.0.3/vendor/php-activerecord/lib/Model.php:521
+Stack trace:
+#0 /home/fronteradigitalc/public_html/plataforma/sparks/php-activerecord/0.0.3/vendor/php-activerecord/lib/Model.php(333): ActiveRecord\Model->read_attribute('empresa')
+#1 /home/fronteradigitalc/public_html/plataforma/application/views/blueline/theme/modal.php(32): ActiveRecord\Model->__get('empresa')
+#2 /home/fronteradigitalc/public_html/plataforma/system/core/Loader.php(833): include('/home/fronterad...')
+#3 /home/fronteradigitalc/public_html/plataforma/system/core/Loader.php(419): CI_Loader->_ci_load(Array)
+#4 /home/fronteradigitalc/public_html/plataforma/application/core/MY_Controller.php(68): CI_Loader->view('blueline/theme/...', Array in /home/fronteradigitalc/public_html/plataforma/sparks/php-activerecord/0.0.3/vendor/php-activerecord/lib/Model.php on line 521
+[31-Aug-2016 15:30:41 UTC] PHP Fatal error:  Uncaught exception 'ActiveRecord\UndefinedPropertyException' with message 'Undefined property: Setting->empresa in /home/fronteradigitalc/public_html/plataforma/sparks/php-activerecord/0.0.3/vendor/php-activerecord/lib/Model.php on line 521' in /home/fronteradigitalc/public_html/plataforma/sparks/php-activerecord/0.0.3/vendor/php-activerecord/lib/Model.php:521
+Stack trace:
+#0 /home/fronteradigitalc/public_html/plataforma/sparks/php-activerecord/0.0.3/vendor/php-activerecord/lib/Model.php(333): ActiveRecord\Model->read_attribute('empresa')
+#1 /home/fronteradigitalc/public_html/plataforma/application/views/blueline/theme/modal.php(32): ActiveRecord\Model->__get('empresa')
+#2 /home/fronteradigitalc/public_html/plataforma/system/core/Loader.php(833): include('/home/fronterad...')
+#3 /home/fronteradigitalc/public_html/plataforma/system/core/Loader.php(419): CI_Loader->_ci_load(Array)
+#4 /home/fronteradigitalc/public_html/plataforma/application/core/MY_Controller.php(68): CI_Loader->view('blueline/theme/...', Array in /home/fronteradigitalc/public_html/plataforma/sparks/php-activerecord/0.0.3/vendor/php-activerecord/lib/Model.php on line 521
+[31-Aug-2016 15:37:18 UTC] PHP Parse error:  syntax error, unexpected end of file, expecting ',' or ';' in /home/fronteradigitalc/public_html/plataforma/application/views/blueline/theme/application.php on line 30
+[31-Aug-2016 15:40:45 UTC] PHP Fatal error:  Uncaught exception 'ActiveRecord\UndefinedPropertyException' with message 'Undefined property: Setting->empresa in /home/fronteradigitalc/public_html/plataforma/sparks/php-activerecord/0.0.3/vendor/php-activerecord/lib/Model.php on line 521' in /home/fronteradigitalc/public_html/plataforma/sparks/php-activerecord/0.0.3/vendor/php-activerecord/lib/Model.php:521
+Stack trace:
+#0 /home/fronteradigitalc/public_html/plataforma/sparks/php-activerecord/0.0.3/vendor/php-activerecord/lib/Model.php(333): ActiveRecord\Model->read_attribute('empresa')
+#1 /home/fronteradigitalc/public_html/plataforma/application/views/blueline/theme/modal.php(32): ActiveRecord\Model->__get('empresa')
+#2 /home/fronteradigitalc/public_html/plataforma/system/core/Loader.php(833): include('/home/fronterad...')
+#3 /home/fronteradigitalc/public_html/plataforma/system/core/Loader.php(419): CI_Loader->_ci_load(Array)
+#4 /home/fronteradigitalc/public_html/plataforma/application/core/MY_Controller.php(68): CI_Loader->view('blueline/theme/...', Array in /home/fronteradigitalc/public_html/plataforma/sparks/php-activerecord/0.0.3/vendor/php-activerecord/lib/Model.php on line 521
+[31-Aug-2016 16:06:55 UTC] PHP Parse error:  syntax error, unexpected '}' in /home/fronteradigitalc/public_html/plataforma/application/views/blueline/settings/_userform.php on line 117
+[31-Aug-2016 16:07:04 UTC] PHP Parse error:  syntax error, unexpected '}' in /home/fronteradigitalc/public_html/plataforma/application/views/blueline/settings/_userform.php on line 117
+[31-Aug-2016 16:07:20 UTC] PHP Parse error:  syntax error, unexpected '}' in /home/fronteradigitalc/public_html/plataforma/application/views/blueline/settings/_userform.php on line 117
+[31-Aug-2016 16:07:25 UTC] PHP Parse error:  syntax error, unexpected '}' in /home/fronteradigitalc/public_html/plataforma/application/views/blueline/settings/_userform.php on line 117
+[31-Aug-2016 16:13:15 UTC] PHP Parse error:  syntax error, unexpected '}' in /home/fronteradigitalc/public_html/plataforma/application/views/blueline/settings/_userform.php on line 116
+[31-Aug-2016 16:16:27 UTC] PHP Parse error:  syntax error, unexpected '}' in /home/fronteradigitalc/public_html/plataforma/application/views/blueline/settings/_userform.php on line 116
+[31-Aug-2016 16:18:11 UTC] PHP Parse error:  syntax error, unexpected end of file in /home/fronteradigitalc/public_html/plataforma/application/views/blueline/settings/_userform.php on line 267
+[31-Aug-2016 16:34:09 UTC] PHP Parse error:  syntax error, unexpected 'endforeach' (T_ENDFOREACH) in /home/fronteradigitalc/public_html/plataforma/application/views/blueline/settings/user.php on line 92
+[31-Aug-2016 16:37:06 UTC] PHP Fatal error:  Uncaught exception 'ActiveRecord\RecordNotFound' with message 'Couldn't find User with ID=' in /home/fronteradigitalc/public_html/plataforma/sparks/php-activerecord/0.0.3/vendor/php-activerecord/lib/Model.php:1596
+Stack trace:
+#0 /home/fronteradigitalc/public_html/plataforma/sparks/php-activerecord/0.0.3/vendor/php-activerecord/lib/Model.php(1564): ActiveRecord\Model::find_by_pk(false, Array)
+#1 /home/fronteradigitalc/public_html/plataforma/application/controllers/settings.php(762): ActiveRecord\Model::find(false)
+#2 [internal function]: Settings->user_delete()
+#3 /home/fronteradigitalc/public_html/plataforma/system/core/CodeIgniter.php(359): call_user_func_array(Array, Array)
+#4 /home/fronteradigitalc/public_html/plataforma/index.php(210): require_once('/home/fronterad...')
+#5 {main}
+  thrown in /home/fronteradigitalc/public_html/plataforma/sparks/php-activerecord/0.0.3/vendor/php-activerecord/lib/Model.php on line 1596
+[31-Aug-2016 16:38:38 UTC] PHP Fatal error:  Uncaught exception 'ActiveRecord\RecordNotFound' with message 'Couldn't find User with ID=' in /home/fronteradigitalc/public_html/plataforma/sparks/php-activerecord/0.0.3/vendor/php-activerecord/lib/Model.php:1596
+Stack trace:
+#0 /home/fronteradigitalc/public_html/plataforma/sparks/php-activerecord/0.0.3/vendor/php-activerecord/lib/Model.php(1564): ActiveRecord\Model::find_by_pk(false, Array)
+#1 /home/fronteradigitalc/public_html/plataforma/application/controllers/settings.php(762): ActiveRecord\Model::find(false)
+#2 [internal function]: Settings->user_delete()
+#3 /home/fronteradigitalc/public_html/plataforma/system/core/CodeIgniter.php(359): call_user_func_array(Array, Array)
+#4 /home/fronteradigitalc/public_html/plataforma/index.php(210): require_once('/home/fronterad...')
+#5 {main}
+  thrown in /home/fronteradigitalc/public_html/plataforma/sparks/php-activerecord/0.0.3/vendor/php-activerecord/lib/Model.php on line 1596
+[31-Aug-2016 16:47:50 UTC] PHP Fatal error:  Uncaught exception 'ActiveRecord\RecordNotFound' with message 'Couldn't find User with ID=' in /home/fronteradigitalc/public_html/plataforma/sparks/php-activerecord/0.0.3/vendor/php-activerecord/lib/Model.php:1596
+Stack trace:
+#0 /home/fronteradigitalc/public_html/plataforma/sparks/php-activerecord/0.0.3/vendor/php-activerecord/lib/Model.php(1564): ActiveRecord\Model::find_by_pk(false, Array)
+#1 /home/fronteradigitalc/public_html/plataforma/application/controllers/settings.php(822): ActiveRecord\Model::find(false)
+#2 [internal function]: Settings->user_update()
+#3 /home/fronteradigitalc/public_html/plataforma/system/core/CodeIgniter.php(359): call_user_func_array(Array, Array)
+#4 /home/fronteradigitalc/public_html/plataforma/index.php(210): require_once('/home/fronterad...')
+#5 {main}
+  thrown in /home/fronteradigitalc/public_html/plataforma/sparks/php-activerecord/0.0.3/vendor/php-activerecord/lib/Model.php on line 1596
+[31-Aug-2016 16:48:20 UTC] PHP Fatal error:  Uncaught exception 'ActiveRecord\RecordNotFound' with message 'Couldn't find User with ID=' in /home/fronteradigitalc/public_html/plataforma/sparks/php-activerecord/0.0.3/vendor/php-activerecord/lib/Model.php:1596
+Stack trace:
+#0 /home/fronteradigitalc/public_html/plataforma/sparks/php-activerecord/0.0.3/vendor/php-activerecord/lib/Model.php(1564): ActiveRecord\Model::find_by_pk(false, Array)
+#1 /home/fronteradigitalc/public_html/plataforma/application/controllers/settings.php(822): ActiveRecord\Model::find(false)
+#2 [internal function]: Settings->user_update()
+#3 /home/fronteradigitalc/public_html/plataforma/system/core/CodeIgniter.php(359): call_user_func_array(Array, Array)
+#4 /home/fronteradigitalc/public_html/plataforma/index.php(210): require_once('/home/fronterad...')
+#5 {main}
+  thrown in /home/fronteradigitalc/public_html/plataforma/sparks/php-activerecord/0.0.3/vendor/php-activerecord/lib/Model.php on line 1596
+[31-Aug-2016 16:54:53 UTC] PHP Fatal error:  Uncaught exception 'ActiveRecord\RecordNotFound' with message 'Couldn't find User with ID=' in /home/fronteradigitalc/public_html/plataforma/sparks/php-activerecord/0.0.3/vendor/php-activerecord/lib/Model.php:1596
+Stack trace:
+#0 /home/fronteradigitalc/public_html/plataforma/sparks/php-activerecord/0.0.3/vendor/php-activerecord/lib/Model.php(1564): ActiveRecord\Model::find_by_pk(false, Array)
+#1 /home/fronteradigitalc/public_html/plataforma/application/controllers/settings.php(822): ActiveRecord\Model::find(false)
+#2 [internal function]: Settings->user_update()
+#3 /home/fronteradigitalc/public_html/plataforma/system/core/CodeIgniter.php(359): call_user_func_array(Array, Array)
+#4 /home/fronteradigitalc/public_html/plataforma/index.php(210): require_once('/home/fronterad...')
+#5 {main}
+  thrown in /home/fronteradigitalc/public_html/plataforma/sparks/php-activerecord/0.0.3/vendor/php-activerecord/lib/Model.php on line 1596
+[31-Aug-2016 16:59:40 UTC] PHP Fatal error:  Uncaught exception 'ActiveRecord\UndefinedPropertyException' with message 'Undefined property: Quinessomo->nit in /home/fronteradigitalc/public_html/plataforma/sparks/php-activerecord/0.0.3/vendor/php-activerecord/lib/Model.php on line 521' in /home/fronteradigitalc/public_html/plataforma/sparks/php-activerecord/0.0.3/vendor/php-activerecord/lib/Model.php:521
+Stack trace:
+#0 /home/fronteradigitalc/public_html/plataforma/sparks/php-activerecord/0.0.3/vendor/php-activerecord/lib/Model.php(333): ActiveRecord\Model->read_attribute('nit')
+#1 /home/fronteradigitalc/public_html/plataforma/application/views/blueline/empresa/all.php(40): ActiveRecord\Model->__get('nit')
+#2 /home/fronteradigitalc/public_html/plataforma/system/core/Loader.php(833): include('/home/fronterad...')
+#3 /home/fronteradigitalc/public_html/plataforma/system/core/Loader.php(419): CI_Loader->_ci_load(Array)
+#4 /home/fronteradigitalc/public_html/plataforma/application/core/MY_Controller.php(64): CI_Loader->view('blueline/empres...', Array, true)
+# in /home/fronteradigitalc/public_html/plataforma/sparks/php-activerecord/0.0.3/vendor/php-activerecord/lib/Model.php on line 521
+[31-Aug-2016 16:59:48 UTC] PHP Fatal error:  Uncaught exception 'ActiveRecord\UndefinedPropertyException' with message 'Undefined property: Quinessomo->nit in /home/fronteradigitalc/public_html/plataforma/sparks/php-activerecord/0.0.3/vendor/php-activerecord/lib/Model.php on line 521' in /home/fronteradigitalc/public_html/plataforma/sparks/php-activerecord/0.0.3/vendor/php-activerecord/lib/Model.php:521
+Stack trace:
+#0 /home/fronteradigitalc/public_html/plataforma/sparks/php-activerecord/0.0.3/vendor/php-activerecord/lib/Model.php(333): ActiveRecord\Model->read_attribute('nit')
+#1 /home/fronteradigitalc/public_html/plataforma/application/views/blueline/empresa/all.php(40): ActiveRecord\Model->__get('nit')
+#2 /home/fronteradigitalc/public_html/plataforma/system/core/Loader.php(833): include('/home/fronterad...')
+#3 /home/fronteradigitalc/public_html/plataforma/system/core/Loader.php(419): CI_Loader->_ci_load(Array)
+#4 /home/fronteradigitalc/public_html/plataforma/application/core/MY_Controller.php(64): CI_Loader->view('blueline/empres...', Array, true)
+# in /home/fronteradigitalc/public_html/plataforma/sparks/php-activerecord/0.0.3/vendor/php-activerecord/lib/Model.php on line 521
+[31-Aug-2016 17:01:50 UTC] PHP Fatal error:  Uncaught exception 'ActiveRecord\RecordNotFound' with message 'Couldn't find Empresa with ID=' in /home/fronteradigitalc/public_html/plataforma/sparks/php-activerecord/0.0.3/vendor/php-activerecord/lib/Model.php:1596
+Stack trace:
+#0 /home/fronteradigitalc/public_html/plataforma/sparks/php-activerecord/0.0.3/vendor/php-activerecord/lib/Model.php(1564): ActiveRecord\Model::find_by_pk(false, Array)
+#1 /home/fronteradigitalc/public_html/plataforma/application/controllers/company.php(87): ActiveRecord\Model::find(false)
+#2 [internal function]: company->editar()
+#3 /home/fronteradigitalc/public_html/plataforma/system/core/CodeIgniter.php(359): call_user_func_array(Array, Array)
+#4 /home/fronteradigitalc/public_html/plataforma/index.php(210): require_once('/home/fronterad...')
+#5 {main}
+  thrown in /home/fronteradigitalc/public_html/plataforma/sparks/php-activerecord/0.0.3/vendor/php-activerecord/lib/Model.php on line 1596
+[31-Aug-2016 17:02:30 UTC] PHP Fatal error:  Uncaught exception 'ActiveRecord\RecordNotFound' with message 'Couldn't find Empresa with ID=' in /home/fronteradigitalc/public_html/plataforma/sparks/php-activerecord/0.0.3/vendor/php-activerecord/lib/Model.php:1596
+Stack trace:
+#0 /home/fronteradigitalc/public_html/plataforma/sparks/php-activerecord/0.0.3/vendor/php-activerecord/lib/Model.php(1564): ActiveRecord\Model::find_by_pk(false, Array)
+#1 /home/fronteradigitalc/public_html/plataforma/application/controllers/company.php(87): ActiveRecord\Model::find(false)
+#2 [internal function]: company->editar()
+#3 /home/fronteradigitalc/public_html/plataforma/system/core/CodeIgniter.php(359): call_user_func_array(Array, Array)
+#4 /home/fronteradigitalc/public_html/plataforma/index.php(210): require_once('/home/fronterad...')
+#5 {main}
+  thrown in /home/fronteradigitalc/public_html/plataforma/sparks/php-activerecord/0.0.3/vendor/php-activerecord/lib/Model.php on line 1596
+[31-Aug-2016 17:02:38 UTC] PHP Fatal error:  Uncaught exception 'ActiveRecord\RecordNotFound' with message 'Couldn't find Empresa with ID=' in /home/fronteradigitalc/public_html/plataforma/sparks/php-activerecord/0.0.3/vendor/php-activerecord/lib/Model.php:1596
+Stack trace:
+#0 /home/fronteradigitalc/public_html/plataforma/sparks/php-activerecord/0.0.3/vendor/php-activerecord/lib/Model.php(1564): ActiveRecord\Model::find_by_pk(false, Array)
+#1 /home/fronteradigitalc/public_html/plataforma/application/controllers/company.php(87): ActiveRecord\Model::find(false)
+#2 [internal function]: company->editar()
+#3 /home/fronteradigitalc/public_html/plataforma/system/core/CodeIgniter.php(359): call_user_func_array(Array, Array)
+#4 /home/fronteradigitalc/public_html/plataforma/index.php(210): require_once('/home/fronterad...')
+#5 {main}
+  thrown in /home/fronteradigitalc/public_html/plataforma/sparks/php-activerecord/0.0.3/vendor/php-activerecord/lib/Model.php on line 1596
+[31-Aug-2016 17:06:11 UTC] PHP Fatal error:  Uncaught exception 'ActiveRecord\RecordNotFound' with message 'Couldn't find Empresa with ID=' in /home/fronteradigitalc/public_html/plataforma/sparks/php-activerecord/0.0.3/vendor/php-activerecord/lib/Model.php:1596
+Stack trace:
+#0 /home/fronteradigitalc/public_html/plataforma/sparks/php-activerecord/0.0.3/vendor/php-activerecord/lib/Model.php(1564): ActiveRecord\Model::find_by_pk(false, Array)
+#1 /home/fronteradigitalc/public_html/plataforma/application/controllers/company.php(130): ActiveRecord\Model::find(false)
+#2 [internal function]: company->delete()
+#3 /home/fronteradigitalc/public_html/plataforma/system/core/CodeIgniter.php(359): call_user_func_array(Array, Array)
+#4 /home/fronteradigitalc/public_html/plataforma/index.php(210): require_once('/home/fronterad...')
+#5 {main}
+  thrown in /home/fronteradigitalc/public_html/plataforma/sparks/php-activerecord/0.0.3/vendor/php-activerecord/lib/Model.php on line 1596
+[31-Aug-2016 17:09:51 UTC] PHP Fatal error:  Uncaught exception 'ActiveRecord\RecordNotFound' with message 'Couldn't find Empresa with ID=' in /home/fronteradigitalc/public_html/plataforma/sparks/php-activerecord/0.0.3/vendor/php-activerecord/lib/Model.php:1596
+Stack trace:
+#0 /home/fronteradigitalc/public_html/plataforma/sparks/php-activerecord/0.0.3/vendor/php-activerecord/lib/Model.php(1564): ActiveRecord\Model::find_by_pk(false, Array)
+#1 /home/fronteradigitalc/public_html/plataforma/application/controllers/company.php(130): ActiveRecord\Model::find(false)
+#2 [internal function]: company->delete()
+#3 /home/fronteradigitalc/public_html/plataforma/system/core/CodeIgniter.php(359): call_user_func_array(Array, Array)
+#4 /home/fronteradigitalc/public_html/plataforma/index.php(210): require_once('/home/fronterad...')
+#5 {main}
+  thrown in /home/fronteradigitalc/public_html/plataforma/sparks/php-activerecord/0.0.3/vendor/php-activerecord/lib/Model.php on line 1596
+[31-Aug-2016 17:14:31 UTC] PHP Fatal error:  Uncaught exception 'ActiveRecord\RecordNotFound' with message 'Couldn't find Empresa with ID=' in /home/fronteradigitalc/public_html/plataforma/sparks/php-activerecord/0.0.3/vendor/php-activerecord/lib/Model.php:1596
+Stack trace:
+#0 /home/fronteradigitalc/public_html/plataforma/sparks/php-activerecord/0.0.3/vendor/php-activerecord/lib/Model.php(1564): ActiveRecord\Model::find_by_pk(false, Array)
+#1 /home/fronteradigitalc/public_html/plataforma/application/controllers/company.php(130): ActiveRecord\Model::find(false)
+#2 [internal function]: company->delete()
+#3 /home/fronteradigitalc/public_html/plataforma/system/core/CodeIgniter.php(359): call_user_func_array(Array, Array)
+#4 /home/fronteradigitalc/public_html/plataforma/index.php(210): require_once('/home/fronterad...')
+#5 {main}
+  thrown in /home/fronteradigitalc/public_html/plataforma/sparks/php-activerecord/0.0.3/vendor/php-activerecord/lib/Model.php on line 1596
+[31-Aug-2016 17:15:15 UTC] PHP Fatal error:  Uncaught exception 'ActiveRecord\RecordNotFound' with message 'Couldn't find Empresa with ID=' in /home/fronteradigitalc/public_html/plataforma/sparks/php-activerecord/0.0.3/vendor/php-activerecord/lib/Model.php:1596
+Stack trace:
+#0 /home/fronteradigitalc/public_html/plataforma/sparks/php-activerecord/0.0.3/vendor/php-activerecord/lib/Model.php(1564): ActiveRecord\Model::find_by_pk(false, Array)
+#1 /home/fronteradigitalc/public_html/plataforma/application/controllers/company.php(130): ActiveRecord\Model::find(false)
+#2 [internal function]: company->delete()
+#3 /home/fronteradigitalc/public_html/plataforma/system/core/CodeIgniter.php(359): call_user_func_array(Array, Array)
+#4 /home/fronteradigitalc/public_html/plataforma/index.php(210): require_once('/home/fronterad...')
+#5 {main}
+  thrown in /home/fronteradigitalc/public_html/plataforma/sparks/php-activerecord/0.0.3/vendor/php-activerecord/lib/Model.php on line 1596
+[31-Aug-2016 17:15:55 UTC] PHP Fatal error:  Uncaught exception 'ActiveRecord\RecordNotFound' with message 'Couldn't find Empresa with ID=' in /home/fronteradigitalc/public_html/plataforma/sparks/php-activerecord/0.0.3/vendor/php-activerecord/lib/Model.php:1596
+Stack trace:
+#0 /home/fronteradigitalc/public_html/plataforma/sparks/php-activerecord/0.0.3/vendor/php-activerecord/lib/Model.php(1564): ActiveRecord\Model::find_by_pk(false, Array)
+#1 /home/fronteradigitalc/public_html/plataforma/application/controllers/company.php(130): ActiveRecord\Model::find(false)
+#2 [internal function]: company->delete()
+#3 /home/fronteradigitalc/public_html/plataforma/system/core/CodeIgniter.php(359): call_user_func_array(Array, Array)
+#4 /home/fronteradigitalc/public_html/plataforma/index.php(210): require_once('/home/fronterad...')
+#5 {main}
+  thrown in /home/fronteradigitalc/public_html/plataforma/sparks/php-activerecord/0.0.3/vendor/php-activerecord/lib/Model.php on line 1596
+[31-Aug-2016 21:59:55 UTC] PHP Fatal error:  Uncaught exception 'ActiveRecord\RecordNotFound' with message 'Couldn't find Empresa with ID=' in /home/fronteradigitalc/public_html/plataforma/sparks/php-activerecord/0.0.3/vendor/php-activerecord/lib/Model.php:1596
+Stack trace:
+#0 /home/fronteradigitalc/public_html/plataforma/sparks/php-activerecord/0.0.3/vendor/php-activerecord/lib/Model.php(1564): ActiveRecord\Model::find_by_pk(false, Array)
+#1 /home/fronteradigitalc/public_html/plataforma/application/controllers/company.php(95): ActiveRecord\Model::find(false)
+#2 [internal function]: company->user_update()
+#3 /home/fronteradigitalc/public_html/plataforma/system/core/CodeIgniter.php(359): call_user_func_array(Array, Array)
+#4 /home/fronteradigitalc/public_html/plataforma/index.php(210): require_once('/home/fronterad...')
+#5 {main}
+  thrown in /home/fronteradigitalc/public_html/plataforma/sparks/php-activerecord/0.0.3/vendor/php-activerecord/lib/Model.php on line 1596
+[31-Aug-2016 21:59:59 UTC] PHP Fatal error:  Uncaught exception 'ActiveRecord\RecordNotFound' with message 'Couldn't find Empresa with ID=' in /home/fronteradigitalc/public_html/plataforma/sparks/php-activerecord/0.0.3/vendor/php-activerecord/lib/Model.php:1596
+Stack trace:
+#0 /home/fronteradigitalc/public_html/plataforma/sparks/php-activerecord/0.0.3/vendor/php-activerecord/lib/Model.php(1564): ActiveRecord\Model::find_by_pk(false, Array)
+#1 /home/fronteradigitalc/public_html/plataforma/application/controllers/company.php(95): ActiveRecord\Model::find(false)
+#2 [internal function]: company->user_update()
+#3 /home/fronteradigitalc/public_html/plataforma/system/core/CodeIgniter.php(359): call_user_func_array(Array, Array)
+#4 /home/fronteradigitalc/public_html/plataforma/index.php(210): require_once('/home/fronterad...')
+#5 {main}
+  thrown in /home/fronteradigitalc/public_html/plataforma/sparks/php-activerecord/0.0.3/vendor/php-activerecord/lib/Model.php on line 1596
+[31-Aug-2016 22:00:21 UTC] PHP Fatal error:  Uncaught exception 'ActiveRecord\RecordNotFound' with message 'Couldn't find Empresa with ID=4' in /home/fronteradigitalc/public_html/plataforma/sparks/php-activerecord/0.0.3/vendor/php-activerecord/lib/Model.php:1596
+Stack trace:
+#0 /home/fronteradigitalc/public_html/plataforma/sparks/php-activerecord/0.0.3/vendor/php-activerecord/lib/Model.php(1564): ActiveRecord\Model::find_by_pk('4', Array)
+#1 /home/fronteradigitalc/public_html/plataforma/application/controllers/company.php(95): ActiveRecord\Model::find('4')
+#2 [internal function]: company->user_update('4')
+#3 /home/fronteradigitalc/public_html/plataforma/system/core/CodeIgniter.php(359): call_user_func_array(Array, Array)
+#4 /home/fronteradigitalc/public_html/plataforma/index.php(210): require_once('/home/fronterad...')
+#5 {main}
+  thrown in /home/fronteradigitalc/public_html/plataforma/sparks/php-activerecord/0.0.3/vendor/php-activerecord/lib/Model.php on line 1596
+[31-Aug-2016 22:00:48 UTC] PHP Fatal error:  Uncaught exception 'ActiveRecord\RecordNotFound' with message 'Couldn't find Empresa with ID=' in /home/fronteradigitalc/public_html/plataforma/sparks/php-activerecord/0.0.3/vendor/php-activerecord/lib/Model.php:1596
+Stack trace:
+#0 /home/fronteradigitalc/public_html/plataforma/sparks/php-activerecord/0.0.3/vendor/php-activerecord/lib/Model.php(1564): ActiveRecord\Model::find_by_pk(false, Array)
+#1 /home/fronteradigitalc/public_html/plataforma/application/controllers/company.php(173): ActiveRecord\Model::find(false)
+#2 [internal function]: company->delete()
+#3 /home/fronteradigitalc/public_html/plataforma/system/core/CodeIgniter.php(359): call_user_func_array(Array, Array)
+#4 /home/fronteradigitalc/public_html/plataforma/index.php(210): require_once('/home/fronterad...')
+#5 {main}
+  thrown in /home/fronteradigitalc/public_html/plataforma/sparks/php-activerecord/0.0.3/vendor/php-activerecord/lib/Model.php on line 1596
+[31-Aug-2016 22:02:59 UTC] PHP Fatal error:  Uncaught exception 'ActiveRecord\RecordNotFound' with message 'Couldn't find Empresa with ID=' in /home/fronteradigitalc/public_html/plataforma/sparks/php-activerecord/0.0.3/vendor/php-activerecord/lib/Model.php:1596
+Stack trace:
+#0 /home/fronteradigitalc/public_html/plataforma/sparks/php-activerecord/0.0.3/vendor/php-activerecord/lib/Model.php(1564): ActiveRecord\Model::find_by_pk(false, Array)
+#1 /home/fronteradigitalc/public_html/plataforma/application/controllers/company.php(95): ActiveRecord\Model::find(false)
+#2 [internal function]: company->user_update()
+#3 /home/fronteradigitalc/public_html/plataforma/system/core/CodeIgniter.php(359): call_user_func_array(Array, Array)
+#4 /home/fronteradigitalc/public_html/plataforma/index.php(210): require_once('/home/fronterad...')
+#5 {main}
+  thrown in /home/fronteradigitalc/public_html/plataforma/sparks/php-activerecord/0.0.3/vendor/php-activerecord/lib/Model.php on line 1596
+[31-Aug-2016 22:03:02 UTC] PHP Fatal error:  Uncaught exception 'ActiveRecord\RecordNotFound' with message 'Couldn't find Empresa with ID=' in /home/fronteradigitalc/public_html/plataforma/sparks/php-activerecord/0.0.3/vendor/php-activerecord/lib/Model.php:1596
+Stack trace:
+#0 /home/fronteradigitalc/public_html/plataforma/sparks/php-activerecord/0.0.3/vendor/php-activerecord/lib/Model.php(1564): ActiveRecord\Model::find_by_pk(false, Array)
+#1 /home/fronteradigitalc/public_html/plataforma/application/controllers/company.php(95): ActiveRecord\Model::find(false)
+#2 [internal function]: company->user_update()
+#3 /home/fronteradigitalc/public_html/plataforma/system/core/CodeIgniter.php(359): call_user_func_array(Array, Array)
+#4 /home/fronteradigitalc/public_html/plataforma/index.php(210): require_once('/home/fronterad...')
+#5 {main}
+  thrown in /home/fronteradigitalc/public_html/plataforma/sparks/php-activerecord/0.0.3/vendor/php-activerecord/lib/Model.php on line 1596
+[31-Aug-2016 22:03:06 UTC] PHP Fatal error:  Uncaught exception 'ActiveRecord\RecordNotFound' with message 'Couldn't find Empresa with ID=' in /home/fronteradigitalc/public_html/plataforma/sparks/php-activerecord/0.0.3/vendor/php-activerecord/lib/Model.php:1596
+Stack trace:
+#0 /home/fronteradigitalc/public_html/plataforma/sparks/php-activerecord/0.0.3/vendor/php-activerecord/lib/Model.php(1564): ActiveRecord\Model::find_by_pk(false, Array)
+#1 /home/fronteradigitalc/public_html/plataforma/application/controllers/company.php(173): ActiveRecord\Model::find(false)
+#2 [internal function]: company->delete()
+#3 /home/fronteradigitalc/public_html/plataforma/system/core/CodeIgniter.php(359): call_user_func_array(Array, Array)
+#4 /home/fronteradigitalc/public_html/plataforma/index.php(210): require_once('/home/fronterad...')
+#5 {main}
+  thrown in /home/fronteradigitalc/public_html/plataforma/sparks/php-activerecord/0.0.3/vendor/php-activerecord/lib/Model.php on line 1596
+[31-Aug-2016 22:03:09 UTC] PHP Fatal error:  Uncaught exception 'ActiveRecord\RecordNotFound' with message 'Couldn't find Empresa with ID=' in /home/fronteradigitalc/public_html/plataforma/sparks/php-activerecord/0.0.3/vendor/php-activerecord/lib/Model.php:1596
+Stack trace:
+#0 /home/fronteradigitalc/public_html/plataforma/sparks/php-activerecord/0.0.3/vendor/php-activerecord/lib/Model.php(1564): ActiveRecord\Model::find_by_pk(false, Array)
+#1 /home/fronteradigitalc/public_html/plataforma/application/controllers/company.php(173): ActiveRecord\Model::find(false)
+#2 [internal function]: company->delete()
+#3 /home/fronteradigitalc/public_html/plataforma/system/core/CodeIgniter.php(359): call_user_func_array(Array, Array)
+#4 /home/fronteradigitalc/public_html/plataforma/index.php(210): require_once('/home/fronterad...')
+#5 {main}
+  thrown in /home/fronteradigitalc/public_html/plataforma/sparks/php-activerecord/0.0.3/vendor/php-activerecord/lib/Model.php on line 1596
+[31-Aug-2016 22:03:14 UTC] PHP Fatal error:  Uncaught exception 'ActiveRecord\RecordNotFound' with message 'Couldn't find Quinessomo with ID=' in /home/fronteradigitalc/public_html/plataforma/sparks/php-activerecord/0.0.3/vendor/php-activerecord/lib/Model.php:1596
+Stack trace:
+#0 /home/fronteradigitalc/public_html/plataforma/sparks/php-activerecord/0.0.3/vendor/php-activerecord/lib/Model.php(1564): ActiveRecord\Model::find_by_pk(false, Array)
+#1 /home/fronteradigitalc/public_html/plataforma/application/controllers/empresa.php(104): ActiveRecord\Model::find(false)
+#2 [internal function]: Empresa->delete()
+#3 /home/fronteradigitalc/public_html/plataforma/system/core/CodeIgniter.php(359): call_user_func_array(Array, Array)
+#4 /home/fronteradigitalc/public_html/plataforma/index.php(210): require_once('/home/fronterad...')
+#5 {main}
+  thrown in /home/fronteradigitalc/public_html/plataforma/sparks/php-activerecord/0.0.3/vendor/php-activerecord/lib/Model.php on line 1596
+[31-Aug-2016 22:10:13 UTC] PHP Fatal error:  Uncaught exception 'ActiveRecord\RecordNotFound' with message 'Couldn't find Empresa with ID=' in /home/fronteradigitalc/public_html/plataforma/sparks/php-activerecord/0.0.3/vendor/php-activerecord/lib/Model.php:1596
+Stack trace:
+#0 /home/fronteradigitalc/public_html/plataforma/sparks/php-activerecord/0.0.3/vendor/php-activerecord/lib/Model.php(1564): ActiveRecord\Model::find_by_pk(false, Array)
+#1 /home/fronteradigitalc/public_html/plataforma/application/controllers/company.php(95): ActiveRecord\Model::find(false)
+#2 [internal function]: company->user_update()
+#3 /home/fronteradigitalc/public_html/plataforma/system/core/CodeIgniter.php(359): call_user_func_array(Array, Array)
+#4 /home/fronteradigitalc/public_html/plataforma/index.php(210): require_once('/home/fronterad...')
+#5 {main}
+  thrown in /home/fronteradigitalc/public_html/plataforma/sparks/php-activerecord/0.0.3/vendor/php-activerecord/lib/Model.php on line 1596
+[31-Aug-2016 22:10:16 UTC] PHP Fatal error:  Uncaught exception 'ActiveRecord\RecordNotFound' with message 'Couldn't find Empresa with ID=' in /home/fronteradigitalc/public_html/plataforma/sparks/php-activerecord/0.0.3/vendor/php-activerecord/lib/Model.php:1596
+Stack trace:
+#0 /home/fronteradigitalc/public_html/plataforma/sparks/php-activerecord/0.0.3/vendor/php-activerecord/lib/Model.php(1564): ActiveRecord\Model::find_by_pk(false, Array)
+#1 /home/fronteradigitalc/public_html/plataforma/application/controllers/company.php(95): ActiveRecord\Model::find(false)
+#2 [internal function]: company->user_update()
+#3 /home/fronteradigitalc/public_html/plataforma/system/core/CodeIgniter.php(359): call_user_func_array(Array, Array)
+#4 /home/fronteradigitalc/public_html/plataforma/index.php(210): require_once('/home/fronterad...')
+#5 {main}
+  thrown in /home/fronteradigitalc/public_html/plataforma/sparks/php-activerecord/0.0.3/vendor/php-activerecord/lib/Model.php on line 1596
+[31-Aug-2016 22:39:45 UTC] PHP Fatal error:  Uncaught exception 'ActiveRecord\RecordNotFound' with message 'Couldn't find User with ID=2' in /home/fronteradigitalc/public_html/plataforma/sparks/php-activerecord/0.0.3/vendor/php-activerecord/lib/Model.php:1596
+Stack trace:
+#0 /home/fronteradigitalc/public_html/plataforma/sparks/php-activerecord/0.0.3/vendor/php-activerecord/lib/Model.php(1564): ActiveRecord\Model::find_by_pk('2', Array)
+#1 /home/fronteradigitalc/public_html/plataforma/application/controllers/settings.php(822): ActiveRecord\Model::find('2')
+#2 [internal function]: Settings->user_update('2')
+#3 /home/fronteradigitalc/public_html/plataforma/system/core/CodeIgniter.php(359): call_user_func_array(Array, Array)
+#4 /home/fronteradigitalc/public_html/plataforma/index.php(210): require_once('/home/fronterad...')
+#5 {main}
+  thrown in /home/fronteradigitalc/public_html/plataforma/sparks/php-activerecord/0.0.3/vendor/php-activerecord/lib/Model.php on line 1596
+[31-Aug-2016 22:39:50 UTC] PHP Fatal error:  Uncaught exception 'ActiveRecord\RecordNotFound' with message 'Couldn't find User with ID=2' in /home/fronteradigitalc/public_html/plataforma/sparks/php-activerecord/0.0.3/vendor/php-activerecord/lib/Model.php:1596
+Stack trace:
+#0 /home/fronteradigitalc/public_html/plataforma/sparks/php-activerecord/0.0.3/vendor/php-activerecord/lib/Model.php(1564): ActiveRecord\Model::find_by_pk('2', Array)
+#1 /home/fronteradigitalc/public_html/plataforma/application/controllers/settings.php(822): ActiveRecord\Model::find('2')
+#2 [internal function]: Settings->user_update('2')
+#3 /home/fronteradigitalc/public_html/plataforma/system/core/CodeIgniter.php(359): call_user_func_array(Array, Array)
+#4 /home/fronteradigitalc/public_html/plataforma/index.php(210): require_once('/home/fronterad...')
+#5 {main}
+  thrown in /home/fronteradigitalc/public_html/plataforma/sparks/php-activerecord/0.0.3/vendor/php-activerecord/lib/Model.php on line 1596
+[31-Aug-2016 22:39:53 UTC] PHP Fatal error:  Uncaught exception 'ActiveRecord\RecordNotFound' with message 'Couldn't find User with ID=5' in /home/fronteradigitalc/public_html/plataforma/sparks/php-activerecord/0.0.3/vendor/php-activerecord/lib/Model.php:1596
+Stack trace:
+#0 /home/fronteradigitalc/public_html/plataforma/sparks/php-activerecord/0.0.3/vendor/php-activerecord/lib/Model.php(1564): ActiveRecord\Model::find_by_pk('5', Array)
+#1 /home/fronteradigitalc/public_html/plataforma/application/controllers/settings.php(822): ActiveRecord\Model::find('5')
+#2 [internal function]: Settings->user_update('5')
+#3 /home/fronteradigitalc/public_html/plataforma/system/core/CodeIgniter.php(359): call_user_func_array(Array, Array)
+#4 /home/fronteradigitalc/public_html/plataforma/index.php(210): require_once('/home/fronterad...')
+#5 {main}
+  thrown in /home/fronteradigitalc/public_html/plataforma/sparks/php-activerecord/0.0.3/vendor/php-activerecord/lib/Model.php on line 1596
+[31-Aug-2016 22:48:32 UTC] PHP Fatal error:  Cannot redeclare company::user_update() in /home/fronteradigitalc/public_html/plataforma/application/controllers/company.php on line 137
+[31-Aug-2016 22:48:35 UTC] PHP Fatal error:  Cannot redeclare company::user_update() in /home/fronteradigitalc/public_html/plataforma/application/controllers/company.php on line 137
+[31-Aug-2016 22:48:54 UTC] PHP Fatal error:  Cannot redeclare company::user_update() in /home/fronteradigitalc/public_html/plataforma/application/controllers/company.php on line 137
+[31-Aug-2016 22:51:01 UTC] PHP Fatal error:  Class 'empresa' not found in /home/fronteradigitalc/public_html/plataforma/application/controllers/company.php on line 96
+[31-Aug-2016 22:51:05 UTC] PHP Fatal error:  Class 'empresa' not found in /home/fronteradigitalc/public_html/plataforma/application/controllers/company.php on line 96
+[31-Aug-2016 22:51:08 UTC] PHP Fatal error:  Class 'empresa' not found in /home/fronteradigitalc/public_html/plataforma/application/controllers/company.php on line 96
+[31-Aug-2016 22:51:11 UTC] PHP Fatal error:  Class 'empresa' not found in /home/fronteradigitalc/public_html/plataforma/application/controllers/company.php on line 96
+[31-Aug-2016 22:51:14 UTC] PHP Fatal error:  Class 'empresa' not found in /home/fronteradigitalc/public_html/plataforma/application/controllers/company.php on line 96
+[31-Aug-2016 22:51:17 UTC] PHP Fatal error:  Class 'empresa' not found in /home/fronteradigitalc/public_html/plataforma/application/controllers/company.php on line 96
+[31-Aug-2016 22:57:35 UTC] PHP Fatal error:  Class 'empresa' not found in /home/fronteradigitalc/public_html/plataforma/application/controllers/company.php on line 140
+[31-Aug-2016 22:58:13 UTC] PHP Fatal error:  Class 'empresa' not found in /home/fronteradigitalc/public_html/plataforma/application/controllers/company.php on line 140
+[31-Aug-2016 22:58:17 UTC] PHP Fatal error:  Class 'empresa' not found in /home/fronteradigitalc/public_html/plataforma/application/controllers/company.php on line 140
+[31-Aug-2016 23:14:29 UTC] PHP Fatal error:  Uncaught exception 'ActiveRecord\UndefinedPropertyException' with message 'Undefined property: Quinessomo->nit in /home/fronteradigitalc/public_html/plataforma/sparks/php-activerecord/0.0.3/vendor/php-activerecord/lib/Model.php on line 521' in /home/fronteradigitalc/public_html/plataforma/sparks/php-activerecord/0.0.3/vendor/php-activerecord/lib/Model.php:521
+Stack trace:
+#0 /home/fronteradigitalc/public_html/plataforma/sparks/php-activerecord/0.0.3/vendor/php-activerecord/lib/Model.php(333): ActiveRecord\Model->read_attribute('nit')
+#1 /home/fronteradigitalc/public_html/plataforma/application/views/blueline/empresa/all.php(40): ActiveRecord\Model->__get('nit')
+#2 /home/fronteradigitalc/public_html/plataforma/system/core/Loader.php(833): include('/home/fronterad...')
+#3 /home/fronteradigitalc/public_html/plataforma/system/core/Loader.php(419): CI_Loader->_ci_load(Array)
+#4 /home/fronteradigitalc/public_html/plataforma/application/core/MY_Controller.php(64): CI_Loader->view('blueline/empres...', Array, true)
+# in /home/fronteradigitalc/public_html/plataforma/sparks/php-activerecord/0.0.3/vendor/php-activerecord/lib/Model.php on line 521
+[31-Aug-2016 23:14:56 UTC] PHP Fatal error:  Uncaught exception 'ActiveRecord\UndefinedPropertyException' with message 'Undefined property: Quinessomo->nit in /home/fronteradigitalc/public_html/plataforma/sparks/php-activerecord/0.0.3/vendor/php-activerecord/lib/Model.php on line 521' in /home/fronteradigitalc/public_html/plataforma/sparks/php-activerecord/0.0.3/vendor/php-activerecord/lib/Model.php:521
+Stack trace:
+#0 /home/fronteradigitalc/public_html/plataforma/sparks/php-activerecord/0.0.3/vendor/php-activerecord/lib/Model.php(333): ActiveRecord\Model->read_attribute('nit')
+#1 /home/fronteradigitalc/public_html/plataforma/application/views/blueline/empresa/all.php(40): ActiveRecord\Model->__get('nit')
+#2 /home/fronteradigitalc/public_html/plataforma/system/core/Loader.php(833): include('/home/fronterad...')
+#3 /home/fronteradigitalc/public_html/plataforma/system/core/Loader.php(419): CI_Loader->_ci_load(Array)
+#4 /home/fronteradigitalc/public_html/plataforma/application/core/MY_Controller.php(64): CI_Loader->view('blueline/empres...', Array, true)
+# in /home/fronteradigitalc/public_html/plataforma/sparks/php-activerecord/0.0.3/vendor/php-activerecord/lib/Model.php on line 521
+[31-Aug-2016 23:15:09 UTC] PHP Fatal error:  Uncaught exception 'ActiveRecord\RecordNotFound' with message 'Couldn't find Empresa with ID=7' in /home/fronteradigitalc/public_html/plataforma/sparks/php-activerecord/0.0.3/vendor/php-activerecord/lib/Model.php:1596
+Stack trace:
+#0 /home/fronteradigitalc/public_html/plataforma/sparks/php-activerecord/0.0.3/vendor/php-activerecord/lib/Model.php(1564): ActiveRecord\Model::find_by_pk('7', Array)
+#1 /home/fronteradigitalc/public_html/plataforma/application/controllers/company.php(197): ActiveRecord\Model::find('7')
+#2 [internal function]: company->delete('7')
+#3 /home/fronteradigitalc/public_html/plataforma/system/core/CodeIgniter.php(359): call_user_func_array(Array, Array)
+#4 /home/fronteradigitalc/public_html/plataforma/index.php(210): require_once('/home/fronterad...')
+#5 {main}
+  thrown in /home/fronteradigitalc/public_html/plataforma/sparks/php-activerecord/0.0.3/vendor/php-activerecord/lib/Model.php on line 1596
+[31-Aug-2016 23:15:20 UTC] PHP Fatal error:  Uncaught exception 'ActiveRecord\UndefinedPropertyException' with message 'Undefined property: Quinessomo->nit in /home/fronteradigitalc/public_html/plataforma/sparks/php-activerecord/0.0.3/vendor/php-activerecord/lib/Model.php on line 521' in /home/fronteradigitalc/public_html/plataforma/sparks/php-activerecord/0.0.3/vendor/php-activerecord/lib/Model.php:521
+Stack trace:
+#0 /home/fronteradigitalc/public_html/plataforma/sparks/php-activerecord/0.0.3/vendor/php-activerecord/lib/Model.php(333): ActiveRecord\Model->read_attribute('nit')
+#1 /home/fronteradigitalc/public_html/plataforma/application/views/blueline/empresa/all.php(40): ActiveRecord\Model->__get('nit')
+#2 /home/fronteradigitalc/public_html/plataforma/system/core/Loader.php(833): include('/home/fronterad...')
+#3 /home/fronteradigitalc/public_html/plataforma/system/core/Loader.php(419): CI_Loader->_ci_load(Array)
+#4 /home/fronteradigitalc/public_html/plataforma/application/core/MY_Controller.php(64): CI_Loader->view('blueline/empres...', Array, true)
+# in /home/fronteradigitalc/public_html/plataforma/sparks/php-activerecord/0.0.3/vendor/php-activerecord/lib/Model.php on line 521
+[31-Aug-2016 23:24:36 UTC] PHP Fatal error:  Class 'empresa' not found in /home/fronteradigitalc/public_html/plataforma/application/controllers/company.php on line 98
+[31-Aug-2016 23:24:40 UTC] PHP Fatal error:  Class 'empresa' not found in /home/fronteradigitalc/public_html/plataforma/application/controllers/company.php on line 98
+[31-Aug-2016 23:24:43 UTC] PHP Fatal error:  Class 'empresa' not found in /home/fronteradigitalc/public_html/plataforma/application/controllers/company.php on line 98
+[31-Aug-2016 23:41:00 UTC] PHP Fatal error:  Cannot use object of type Empresa as array in /home/fronteradigitalc/public_html/plataforma/application/views/blueline/empresa/_agregar.php on line 37
+[31-Aug-2016 23:41:09 UTC] PHP Fatal error:  Cannot use object of type Empresa as array in /home/fronteradigitalc/public_html/plataforma/application/views/blueline/empresa/_agregar.php on line 37
+[31-Aug-2016 23:46:51 UTC] PHP Fatal error:  Cannot use object of type Empresa as array in /home/fronteradigitalc/public_html/plataforma/application/views/blueline/empresa/_agregar.php on line 37
+[31-Aug-2016 23:47:05 UTC] PHP Fatal error:  Cannot use object of type Empresa as array in /home/fronteradigitalc/public_html/plataforma/application/views/blueline/empresa/_agregar.php on line 37
+[31-Aug-2016 23:47:12 UTC] PHP Fatal error:  Cannot use object of type Empresa as array in /home/fronteradigitalc/public_html/plataforma/application/views/blueline/empresa/_agregar.php on line 37
+[31-Aug-2016 23:48:55 UTC] PHP Fatal error:  Cannot use object of type Empresa as array in /home/fronteradigitalc/public_html/plataforma/application/views/blueline/empresa/_agregar.php on line 37
+[31-Aug-2016 23:58:40 UTC] PHP Fatal error:  Cannot use object of type Empresa as array in /home/fronteradigitalc/public_html/plataforma/application/views/blueline/empresa/_agregar.php on line 37
+[31-Aug-2016 23:59:57 UTC] PHP Fatal error:  Cannot use object of type Empresa as array in /home/fronteradigitalc/public_html/plataforma/application/views/blueline/empresa/_agregar.php on line 34
+[01-Sep-2016 00:00:05 UTC] PHP Fatal error:  Cannot use object of type Empresa as array in /home/fronteradigitalc/public_html/plataforma/application/views/blueline/empresa/_agregar.php on line 34
+[01-Sep-2016 01:10:56 UTC] PHP Fatal error:  Cannot use object of type Empresa as array in /home/fronteradigitalc/public_html/plataforma/application/views/blueline/empresa/_agregar.php on line 34
+[01-Sep-2016 01:34:53 UTC] PHP Fatal error:  Cannot use object of type Empresa as array in /home/fronteradigitalc/public_html/plataforma/application/views/blueline/empresa/_agregar.php on line 34
+[01-Sep-2016 01:59:57 UTC] PHP Fatal error:  Cannot use object of type Empresa as array in /home/fronteradigitalc/public_html/plataforma/application/views/blueline/empresa/_agregar.php on line 34
+[01-Sep-2016 02:02:49 UTC] PHP Fatal error:  Cannot use object of type Empresa as array in /home/fronteradigitalc/public_html/plataforma/application/views/blueline/empresa/_agregar.php on line 34
+[01-Sep-2016 02:05:49 UTC] PHP Fatal error:  Cannot use object of type Empresa as array in /home/fronteradigitalc/public_html/plataforma/application/views/blueline/empresa/_agregar.php on line 34
+[01-Sep-2016 02:06:35 UTC] PHP Fatal error:  Cannot use object of type Empresa as array in /home/fronteradigitalc/public_html/plataforma/application/views/blueline/empresa/_agregar.php on line 23
+[01-Sep-2016 02:11:05 UTC] PHP Fatal error:  Cannot use object of type Empresa as array in /home/fronteradigitalc/public_html/plataforma/application/views/blueline/empresa/_agregar.php on line 34
+[01-Sep-2016 02:11:21 UTC] PHP Fatal error:  Cannot use object of type Empresa as array in /home/fronteradigitalc/public_html/plataforma/application/views/blueline/empresa/_agregar.php on line 34
+[01-Sep-2016 02:13:40 UTC] PHP Fatal error:  Cannot use object of type Empresa as array in /home/fronteradigitalc/public_html/plataforma/application/views/blueline/empresa/_agregar.php on line 34
+[01-Sep-2016 02:14:07 UTC] PHP Fatal error:  Cannot use object of type Empresa as array in /home/fronteradigitalc/public_html/plataforma/application/views/blueline/empresa/_agregar.php on line 34
+[01-Sep-2016 02:14:35 UTC] PHP Fatal error:  Cannot use object of type Empresa as array in /home/fronteradigitalc/public_html/plataforma/application/views/blueline/empresa/_agregar.php on line 34
+[01-Sep-2016 02:14:38 UTC] PHP Fatal error:  Cannot use object of type Empresa as array in /home/fronteradigitalc/public_html/plataforma/application/views/blueline/empresa/_agregar.php on line 34
+[01-Sep-2016 02:15:22 UTC] PHP Fatal error:  Cannot use object of type Empresa as array in /home/fronteradigitalc/public_html/plataforma/application/views/blueline/empresa/_agregar.php on line 34
+[01-Sep-2016 02:15:58 UTC] PHP Fatal error:  Cannot use object of type Empresa as array in /home/fronteradigitalc/public_html/plataforma/application/views/blueline/empresa/_agregar.php on line 34
+[01-Sep-2016 02:16:17 UTC] PHP Fatal error:  Class 'Empresas' not found in /home/fronteradigitalc/public_html/plataforma/application/controllers/company.php on line 97
+[01-Sep-2016 02:16:40 UTC] PHP Fatal error:  Cannot use object of type Empresa as array in /home/fronteradigitalc/public_html/plataforma/application/views/blueline/empresa/_agregar.php on line 34
+[01-Sep-2016 02:16:44 UTC] PHP Fatal error:  Cannot use object of type Empresa as array in /home/fronteradigitalc/public_html/plataforma/application/views/blueline/empresa/_agregar.php on line 34
+[01-Sep-2016 02:16:55 UTC] PHP Fatal error:  Cannot use object of type Empresa as array in /home/fronteradigitalc/public_html/plataforma/application/views/blueline/empresa/_agregar.php on line 34
+[01-Sep-2016 02:17:15 UTC] PHP Fatal error:  Cannot use object of type Empresa as array in /home/fronteradigitalc/public_html/plataforma/application/views/blueline/empresa/_agregar.php on line 34
+[01-Sep-2016 02:17:49 UTC] PHP Fatal error:  Cannot use object of type Empresa as array in /home/fronteradigitalc/public_html/plataforma/application/views/blueline/empresa/_agregar.php on line 34
+[01-Sep-2016 02:18:26 UTC] PHP Fatal error:  Cannot use object of type Empresa as array in /home/fronteradigitalc/public_html/plataforma/application/views/blueline/empresa/_agregar.php on line 34
+[01-Sep-2016 02:19:13 UTC] PHP Fatal error:  Cannot use object of type Empresa as array in /home/fronteradigitalc/public_html/plataforma/application/views/blueline/empresa/_agregar.php on line 34
+[01-Sep-2016 02:19:25 UTC] PHP Fatal error:  Cannot use object of type Empresa as array in /home/fronteradigitalc/public_html/plataforma/application/views/blueline/empresa/_agregar.php on line 34
+[01-Sep-2016 02:30:30 UTC] PHP Fatal error:  Cannot use object of type Empresa as array in /home/fronteradigitalc/public_html/plataforma/application/views/blueline/empresa/_agregar.php on line 34
+[01-Sep-2016 02:30:37 UTC] PHP Fatal error:  Cannot use object of type Empresa as array in /home/fronteradigitalc/public_html/plataforma/application/views/blueline/empresa/_agregar.php on line 34
+[01-Sep-2016 02:30:57 UTC] PHP Fatal error:  Cannot use object of type Empresa as array in /home/fronteradigitalc/public_html/plataforma/application/views/blueline/empresa/_agregar.php on line 34
+[01-Sep-2016 02:31:20 UTC] PHP Fatal error:  Cannot use object of type Empresa as array in /home/fronteradigitalc/public_html/plataforma/application/views/blueline/empresa/_agregar.php on line 34
+[01-Sep-2016 02:34:14 UTC] PHP Fatal error:  Cannot use object of type Empresa as array in /home/fronteradigitalc/public_html/plataforma/application/views/blueline/empresa/_agregar.php on line 34
+[01-Sep-2016 02:51:02 UTC] PHP Fatal error:  Uncaught exception 'ActiveRecord\UndefinedPropertyException' with message 'Undefined property: Setting->empresa in /home/fronteradigitalc/public_html/plataforma/sparks/php-activerecord/0.0.3/vendor/php-activerecord/lib/Model.php on line 521' in /home/fronteradigitalc/public_html/plataforma/sparks/php-activerecord/0.0.3/vendor/php-activerecord/lib/Model.php:521
+Stack trace:
+#0 /home/fronteradigitalc/public_html/plataforma/sparks/php-activerecord/0.0.3/vendor/php-activerecord/lib/Model.php(333): ActiveRecord\Model->read_attribute('empresa')
+#1 /home/fronteradigitalc/public_html/plataforma/application/views/blueline/theme/modal.php(32): ActiveRecord\Model->__get('empresa')
+#2 /home/fronteradigitalc/public_html/plataforma/system/core/Loader.php(833): include('/home/fronterad...')
+#3 /home/fronteradigitalc/public_html/plataforma/system/core/Loader.php(419): CI_Loader->_ci_load(Array)
+#4 /home/fronteradigitalc/public_html/plataforma/application/core/MY_Controller.php(68): CI_Loader->view('blueline/theme/...', Array in /home/fronteradigitalc/public_html/plataforma/sparks/php-activerecord/0.0.3/vendor/php-activerecord/lib/Model.php on line 521
+[01-Sep-2016 02:53:46 UTC] PHP Fatal error:  Uncaught exception 'ActiveRecord\UndefinedPropertyException' with message 'Undefined property: Setting->empresa in /home/fronteradigitalc/public_html/plataforma/sparks/php-activerecord/0.0.3/vendor/php-activerecord/lib/Model.php on line 521' in /home/fronteradigitalc/public_html/plataforma/sparks/php-activerecord/0.0.3/vendor/php-activerecord/lib/Model.php:521
+Stack trace:
+#0 /home/fronteradigitalc/public_html/plataforma/sparks/php-activerecord/0.0.3/vendor/php-activerecord/lib/Model.php(333): ActiveRecord\Model->read_attribute('empresa')
+#1 /home/fronteradigitalc/public_html/plataforma/application/views/blueline/theme/modal.php(32): ActiveRecord\Model->__get('empresa')
+#2 /home/fronteradigitalc/public_html/plataforma/system/core/Loader.php(833): include('/home/fronterad...')
+#3 /home/fronteradigitalc/public_html/plataforma/system/core/Loader.php(419): CI_Loader->_ci_load(Array)
+#4 /home/fronteradigitalc/public_html/plataforma/application/core/MY_Controller.php(68): CI_Loader->view('blueline/theme/...', Array in /home/fronteradigitalc/public_html/plataforma/sparks/php-activerecord/0.0.3/vendor/php-activerecord/lib/Model.php on line 521
+[01-Sep-2016 02:57:55 UTC] PHP Parse error:  syntax error, unexpected '->' (T_OBJECT_OPERATOR), expecting variable (T_VARIABLE) or '$' in /home/fronteradigitalc/public_html/plataforma/application/views/blueline/settings/settings_all.php on line 41
+[01-Sep-2016 03:11:56 UTC] PHP Fatal error:  Class 'Evento' not found in /home/fronteradigitalc/public_html/plataforma/application/controllers/company.php on line 98
+[01-Sep-2016 03:12:02 UTC] PHP Fatal error:  Class 'Evento' not found in /home/fronteradigitalc/public_html/plataforma/application/controllers/company.php on line 98
+[01-Sep-2016 03:13:23 UTC] PHP Fatal error:  Cannot use object of type Empresa as array in /home/fronteradigitalc/public_html/plataforma/application/views/blueline/empresa/_agregar.php on line 34
+[01-Sep-2016 03:13:34 UTC] PHP Fatal error:  Cannot use object of type Empresa as array in /home/fronteradigitalc/public_html/plataforma/application/views/blueline/empresa/_agregar.php on line 34
+[01-Sep-2016 03:13:53 UTC] PHP Fatal error:  Cannot use object of type Empresa as array in /home/fronteradigitalc/public_html/plataforma/application/views/blueline/empresa/_agregar.php on line 34
+[01-Sep-2016 03:14:47 UTC] PHP Fatal error:  Cannot use object of type Empresa as array in /home/fronteradigitalc/public_html/plataforma/application/views/blueline/empresa/_agregar.php on line 34
+[01-Sep-2016 03:14:48 UTC] PHP Fatal error:  Cannot use object of type Empresa as array in /home/fronteradigitalc/public_html/plataforma/application/views/blueline/empresa/_agregar.php on line 34
+[01-Sep-2016 03:16:00 UTC] PHP Fatal error:  Cannot use object of type Empresa as array in /home/fronteradigitalc/public_html/plataforma/application/views/blueline/empresa/_agregar.php on line 34
+[01-Sep-2016 03:31:40 UTC] PHP Fatal error:  Uncaught exception 'ActiveRecord\UndefinedPropertyException' with message 'Undefined property: Setting->empresa in /home/fronteradigitalc/public_html/plataforma/sparks/php-activerecord/0.0.3/vendor/php-activerecord/lib/Model.php on line 521' in /home/fronteradigitalc/public_html/plataforma/sparks/php-activerecord/0.0.3/vendor/php-activerecord/lib/Model.php:521
+Stack trace:
+#0 /home/fronteradigitalc/public_html/plataforma/sparks/php-activerecord/0.0.3/vendor/php-activerecord/lib/Model.php(333): ActiveRecord\Model->read_attribute('empresa')
+#1 /home/fronteradigitalc/public_html/plataforma/application/views/blueline/theme/modal.php(32): ActiveRecord\Model->__get('empresa')
+#2 /home/fronteradigitalc/public_html/plataforma/system/core/Loader.php(833): include('/home/fronterad...')
+#3 /home/fronteradigitalc/public_html/plataforma/system/core/Loader.php(419): CI_Loader->_ci_load(Array)
+#4 /home/fronteradigitalc/public_html/plataforma/application/core/MY_Controller.php(68): CI_Loader->view('blueline/theme/...', Array in /home/fronteradigitalc/public_html/plataforma/sparks/php-activerecord/0.0.3/vendor/php-activerecord/lib/Model.php on line 521
+[01-Sep-2016 03:32:39 UTC] PHP Fatal error:  Uncaught exception 'ActiveRecord\UndefinedPropertyException' with message 'Undefined property: Setting->empresa in /home/fronteradigitalc/public_html/plataforma/sparks/php-activerecord/0.0.3/vendor/php-activerecord/lib/Model.php on line 521' in /home/fronteradigitalc/public_html/plataforma/sparks/php-activerecord/0.0.3/vendor/php-activerecord/lib/Model.php:521
+Stack trace:
+#0 /home/fronteradigitalc/public_html/plataforma/sparks/php-activerecord/0.0.3/vendor/php-activerecord/lib/Model.php(333): ActiveRecord\Model->read_attribute('empresa')
+#1 /home/fronteradigitalc/public_html/plataforma/application/views/blueline/theme/modal.php(32): ActiveRecord\Model->__get('empresa')
+#2 /home/fronteradigitalc/public_html/plataforma/system/core/Loader.php(833): include('/home/fronterad...')
+#3 /home/fronteradigitalc/public_html/plataforma/system/core/Loader.php(419): CI_Loader->_ci_load(Array)
+#4 /home/fronteradigitalc/public_html/plataforma/application/core/MY_Controller.php(68): CI_Loader->view('blueline/theme/...', Array in /home/fronteradigitalc/public_html/plataforma/sparks/php-activerecord/0.0.3/vendor/php-activerecord/lib/Model.php on line 521
+[01-Sep-2016 03:51:29 UTC] PHP Fatal error:  Uncaught exception 'ActiveRecord\UndefinedPropertyException' with message 'Undefined property: Setting->empresa in /home/fronteradigitalc/public_html/plataforma/sparks/php-activerecord/0.0.3/vendor/php-activerecord/lib/Model.php on line 521' in /home/fronteradigitalc/public_html/plataforma/sparks/php-activerecord/0.0.3/vendor/php-activerecord/lib/Model.php:521
+Stack trace:
+#0 /home/fronteradigitalc/public_html/plataforma/sparks/php-activerecord/0.0.3/vendor/php-activerecord/lib/Model.php(333): ActiveRecord\Model->read_attribute('empresa')
+#1 /home/fronteradigitalc/public_html/plataforma/application/views/blueline/theme/modal.php(32): ActiveRecord\Model->__get('empresa')
+#2 /home/fronteradigitalc/public_html/plataforma/system/core/Loader.php(833): include('/home/fronterad...')
+#3 /home/fronteradigitalc/public_html/plataforma/system/core/Loader.php(419): CI_Loader->_ci_load(Array)
+#4 /home/fronteradigitalc/public_html/plataforma/application/core/MY_Controller.php(68): CI_Loader->view('blueline/theme/...', Array in /home/fronteradigitalc/public_html/plataforma/sparks/php-activerecord/0.0.3/vendor/php-activerecord/lib/Model.php on line 521
+[01-Sep-2016 03:51:36 UTC] PHP Fatal error:  Uncaught exception 'ActiveRecord\UndefinedPropertyException' with message 'Undefined property: Setting->empresa in /home/fronteradigitalc/public_html/plataforma/sparks/php-activerecord/0.0.3/vendor/php-activerecord/lib/Model.php on line 521' in /home/fronteradigitalc/public_html/plataforma/sparks/php-activerecord/0.0.3/vendor/php-activerecord/lib/Model.php:521
+Stack trace:
+#0 /home/fronteradigitalc/public_html/plataforma/sparks/php-activerecord/0.0.3/vendor/php-activerecord/lib/Model.php(333): ActiveRecord\Model->read_attribute('empresa')
+#1 /home/fronteradigitalc/public_html/plataforma/application/views/blueline/theme/modal.php(32): ActiveRecord\Model->__get('empresa')
+#2 /home/fronteradigitalc/public_html/plataforma/system/core/Loader.php(833): include('/home/fronterad...')
+#3 /home/fronteradigitalc/public_html/plataforma/system/core/Loader.php(419): CI_Loader->_ci_load(Array)
+#4 /home/fronteradigitalc/public_html/plataforma/application/core/MY_Controller.php(68): CI_Loader->view('blueline/theme/...', Array in /home/fronteradigitalc/public_html/plataforma/sparks/php-activerecord/0.0.3/vendor/php-activerecord/lib/Model.php on line 521
+[01-Sep-2016 03:51:54 UTC] PHP Fatal error:  Uncaught exception 'ActiveRecord\UndefinedPropertyException' with message 'Undefined property: Setting->empresa in /home/fronteradigitalc/public_html/plataforma/sparks/php-activerecord/0.0.3/vendor/php-activerecord/lib/Model.php on line 521' in /home/fronteradigitalc/public_html/plataforma/sparks/php-activerecord/0.0.3/vendor/php-activerecord/lib/Model.php:521
+Stack trace:
+#0 /home/fronteradigitalc/public_html/plataforma/sparks/php-activerecord/0.0.3/vendor/php-activerecord/lib/Model.php(333): ActiveRecord\Model->read_attribute('empresa')
+#1 /home/fronteradigitalc/public_html/plataforma/application/views/blueline/theme/modal.php(32): ActiveRecord\Model->__get('empresa')
+#2 /home/fronteradigitalc/public_html/plataforma/system/core/Loader.php(833): include('/home/fronterad...')
+#3 /home/fronteradigitalc/public_html/plataforma/system/core/Loader.php(419): CI_Loader->_ci_load(Array)
+#4 /home/fronteradigitalc/public_html/plataforma/application/core/MY_Controller.php(68): CI_Loader->view('blueline/theme/...', Array in /home/fronteradigitalc/public_html/plataforma/sparks/php-activerecord/0.0.3/vendor/php-activerecord/lib/Model.php on line 521
+[01-Sep-2016 03:52:26 UTC] PHP Fatal error:  Uncaught exception 'ActiveRecord\UndefinedPropertyException' with message 'Undefined property: Setting->empresa in /home/fronteradigitalc/public_html/plataforma/sparks/php-activerecord/0.0.3/vendor/php-activerecord/lib/Model.php on line 521' in /home/fronteradigitalc/public_html/plataforma/sparks/php-activerecord/0.0.3/vendor/php-activerecord/lib/Model.php:521
+Stack trace:
+#0 /home/fronteradigitalc/public_html/plataforma/sparks/php-activerecord/0.0.3/vendor/php-activerecord/lib/Model.php(333): ActiveRecord\Model->read_attribute('empresa')
+#1 /home/fronteradigitalc/public_html/plataforma/application/views/blueline/theme/modal.php(32): ActiveRecord\Model->__get('empresa')
+#2 /home/fronteradigitalc/public_html/plataforma/system/core/Loader.php(833): include('/home/fronterad...')
+#3 /home/fronteradigitalc/public_html/plataforma/system/core/Loader.php(419): CI_Loader->_ci_load(Array)
+#4 /home/fronteradigitalc/public_html/plataforma/application/core/MY_Controller.php(68): CI_Loader->view('blueline/theme/...', Array in /home/fronteradigitalc/public_html/plataforma/sparks/php-activerecord/0.0.3/vendor/php-activerecord/lib/Model.php on line 521
+[01-Sep-2016 04:23:18 UTC] PHP Fatal error:  Cannot use object of type Empresa as array in /home/fronteradigitalc/public_html/plataforma/application/views/blueline/empresa/_agregar.php on line 34
+[01-Sep-2016 04:24:24 UTC] PHP Fatal error:  Cannot use object of type Empresa as array in /home/fronteradigitalc/public_html/plataforma/application/views/blueline/empresa/_agregar.php on line 34
+[01-Sep-2016 04:25:55 UTC] PHP Fatal error:  Cannot use object of type Empresa as array in /home/fronteradigitalc/public_html/plataforma/application/views/blueline/empresa/_agregar.php on line 34
+[01-Sep-2016 04:46:21 UTC] PHP Parse error:  syntax error, unexpected 'endforeach' (T_ENDFOREACH) in /home/fronteradigitalc/public_html/plataforma/application/views/blueline/archivos/_add.php on line 29
+[01-Sep-2016 04:46:24 UTC] PHP Parse error:  syntax error, unexpected 'endforeach' (T_ENDFOREACH) in /home/fronteradigitalc/public_html/plataforma/application/views/blueline/archivos/_add.php on line 29
+[01-Sep-2016 04:48:12 UTC] PHP Parse error:  syntax error, unexpected end of file in /home/fronteradigitalc/public_html/plataforma/application/views/blueline/archivos/_add.php on line 62
+[01-Sep-2016 04:48:14 UTC] PHP Parse error:  syntax error, unexpected end of file in /home/fronteradigitalc/public_html/plataforma/application/views/blueline/archivos/_add.php on line 62
+[01-Sep-2016 05:10:57 UTC] PHP Fatal error:  Cannot use object of type Empresa as array in /home/fronteradigitalc/public_html/plataforma/application/views/blueline/empresa/_agregar.php on line 34
+[01-Sep-2016 05:12:19 UTC] PHP Fatal error:  Cannot use object of type Empresa as array in /home/fronteradigitalc/public_html/plataforma/application/views/blueline/empresa/_agregar.php on line 34
+[01-Sep-2016 05:13:48 UTC] PHP Fatal error:  Cannot use object of type Empresa as array in /home/fronteradigitalc/public_html/plataforma/application/views/blueline/empresa/_agregar.php on line 34
+[01-Sep-2016 05:13:56 UTC] PHP Fatal error:  Cannot use object of type Empresa as array in /home/fronteradigitalc/public_html/plataforma/application/views/blueline/empresa/_agregar.php on line 34
+[01-Sep-2016 05:15:20 UTC] PHP Fatal error:  Cannot use object of type Empresa as array in /home/fronteradigitalc/public_html/plataforma/application/views/blueline/empresa/_agregar.php on line 34
+[01-Sep-2016 05:15:43 UTC] PHP Fatal error:  Cannot use object of type Empresa as array in /home/fronteradigitalc/public_html/plataforma/application/views/blueline/empresa/_agregar.php on line 34
+[01-Sep-2016 05:51:34 UTC] PHP Fatal error:  Cannot use object of type Empresa as array in /home/fronteradigitalc/public_html/plataforma/application/views/blueline/empresa/_agregar.php on line 34
+[01-Sep-2016 05:53:04 UTC] PHP Fatal error:  Cannot use object of type Empresa as array in /home/fronteradigitalc/public_html/plataforma/application/views/blueline/empresa/_agregar.php on line 34
+[01-Sep-2016 05:57:59 UTC] PHP Fatal error:  Cannot use object of type Empresa as array in /home/fronteradigitalc/public_html/plataforma/application/views/blueline/empresa/_agregar.php on line 34
+[01-Sep-2016 05:58:54 UTC] PHP Fatal error:  Cannot use object of type Empresa as array in /home/fronteradigitalc/public_html/plataforma/application/views/blueline/empresa/_agregar.php on line 46
+[01-Sep-2016 06:00:35 UTC] PHP Fatal error:  Cannot use object of type Empresa as array in /home/fronteradigitalc/public_html/plataforma/application/views/blueline/empresa/_agregar.php on line 41
+[01-Sep-2016 06:00:46 UTC] PHP Fatal error:  Cannot use object of type Empresa as array in /home/fronteradigitalc/public_html/plataforma/application/views/blueline/empresa/_agregar.php on line 41
+[01-Sep-2016 06:01:03 UTC] PHP Fatal error:  Cannot use object of type Empresa as array in /home/fronteradigitalc/public_html/plataforma/application/views/blueline/empresa/_agregar.php on line 46
+[01-Sep-2016 06:03:38 UTC] PHP Fatal error:  Uncaught exception 'ActiveRecord\RecordNotFound' with message 'Couldn't find Quinessomo with ID=14' in /home/fronteradigitalc/public_html/plataforma/sparks/php-activerecord/0.0.3/vendor/php-activerecord/lib/Model.php:1596
+Stack trace:
+#0 /home/fronteradigitalc/public_html/plataforma/sparks/php-activerecord/0.0.3/vendor/php-activerecord/lib/Model.php(1564): ActiveRecord\Model::find_by_pk('14', Array)
+#1 /home/fronteradigitalc/public_html/plataforma/application/controllers/company.php(145): ActiveRecord\Model::find('14')
+#2 [internal function]: company->delete('14')
+#3 /home/fronteradigitalc/public_html/plataforma/system/core/CodeIgniter.php(359): call_user_func_array(Array, Array)
+#4 /home/fronteradigitalc/public_html/plataforma/index.php(210): require_once('/home/fronterad...')
+#5 {main}
+  thrown in /home/fronteradigitalc/public_html/plataforma/sparks/php-activerecord/0.0.3/vendor/php-activerecord/lib/Model.php on line 1596
+[01-Sep-2016 06:03:41 UTC] PHP Fatal error:  Uncaught exception 'ActiveRecord\RecordNotFound' with message 'Couldn't find Quinessomo with ID=14' in /home/fronteradigitalc/public_html/plataforma/sparks/php-activerecord/0.0.3/vendor/php-activerecord/lib/Model.php:1596
+Stack trace:
+#0 /home/fronteradigitalc/public_html/plataforma/sparks/php-activerecord/0.0.3/vendor/php-activerecord/lib/Model.php(1564): ActiveRecord\Model::find_by_pk('14', Array)
+#1 /home/fronteradigitalc/public_html/plataforma/application/controllers/company.php(145): ActiveRecord\Model::find('14')
+#2 [internal function]: company->delete('14')
+#3 /home/fronteradigitalc/public_html/plataforma/system/core/CodeIgniter.php(359): call_user_func_array(Array, Array)
+#4 /home/fronteradigitalc/public_html/plataforma/index.php(210): require_once('/home/fronterad...')
+#5 {main}
+  thrown in /home/fronteradigitalc/public_html/plataforma/sparks/php-activerecord/0.0.3/vendor/php-activerecord/lib/Model.php on line 1596
+[01-Sep-2016 06:08:12 UTC] PHP Fatal error:  Cannot use object of type Empresa as array in /home/fronteradigitalc/public_html/plataforma/application/views/blueline/empresa/_profile.php on line 23
+[01-Sep-2016 06:08:14 UTC] PHP Fatal error:  Cannot use object of type Empresa as array in /home/fronteradigitalc/public_html/plataforma/application/views/blueline/empresa/_profile.php on line 23
+[01-Sep-2016 06:08:47 UTC] PHP Fatal error:  Cannot use object of type Empresa as array in /home/fronteradigitalc/public_html/plataforma/application/views/blueline/empresa/_profile.php on line 23
+[01-Sep-2016 06:08:49 UTC] PHP Fatal error:  Cannot use object of type Empresa as array in /home/fronteradigitalc/public_html/plataforma/application/views/blueline/empresa/_profile.php on line 23
+[01-Sep-2016 06:10:21 UTC] PHP Fatal error:  Uncaught exception 'ActiveRecord\RecordNotFound' with message 'Couldn't find Quinessomo with ID=14' in /home/fronteradigitalc/public_html/plataforma/sparks/php-activerecord/0.0.3/vendor/php-activerecord/lib/Model.php:1596
+Stack trace:
+#0 /home/fronteradigitalc/public_html/plataforma/sparks/php-activerecord/0.0.3/vendor/php-activerecord/lib/Model.php(1564): ActiveRecord\Model::find_by_pk('14', Array)
+#1 /home/fronteradigitalc/public_html/plataforma/application/controllers/company.php(145): ActiveRecord\Model::find('14')
+#2 [internal function]: company->delete('14')
+#3 /home/fronteradigitalc/public_html/plataforma/system/core/CodeIgniter.php(359): call_user_func_array(Array, Array)
+#4 /home/fronteradigitalc/public_html/plataforma/index.php(210): require_once('/home/fronterad...')
+#5 {main}
+  thrown in /home/fronteradigitalc/public_html/plataforma/sparks/php-activerecord/0.0.3/vendor/php-activerecord/lib/Model.php on line 1596
+[01-Sep-2016 06:12:58 UTC] PHP Parse error:  syntax error, unexpected ''company/_agregar' (T_ENCAPSED_AND_WHITESPACE) in /home/fronteradigitalc/public_html/plataforma/application/controllers/company.php on line 149
+[01-Sep-2016 06:12:59 UTC] PHP Parse error:  syntax error, unexpected ''company/_agregar' (T_ENCAPSED_AND_WHITESPACE) in /home/fronteradigitalc/public_html/plataforma/application/controllers/company.php on line 149
+[01-Sep-2016 06:13:01 UTC] PHP Parse error:  syntax error, unexpected ''company/_agregar' (T_ENCAPSED_AND_WHITESPACE) in /home/fronteradigitalc/public_html/plataforma/application/controllers/company.php on line 149
+[01-Sep-2016 06:13:04 UTC] PHP Parse error:  syntax error, unexpected ''company/_agregar' (T_ENCAPSED_AND_WHITESPACE) in /home/fronteradigitalc/public_html/plataforma/application/controllers/company.php on line 149
+[01-Sep-2016 06:13:11 UTC] PHP Parse error:  syntax error, unexpected ''company/_agregar' (T_ENCAPSED_AND_WHITESPACE) in /home/fronteradigitalc/public_html/plataforma/application/controllers/company.php on line 149
+[01-Sep-2016 06:20:59 UTC] PHP Fatal error:  Call to a member function delete() on a non-object in /home/fronteradigitalc/public_html/plataforma/application/controllers/company.php on line 149
+[01-Sep-2016 06:21:04 UTC] PHP Fatal error:  Call to a member function delete() on a non-object in /home/fronteradigitalc/public_html/plataforma/application/controllers/company.php on line 149
+[01-Sep-2016 06:22:10 UTC] PHP Fatal error:  Uncaught exception 'ActiveRecord\DatabaseException' with message 'exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1' in /home/fronteradigitalc/public_html/plataforma/sparks/php-activerecord/0.0.3/vendor/php-activerecord/lib/Connection.php:309
+Stack trace:
+#0 /home/fronteradigitalc/public_html/plataforma/sparks/php-activerecord/0.0.3/vendor/php-activerecord/lib/Connection.php(309): PDOStatement->execute(Array)
+#1 /home/fronteradigitalc/public_html/plataforma/sparks/php-activerecord/0.0.3/vendor/php-activerecord/lib/Table.php(218): ActiveRecord\Connection->query('SELECT * FROM `...', Array)
+#2 /home/fronteradigitalc/public_html/plataforma/sparks/php-activerecord/0.0.3/vendor/php-activerecord/lib/Table.php(209): ActiveRecord\Table->find_by_sql('SELECT * FROM `...', Array, false, NULL)
+#3 /home/fronteradigitalc/public_html/p in /home/fronteradigitalc/public_html/plataforma/sparks/php-activerecord/0.0.3/vendor/php-activerecord/lib/Connection.php on line 312
+[01-Sep-2016 06:22:45 UTC] PHP Fatal error:  Uncaught exception 'ActiveRecord\DatabaseException' with message 'exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1' in /home/fronteradigitalc/public_html/plataforma/sparks/php-activerecord/0.0.3/vendor/php-activerecord/lib/Connection.php:309
+Stack trace:
+#0 /home/fronteradigitalc/public_html/plataforma/sparks/php-activerecord/0.0.3/vendor/php-activerecord/lib/Connection.php(309): PDOStatement->execute(Array)
+#1 /home/fronteradigitalc/public_html/plataforma/sparks/php-activerecord/0.0.3/vendor/php-activerecord/lib/Table.php(218): ActiveRecord\Connection->query('SELECT * FROM `...', Array)
+#2 /home/fronteradigitalc/public_html/plataforma/sparks/php-activerecord/0.0.3/vendor/php-activerecord/lib/Table.php(209): ActiveRecord\Table->find_by_sql('SELECT * FROM `...', Array, false, NULL)
+#3 /home/fronteradigitalc/public_html/p in /home/fronteradigitalc/public_html/plataforma/sparks/php-activerecord/0.0.3/vendor/php-activerecord/lib/Connection.php on line 312
+[01-Sep-2016 06:37:24 UTC] PHP Fatal error:  Uncaught exception 'ActiveRecord\RecordNotFound' with message 'Couldn't find Empresa with ID=archivos' in /home/fronteradigitalc/public_html/plataforma/sparks/php-activerecord/0.0.3/vendor/php-activerecord/lib/Model.php:1596
+Stack trace:
+#0 /home/fronteradigitalc/public_html/plataforma/sparks/php-activerecord/0.0.3/vendor/php-activerecord/lib/Model.php(1564): ActiveRecord\Model::find_by_pk('archivos', Array)
+#1 /home/fronteradigitalc/public_html/plataforma/application/controllers/company.php(42): ActiveRecord\Model::find('archivos')
+#2 [internal function]: company->update_ev('archivos')
+#3 /home/fronteradigitalc/public_html/plataforma/system/core/CodeIgniter.php(359): call_user_func_array(Array, Array)
+#4 /home/fronteradigitalc/public_html/plataforma/index.php(210): require_once('/home/fronterad...')
+#5 {main}
+  thrown in /home/fronteradigitalc/public_html/plataforma/sparks/php-activerecord/0.0.3/vendor/php-activerecord/lib/Model.php on line 1596
+[01-Sep-2016 06:37:28 UTC] PHP Fatal error:  Uncaught exception 'ActiveRecord\RecordNotFound' with message 'Couldn't find Empresa with ID=archivos' in /home/fronteradigitalc/public_html/plataforma/sparks/php-activerecord/0.0.3/vendor/php-activerecord/lib/Model.php:1596
+Stack trace:
+#0 /home/fronteradigitalc/public_html/plataforma/sparks/php-activerecord/0.0.3/vendor/php-activerecord/lib/Model.php(1564): ActiveRecord\Model::find_by_pk('archivos', Array)
+#1 /home/fronteradigitalc/public_html/plataforma/application/controllers/company.php(42): ActiveRecord\Model::find('archivos')
+#2 [internal function]: company->update_ev('archivos')
+#3 /home/fronteradigitalc/public_html/plataforma/system/core/CodeIgniter.php(359): call_user_func_array(Array, Array)
+#4 /home/fronteradigitalc/public_html/plataforma/index.php(210): require_once('/home/fronterad...')
+#5 {main}
+  thrown in /home/fronteradigitalc/public_html/plataforma/sparks/php-activerecord/0.0.3/vendor/php-activerecord/lib/Model.php on line 1596
+[01-Sep-2016 06:45:31 UTC] PHP Fatal error:  Uncaught exception 'ActiveRecord\UndefinedPropertyException' with message 'Undefined property: User->sede_id in /home/fronteradigitalc/public_html/plataforma/sparks/php-activerecord/0.0.3/vendor/php-activerecord/lib/Model.php on line 521' in /home/fronteradigitalc/public_html/plataforma/sparks/php-activerecord/0.0.3/vendor/php-activerecord/lib/Model.php:521
+Stack trace:
+#0 /home/fronteradigitalc/public_html/plataforma/sparks/php-activerecord/0.0.3/vendor/php-activerecord/lib/Model.php(333): ActiveRecord\Model->read_attribute('sede_id')
+#1 /home/fronteradigitalc/public_html/plataforma/application/controllers/company.php(43): ActiveRecord\Model->__get('sede_id')
+#2 [internal function]: company->update_ev('9')
+#3 /home/fronteradigitalc/public_html/plataforma/system/core/CodeIgniter.php(359): call_user_func_array(Array, Array)
+#4 /home/fronteradigitalc/public_html/plataforma/index.php(210): require_once('/home/fronterad...')
+#5 {main}
+  thrown in /home/fronteradigitalc/public_html/plataforma/sparks/php-activerecord/0.0.3/vendor/php-activerecord/lib/Model.php on line 521
+[01-Sep-2016 06:45:36 UTC] PHP Fatal error:  Uncaught exception 'ActiveRecord\UndefinedPropertyException' with message 'Undefined property: User->sede_id in /home/fronteradigitalc/public_html/plataforma/sparks/php-activerecord/0.0.3/vendor/php-activerecord/lib/Model.php on line 521' in /home/fronteradigitalc/public_html/plataforma/sparks/php-activerecord/0.0.3/vendor/php-activerecord/lib/Model.php:521
+Stack trace:
+#0 /home/fronteradigitalc/public_html/plataforma/sparks/php-activerecord/0.0.3/vendor/php-activerecord/lib/Model.php(333): ActiveRecord\Model->read_attribute('sede_id')
+#1 /home/fronteradigitalc/public_html/plataforma/application/controllers/company.php(43): ActiveRecord\Model->__get('sede_id')
+#2 [internal function]: company->update_ev('17')
+#3 /home/fronteradigitalc/public_html/plataforma/system/core/CodeIgniter.php(359): call_user_func_array(Array, Array)
+#4 /home/fronteradigitalc/public_html/plataforma/index.php(210): require_once('/home/fronterad...')
+#5 {main}
+  thrown in /home/fronteradigitalc/public_html/plataforma/sparks/php-activerecord/0.0.3/vendor/php-activerecord/lib/Model.php on line 521
+[01-Sep-2016 06:50:46 UTC] PHP Parse error:  syntax error, unexpected ' ' in /home/fronteradigitalc/public_html/plataforma/application/views/blueline/empresa/_profile.php on line 108
+[01-Sep-2016 07:32:13 UTC] PHP Fatal error:  Uncaught exception 'ActiveRecord\RecordNotFound' with message 'Couldn't find Empresa with ID=archivos' in /home/fronteradigitalc/public_html/plataforma/sparks/php-activerecord/0.0.3/vendor/php-activerecord/lib/Model.php:1596
+Stack trace:
+#0 /home/fronteradigitalc/public_html/plataforma/sparks/php-activerecord/0.0.3/vendor/php-activerecord/lib/Model.php(1564): ActiveRecord\Model::find_by_pk('archivos', Array)
+#1 /home/fronteradigitalc/public_html/plataforma/application/controllers/company.php(58): ActiveRecord\Model::find('archivos')
+#2 [internal function]: company->update_ev('archivos')
+#3 /home/fronteradigitalc/public_html/plataforma/system/core/CodeIgniter.php(359): call_user_func_array(Array, Array)
+#4 /home/fronteradigitalc/public_html/plataforma/index.php(210): require_once('/home/fronterad...')
+#5 {main}
+  thrown in /home/fronteradigitalc/public_html/plataforma/sparks/php-activerecord/0.0.3/vendor/php-activerecord/lib/Model.php on line 1596
+[01-Sep-2016 07:32:17 UTC] PHP Fatal error:  Uncaught exception 'ActiveRecord\RecordNotFound' with message 'Couldn't find Empresa with ID=archivos' in /home/fronteradigitalc/public_html/plataforma/sparks/php-activerecord/0.0.3/vendor/php-activerecord/lib/Model.php:1596
+Stack trace:
+#0 /home/fronteradigitalc/public_html/plataforma/sparks/php-activerecord/0.0.3/vendor/php-activerecord/lib/Model.php(1564): ActiveRecord\Model::find_by_pk('archivos', Array)
+#1 /home/fronteradigitalc/public_html/plataforma/application/controllers/company.php(58): ActiveRecord\Model::find('archivos')
+#2 [internal function]: company->update_ev('archivos')
+#3 /home/fronteradigitalc/public_html/plataforma/system/core/CodeIgniter.php(359): call_user_func_array(Array, Array)
+#4 /home/fronteradigitalc/public_html/plataforma/index.php(210): require_once('/home/fronterad...')
+#5 {main}
+  thrown in /home/fronteradigitalc/public_html/plataforma/sparks/php-activerecord/0.0.3/vendor/php-activerecord/lib/Model.php on line 1596
+[01-Sep-2016 07:32:27 UTC] PHP Fatal error:  Uncaught exception 'ActiveRecord\RecordNotFound' with message 'Couldn't find Empresa with ID=archivos' in /home/fronteradigitalc/public_html/plataforma/sparks/php-activerecord/0.0.3/vendor/php-activerecord/lib/Model.php:1596
+Stack trace:
+#0 /home/fronteradigitalc/public_html/plataforma/sparks/php-activerecord/0.0.3/vendor/php-activerecord/lib/Model.php(1564): ActiveRecord\Model::find_by_pk('archivos', Array)
+#1 /home/fronteradigitalc/public_html/plataforma/application/controllers/company.php(58): ActiveRecord\Model::find('archivos')
+#2 [internal function]: company->update_ev('archivos')
+#3 /home/fronteradigitalc/public_html/plataforma/system/core/CodeIgniter.php(359): call_user_func_array(Array, Array)
+#4 /home/fronteradigitalc/public_html/plataforma/index.php(210): require_once('/home/fronterad...')
+#5 {main}
+  thrown in /home/fronteradigitalc/public_html/plataforma/sparks/php-activerecord/0.0.3/vendor/php-activerecord/lib/Model.php on line 1596
+[01-Sep-2016 07:48:32 UTC] PHP Fatal error:  Uncaught exception 'ActiveRecord\RecordNotFound' with message 'Couldn't find Quinessomo with ID=' in /home/fronteradigitalc/public_html/plataforma/sparks/php-activerecord/0.0.3/vendor/php-activerecord/lib/Model.php:1596
+Stack trace:
+#0 /home/fronteradigitalc/public_html/plataforma/sparks/php-activerecord/0.0.3/vendor/php-activerecord/lib/Model.php(1564): ActiveRecord\Model::find_by_pk(false, Array)
+#1 /home/fronteradigitalc/public_html/plataforma/application/controllers/company.php(164): ActiveRecord\Model::find(false)
+#2 [internal function]: company->delete()
+#3 /home/fronteradigitalc/public_html/plataforma/system/core/CodeIgniter.php(359): call_user_func_array(Array, Array)
+#4 /home/fronteradigitalc/public_html/plataforma/index.php(210): require_once('/home/fronterad...')
+#5 {main}
+  thrown in /home/fronteradigitalc/public_html/plataforma/sparks/php-activerecord/0.0.3/vendor/php-activerecord/lib/Model.php on line 1596
+[01-Sep-2016 07:51:05 UTC] PHP Fatal error:  Uncaught exception 'ActiveRecord\UndefinedPropertyException' with message 'Undefined property: Archivo->nombre in /home/fronteradigitalc/public_html/plataforma/sparks/php-activerecord/0.0.3/vendor/php-activerecord/lib/Model.php on line 420' in /home/fronteradigitalc/public_html/plataforma/sparks/php-activerecord/0.0.3/vendor/php-activerecord/lib/Model.php:1203
+Stack trace:
+#0 /home/fronteradigitalc/public_html/plataforma/sparks/php-activerecord/0.0.3/vendor/php-activerecord/lib/Model.php(261): ActiveRecord\Model->set_attributes_via_mass_assignment(Array, true)
+#1 /home/fronteradigitalc/public_html/plataforma/sparks/php-activerecord/0.0.3/vendor/php-activerecord/lib/Model.php(757): ActiveRecord\Model->__construct(Array)
+#2 /home/fronteradigitalc/public_html/plataforma/application/controllers/archivos.php(48): ActiveRecord\Model::create(Array)
+#3 [internal function]: archivos->index()
+#4 /home/fronteradigitalc/public_html/plataforma/system/core/CodeIgniter.php(359): call_user_func_array(Array, Array)
+#5 /home/f in /home/fronteradigitalc/public_html/plataforma/sparks/php-activerecord/0.0.3/vendor/php-activerecord/lib/Model.php on line 1203
+[01-Sep-2016 07:52:29 UTC] PHP Fatal error:  Uncaught exception 'ActiveRecord\UndefinedPropertyException' with message 'Undefined property: Archivo->nombre in /home/fronteradigitalc/public_html/plataforma/sparks/php-activerecord/0.0.3/vendor/php-activerecord/lib/Model.php on line 420' in /home/fronteradigitalc/public_html/plataforma/sparks/php-activerecord/0.0.3/vendor/php-activerecord/lib/Model.php:1203
+Stack trace:
+#0 /home/fronteradigitalc/public_html/plataforma/sparks/php-activerecord/0.0.3/vendor/php-activerecord/lib/Model.php(261): ActiveRecord\Model->set_attributes_via_mass_assignment(Array, true)
+#1 /home/fronteradigitalc/public_html/plataforma/sparks/php-activerecord/0.0.3/vendor/php-activerecord/lib/Model.php(757): ActiveRecord\Model->__construct(Array)
+#2 /home/fronteradigitalc/public_html/plataforma/application/controllers/archivos.php(49): ActiveRecord\Model::create(Array)
+#3 [internal function]: archivos->index()
+#4 /home/fronteradigitalc/public_html/plataforma/system/core/CodeIgniter.php(359): call_user_func_array(Array, Array)
+#5 /home/f in /home/fronteradigitalc/public_html/plataforma/sparks/php-activerecord/0.0.3/vendor/php-activerecord/lib/Model.php on line 1203
+[01-Sep-2016 07:52:37 UTC] PHP Fatal error:  Uncaught exception 'ActiveRecord\UndefinedPropertyException' with message 'Undefined property: Archivo->nombre in /home/fronteradigitalc/public_html/plataforma/sparks/php-activerecord/0.0.3/vendor/php-activerecord/lib/Model.php on line 420' in /home/fronteradigitalc/public_html/plataforma/sparks/php-activerecord/0.0.3/vendor/php-activerecord/lib/Model.php:1203
+Stack trace:
+#0 /home/fronteradigitalc/public_html/plataforma/sparks/php-activerecord/0.0.3/vendor/php-activerecord/lib/Model.php(261): ActiveRecord\Model->set_attributes_via_mass_assignment(Array, true)
+#1 /home/fronteradigitalc/public_html/plataforma/sparks/php-activerecord/0.0.3/vendor/php-activerecord/lib/Model.php(757): ActiveRecord\Model->__construct(Array)
+#2 /home/fronteradigitalc/public_html/plataforma/application/controllers/archivos.php(49): ActiveRecord\Model::create(Array)
+#3 [internal function]: archivos->index()
+#4 /home/fronteradigitalc/public_html/plataforma/system/core/CodeIgniter.php(359): call_user_func_array(Array, Array)
+#5 /home/f in /home/fronteradigitalc/public_html/plataforma/sparks/php-activerecord/0.0.3/vendor/php-activerecord/lib/Model.php on line 1203
+[01-Sep-2016 07:52:41 UTC] PHP Fatal error:  Uncaught exception 'ActiveRecord\UndefinedPropertyException' with message 'Undefined property: Archivo->nombre in /home/fronteradigitalc/public_html/plataforma/sparks/php-activerecord/0.0.3/vendor/php-activerecord/lib/Model.php on line 420' in /home/fronteradigitalc/public_html/plataforma/sparks/php-activerecord/0.0.3/vendor/php-activerecord/lib/Model.php:1203
+Stack trace:
+#0 /home/fronteradigitalc/public_html/plataforma/sparks/php-activerecord/0.0.3/vendor/php-activerecord/lib/Model.php(261): ActiveRecord\Model->set_attributes_via_mass_assignment(Array, true)
+#1 /home/fronteradigitalc/public_html/plataforma/sparks/php-activerecord/0.0.3/vendor/php-activerecord/lib/Model.php(757): ActiveRecord\Model->__construct(Array)
+#2 /home/fronteradigitalc/public_html/plataforma/application/controllers/archivos.php(49): ActiveRecord\Model::create(Array)
+#3 [internal function]: archivos->index()
+#4 /home/fronteradigitalc/public_html/plataforma/system/core/CodeIgniter.php(359): call_user_func_array(Array, Array)
+#5 /home/f in /home/fronteradigitalc/public_html/plataforma/sparks/php-activerecord/0.0.3/vendor/php-activerecord/lib/Model.php on line 1203
+[01-Sep-2016 07:57:46 UTC] PHP Fatal error:  Uncaught exception 'ActiveRecord\UndefinedPropertyException' with message 'Undefined property: Archivo->nombre in /home/fronteradigitalc/public_html/plataforma/sparks/php-activerecord/0.0.3/vendor/php-activerecord/lib/Model.php on line 420' in /home/fronteradigitalc/public_html/plataforma/sparks/php-activerecord/0.0.3/vendor/php-activerecord/lib/Model.php:1203
+Stack trace:
+#0 /home/fronteradigitalc/public_html/plataforma/sparks/php-activerecord/0.0.3/vendor/php-activerecord/lib/Model.php(261): ActiveRecord\Model->set_attributes_via_mass_assignment(Array, true)
+#1 /home/fronteradigitalc/public_html/plataforma/sparks/php-activerecord/0.0.3/vendor/php-activerecord/lib/Model.php(757): ActiveRecord\Model->__construct(Array)
+#2 /home/fronteradigitalc/public_html/plataforma/application/controllers/archivos.php(50): ActiveRecord\Model::create(Array)
+#3 [internal function]: archivos->index()
+#4 /home/fronteradigitalc/public_html/plataforma/system/core/CodeIgniter.php(359): call_user_func_array(Array, Array)
+#5 /home/f in /home/fronteradigitalc/public_html/plataforma/sparks/php-activerecord/0.0.3/vendor/php-activerecord/lib/Model.php on line 1203
+[01-Sep-2016 08:05:49 UTC] PHP Fatal error:  Uncaught exception 'ActiveRecord\UndefinedPropertyException' with message 'Undefined property: Archivo->nombre in /home/fronteradigitalc/public_html/plataforma/sparks/php-activerecord/0.0.3/vendor/php-activerecord/lib/Model.php on line 420' in /home/fronteradigitalc/public_html/plataforma/sparks/php-activerecord/0.0.3/vendor/php-activerecord/lib/Model.php:1203
+Stack trace:
+#0 /home/fronteradigitalc/public_html/plataforma/sparks/php-activerecord/0.0.3/vendor/php-activerecord/lib/Model.php(261): ActiveRecord\Model->set_attributes_via_mass_assignment(Array, true)
+#1 /home/fronteradigitalc/public_html/plataforma/sparks/php-activerecord/0.0.3/vendor/php-activerecord/lib/Model.php(757): ActiveRecord\Model->__construct(Array)
+#2 /home/fronteradigitalc/public_html/plataforma/application/controllers/archivos.php(51): ActiveRecord\Model::create(Array)
+#3 [internal function]: archivos->index()
+#4 /home/fronteradigitalc/public_html/plataforma/system/core/CodeIgniter.php(359): call_user_func_array(Array, Array)
+#5 /home/f in /home/fronteradigitalc/public_html/plataforma/sparks/php-activerecord/0.0.3/vendor/php-activerecord/lib/Model.php on line 1203
+[01-Sep-2016 08:06:36 UTC] PHP Fatal error:  Uncaught exception 'ActiveRecord\UndefinedPropertyException' with message 'Undefined property: Archivo->nombre in /home/fronteradigitalc/public_html/plataforma/sparks/php-activerecord/0.0.3/vendor/php-activerecord/lib/Model.php on line 420' in /home/fronteradigitalc/public_html/plataforma/sparks/php-activerecord/0.0.3/vendor/php-activerecord/lib/Model.php:1203
+Stack trace:
+#0 /home/fronteradigitalc/public_html/plataforma/sparks/php-activerecord/0.0.3/vendor/php-activerecord/lib/Model.php(261): ActiveRecord\Model->set_attributes_via_mass_assignment(Array, true)
+#1 /home/fronteradigitalc/public_html/plataforma/sparks/php-activerecord/0.0.3/vendor/php-activerecord/lib/Model.php(757): ActiveRecord\Model->__construct(Array)
+#2 /home/fronteradigitalc/public_html/plataforma/application/controllers/archivos.php(51): ActiveRecord\Model::create(Array)
+#3 [internal function]: archivos->index()
+#4 /home/fronteradigitalc/public_html/plataforma/system/core/CodeIgniter.php(359): call_user_func_array(Array, Array)
+#5 /home/f in /home/fronteradigitalc/public_html/plataforma/sparks/php-activerecord/0.0.3/vendor/php-activerecord/lib/Model.php on line 1203
+[01-Sep-2016 08:07:06 UTC] PHP Fatal error:  Uncaught exception 'ActiveRecord\UndefinedPropertyException' with message 'Undefined property: Archivo->nombre in /home/fronteradigitalc/public_html/plataforma/sparks/php-activerecord/0.0.3/vendor/php-activerecord/lib/Model.php on line 420' in /home/fronteradigitalc/public_html/plataforma/sparks/php-activerecord/0.0.3/vendor/php-activerecord/lib/Model.php:1203
+Stack trace:
+#0 /home/fronteradigitalc/public_html/plataforma/sparks/php-activerecord/0.0.3/vendor/php-activerecord/lib/Model.php(261): ActiveRecord\Model->set_attributes_via_mass_assignment(Array, true)
+#1 /home/fronteradigitalc/public_html/plataforma/sparks/php-activerecord/0.0.3/vendor/php-activerecord/lib/Model.php(757): ActiveRecord\Model->__construct(Array)
+#2 /home/fronteradigitalc/public_html/plataforma/application/controllers/archivos.php(51): ActiveRecord\Model::create(Array)
+#3 [internal function]: archivos->index()
+#4 /home/fronteradigitalc/public_html/plataforma/system/core/CodeIgniter.php(359): call_user_func_array(Array, Array)
+#5 /home/f in /home/fronteradigitalc/public_html/plataforma/sparks/php-activerecord/0.0.3/vendor/php-activerecord/lib/Model.php on line 1203
+[01-Sep-2016 08:07:14 UTC] PHP Fatal error:  Uncaught exception 'ActiveRecord\UndefinedPropertyException' with message 'Undefined property: Archivo->nombre in /home/fronteradigitalc/public_html/plataforma/sparks/php-activerecord/0.0.3/vendor/php-activerecord/lib/Model.php on line 420' in /home/fronteradigitalc/public_html/plataforma/sparks/php-activerecord/0.0.3/vendor/php-activerecord/lib/Model.php:1203
+Stack trace:
+#0 /home/fronteradigitalc/public_html/plataforma/sparks/php-activerecord/0.0.3/vendor/php-activerecord/lib/Model.php(261): ActiveRecord\Model->set_attributes_via_mass_assignment(Array, true)
+#1 /home/fronteradigitalc/public_html/plataforma/sparks/php-activerecord/0.0.3/vendor/php-activerecord/lib/Model.php(757): ActiveRecord\Model->__construct(Array)
+#2 /home/fronteradigitalc/public_html/plataforma/application/controllers/archivos.php(51): ActiveRecord\Model::create(Array)
+#3 [internal function]: archivos->index()
+#4 /home/fronteradigitalc/public_html/plataforma/system/core/CodeIgniter.php(359): call_user_func_array(Array, Array)
+#5 /home/f in /home/fronteradigitalc/public_html/plataforma/sparks/php-activerecord/0.0.3/vendor/php-activerecord/lib/Model.php on line 1203
+[01-Sep-2016 08:07:43 UTC] PHP Fatal error:  Uncaught exception 'ActiveRecord\UndefinedPropertyException' with message 'Undefined property: Archivo->nombre in /home/fronteradigitalc/public_html/plataforma/sparks/php-activerecord/0.0.3/vendor/php-activerecord/lib/Model.php on line 420' in /home/fronteradigitalc/public_html/plataforma/sparks/php-activerecord/0.0.3/vendor/php-activerecord/lib/Model.php:1203
+Stack trace:
+#0 /home/fronteradigitalc/public_html/plataforma/sparks/php-activerecord/0.0.3/vendor/php-activerecord/lib/Model.php(261): ActiveRecord\Model->set_attributes_via_mass_assignment(Array, true)
+#1 /home/fronteradigitalc/public_html/plataforma/sparks/php-activerecord/0.0.3/vendor/php-activerecord/lib/Model.php(757): ActiveRecord\Model->__construct(Array)
+#2 /home/fronteradigitalc/public_html/plataforma/application/controllers/archivos.php(51): ActiveRecord\Model::create(Array)
+#3 [internal function]: archivos->index()
+#4 /home/fronteradigitalc/public_html/plataforma/system/core/CodeIgniter.php(359): call_user_func_array(Array, Array)
+#5 /home/f in /home/fronteradigitalc/public_html/plataforma/sparks/php-activerecord/0.0.3/vendor/php-activerecord/lib/Model.php on line 1203
+[01-Sep-2016 08:08:49 UTC] PHP Fatal error:  Uncaught exception 'ActiveRecord\UndefinedPropertyException' with message 'Undefined property: Archivo->nombre in /home/fronteradigitalc/public_html/plataforma/sparks/php-activerecord/0.0.3/vendor/php-activerecord/lib/Model.php on line 420' in /home/fronteradigitalc/public_html/plataforma/sparks/php-activerecord/0.0.3/vendor/php-activerecord/lib/Model.php:1203
+Stack trace:
+#0 /home/fronteradigitalc/public_html/plataforma/sparks/php-activerecord/0.0.3/vendor/php-activerecord/lib/Model.php(261): ActiveRecord\Model->set_attributes_via_mass_assignment(Array, true)
+#1 /home/fronteradigitalc/public_html/plataforma/sparks/php-activerecord/0.0.3/vendor/php-activerecord/lib/Model.php(757): ActiveRecord\Model->__construct(Array)
+#2 /home/fronteradigitalc/public_html/plataforma/application/controllers/archivos.php(51): ActiveRecord\Model::create(Array)
+#3 [internal function]: archivos->index()
+#4 /home/fronteradigitalc/public_html/plataforma/system/core/CodeIgniter.php(359): call_user_func_array(Array, Array)
+#5 /home/f in /home/fronteradigitalc/public_html/plataforma/sparks/php-activerecord/0.0.3/vendor/php-activerecord/lib/Model.php on line 1203
+[01-Sep-2016 08:09:16 UTC] PHP Fatal error:  Uncaught exception 'ActiveRecord\UndefinedPropertyException' with message 'Undefined property: Archivo->nombre in /home/fronteradigitalc/public_html/plataforma/sparks/php-activerecord/0.0.3/vendor/php-activerecord/lib/Model.php on line 420' in /home/fronteradigitalc/public_html/plataforma/sparks/php-activerecord/0.0.3/vendor/php-activerecord/lib/Model.php:1203
+Stack trace:
+#0 /home/fronteradigitalc/public_html/plataforma/sparks/php-activerecord/0.0.3/vendor/php-activerecord/lib/Model.php(261): ActiveRecord\Model->set_attributes_via_mass_assignment(Array, true)
+#1 /home/fronteradigitalc/public_html/plataforma/sparks/php-activerecord/0.0.3/vendor/php-activerecord/lib/Model.php(757): ActiveRecord\Model->__construct(Array)
+#2 /home/fronteradigitalc/public_html/plataforma/application/controllers/archivos.php(51): ActiveRecord\Model::create(Array)
+#3 [internal function]: archivos->index()
+#4 /home/fronteradigitalc/public_html/plataforma/system/core/CodeIgniter.php(359): call_user_func_array(Array, Array)
+#5 /home/f in /home/fronteradigitalc/public_html/plataforma/sparks/php-activerecord/0.0.3/vendor/php-activerecord/lib/Model.php on line 1203
+[01-Sep-2016 08:09:50 UTC] PHP Fatal error:  Uncaught exception 'ActiveRecord\UndefinedPropertyException' with message 'Undefined property: Archivo->nombre in /home/fronteradigitalc/public_html/plataforma/sparks/php-activerecord/0.0.3/vendor/php-activerecord/lib/Model.php on line 420' in /home/fronteradigitalc/public_html/plataforma/sparks/php-activerecord/0.0.3/vendor/php-activerecord/lib/Model.php:1203
+Stack trace:
+#0 /home/fronteradigitalc/public_html/plataforma/sparks/php-activerecord/0.0.3/vendor/php-activerecord/lib/Model.php(261): ActiveRecord\Model->set_attributes_via_mass_assignment(Array, true)
+#1 /home/fronteradigitalc/public_html/plataforma/sparks/php-activerecord/0.0.3/vendor/php-activerecord/lib/Model.php(757): ActiveRecord\Model->__construct(Array)
+#2 /home/fronteradigitalc/public_html/plataforma/application/controllers/archivos.php(51): ActiveRecord\Model::create(Array)
+#3 [internal function]: archivos->index()
+#4 /home/fronteradigitalc/public_html/plataforma/system/core/CodeIgniter.php(359): call_user_func_array(Array, Array)
+#5 /home/f in /home/fronteradigitalc/public_html/plataforma/sparks/php-activerecord/0.0.3/vendor/php-activerecord/lib/Model.php on line 1203
+[01-Sep-2016 08:11:25 UTC] PHP Fatal error:  Uncaught exception 'ActiveRecord\UndefinedPropertyException' with message 'Undefined property: Archivo->nombre in /home/fronteradigitalc/public_html/plataforma/sparks/php-activerecord/0.0.3/vendor/php-activerecord/lib/Model.php on line 420' in /home/fronteradigitalc/public_html/plataforma/sparks/php-activerecord/0.0.3/vendor/php-activerecord/lib/Model.php:1203
+Stack trace:
+#0 /home/fronteradigitalc/public_html/plataforma/sparks/php-activerecord/0.0.3/vendor/php-activerecord/lib/Model.php(261): ActiveRecord\Model->set_attributes_via_mass_assignment(Array, true)
+#1 /home/fronteradigitalc/public_html/plataforma/sparks/php-activerecord/0.0.3/vendor/php-activerecord/lib/Model.php(757): ActiveRecord\Model->__construct(Array)
+#2 /home/fronteradigitalc/public_html/plataforma/application/controllers/archivos.php(51): ActiveRecord\Model::create(Array)
+#3 [internal function]: archivos->index()
+#4 /home/fronteradigitalc/public_html/plataforma/system/core/CodeIgniter.php(359): call_user_func_array(Array, Array)
+#5 /home/f in /home/fronteradigitalc/public_html/plataforma/sparks/php-activerecord/0.0.3/vendor/php-activerecord/lib/Model.php on line 1203
+[01-Sep-2016 08:21:03 UTC] PHP Fatal error:  Uncaught exception 'ActiveRecord\UndefinedPropertyException' with message 'Undefined property: Archivo->nombre in /home/fronteradigitalc/public_html/plataforma/sparks/php-activerecord/0.0.3/vendor/php-activerecord/lib/Model.php on line 420' in /home/fronteradigitalc/public_html/plataforma/sparks/php-activerecord/0.0.3/vendor/php-activerecord/lib/Model.php:1203
+Stack trace:
+#0 /home/fronteradigitalc/public_html/plataforma/sparks/php-activerecord/0.0.3/vendor/php-activerecord/lib/Model.php(261): ActiveRecord\Model->set_attributes_via_mass_assignment(Array, true)
+#1 /home/fronteradigitalc/public_html/plataforma/sparks/php-activerecord/0.0.3/vendor/php-activerecord/lib/Model.php(757): ActiveRecord\Model->__construct(Array)
+#2 /home/fronteradigitalc/public_html/plataforma/application/controllers/archivos.php(53): ActiveRecord\Model::create(Array)
+#3 [internal function]: archivos->index()
+#4 /home/fronteradigitalc/public_html/plataforma/system/core/CodeIgniter.php(359): call_user_func_array(Array, Array)
+#5 /home/f in /home/fronteradigitalc/public_html/plataforma/sparks/php-activerecord/0.0.3/vendor/php-activerecord/lib/Model.php on line 1203
+[01-Sep-2016 08:25:19 UTC] PHP Fatal error:  Uncaught exception 'ActiveRecord\UndefinedPropertyException' with message 'Undefined property: Setting->empresa in /home/fronteradigitalc/public_html/plataforma/sparks/php-activerecord/0.0.3/vendor/php-activerecord/lib/Model.php on line 521' in /home/fronteradigitalc/public_html/plataforma/sparks/php-activerecord/0.0.3/vendor/php-activerecord/lib/Model.php:521
+Stack trace:
+#0 /home/fronteradigitalc/public_html/plataforma/sparks/php-activerecord/0.0.3/vendor/php-activerecord/lib/Model.php(333): ActiveRecord\Model->read_attribute('empresa')
+#1 /home/fronteradigitalc/public_html/plataforma/application/views/blueline/theme/modal.php(32): ActiveRecord\Model->__get('empresa')
+#2 /home/fronteradigitalc/public_html/plataforma/system/core/Loader.php(833): include('/home/fronterad...')
+#3 /home/fronteradigitalc/public_html/plataforma/system/core/Loader.php(419): CI_Loader->_ci_load(Array)
+#4 /home/fronteradigitalc/public_html/plataforma/application/core/MY_Controller.php(68): CI_Loader->view('blueline/theme/...', Array in /home/fronteradigitalc/public_html/plataforma/sparks/php-activerecord/0.0.3/vendor/php-activerecord/lib/Model.php on line 521
+[01-Sep-2016 13:28:52 UTC] PHP Fatal error:  Uncaught exception 'ActiveRecord\UndefinedPropertyException' with message 'Undefined property: Archivo->fecha in /home/fronteradigitalc/public_html/plataforma/sparks/php-activerecord/0.0.3/vendor/php-activerecord/lib/Model.php on line 521' in /home/fronteradigitalc/public_html/plataforma/sparks/php-activerecord/0.0.3/vendor/php-activerecord/lib/Model.php:521
+Stack trace:
+#0 /home/fronteradigitalc/public_html/plataforma/sparks/php-activerecord/0.0.3/vendor/php-activerecord/lib/Model.php(333): ActiveRecord\Model->read_attribute('fecha')
+#1 /home/fronteradigitalc/public_html/plataforma/application/views/blueline/empresa/_profile.php(104): ActiveRecord\Model->__get('fecha')
+#2 /home/fronteradigitalc/public_html/plataforma/system/core/Loader.php(833): include('/home/fronterad...')
+#3 /home/fronteradigitalc/public_html/plataforma/system/core/Loader.php(419): CI_Loader->_ci_load(Array)
+#4 /home/fronteradigitalc/public_html/plataforma/application/core/MY_Controller.php(64): CI_Loader->view('blueline/empres...', Array in /home/fronteradigitalc/public_html/plataforma/sparks/php-activerecord/0.0.3/vendor/php-activerecord/lib/Model.php on line 521
+[01-Sep-2016 13:28:54 UTC] PHP Fatal error:  Uncaught exception 'ActiveRecord\UndefinedPropertyException' with message 'Undefined property: Archivo->fecha in /home/fronteradigitalc/public_html/plataforma/sparks/php-activerecord/0.0.3/vendor/php-activerecord/lib/Model.php on line 521' in /home/fronteradigitalc/public_html/plataforma/sparks/php-activerecord/0.0.3/vendor/php-activerecord/lib/Model.php:521
+Stack trace:
+#0 /home/fronteradigitalc/public_html/plataforma/sparks/php-activerecord/0.0.3/vendor/php-activerecord/lib/Model.php(333): ActiveRecord\Model->read_attribute('fecha')
+#1 /home/fronteradigitalc/public_html/plataforma/application/views/blueline/empresa/_profile.php(104): ActiveRecord\Model->__get('fecha')
+#2 /home/fronteradigitalc/public_html/plataforma/system/core/Loader.php(833): include('/home/fronterad...')
+#3 /home/fronteradigitalc/public_html/plataforma/system/core/Loader.php(419): CI_Loader->_ci_load(Array)
+#4 /home/fronteradigitalc/public_html/plataforma/application/core/MY_Controller.php(64): CI_Loader->view('blueline/empres...', Array in /home/fronteradigitalc/public_html/plataforma/sparks/php-activerecord/0.0.3/vendor/php-activerecord/lib/Model.php on line 521
+[01-Sep-2016 13:28:58 UTC] PHP Fatal error:  Uncaught exception 'ActiveRecord\UndefinedPropertyException' with message 'Undefined property: Archivo->fecha in /home/fronteradigitalc/public_html/plataforma/sparks/php-activerecord/0.0.3/vendor/php-activerecord/lib/Model.php on line 521' in /home/fronteradigitalc/public_html/plataforma/sparks/php-activerecord/0.0.3/vendor/php-activerecord/lib/Model.php:521
+Stack trace:
+#0 /home/fronteradigitalc/public_html/plataforma/sparks/php-activerecord/0.0.3/vendor/php-activerecord/lib/Model.php(333): ActiveRecord\Model->read_attribute('fecha')
+#1 /home/fronteradigitalc/public_html/plataforma/application/views/blueline/empresa/_profile.php(104): ActiveRecord\Model->__get('fecha')
+#2 /home/fronteradigitalc/public_html/plataforma/system/core/Loader.php(833): include('/home/fronterad...')
+#3 /home/fronteradigitalc/public_html/plataforma/system/core/Loader.php(419): CI_Loader->_ci_load(Array)
+#4 /home/fronteradigitalc/public_html/plataforma/application/core/MY_Controller.php(64): CI_Loader->view('blueline/empres...', Array in /home/fronteradigitalc/public_html/plataforma/sparks/php-activerecord/0.0.3/vendor/php-activerecord/lib/Model.php on line 521
+[01-Sep-2016 13:29:56 UTC] PHP Fatal error:  Uncaught exception 'ActiveRecord\UndefinedPropertyException' with message 'Undefined property: Archivo->fecha in /home/fronteradigitalc/public_html/plataforma/sparks/php-activerecord/0.0.3/vendor/php-activerecord/lib/Model.php on line 521' in /home/fronteradigitalc/public_html/plataforma/sparks/php-activerecord/0.0.3/vendor/php-activerecord/lib/Model.php:521
+Stack trace:
+#0 /home/fronteradigitalc/public_html/plataforma/sparks/php-activerecord/0.0.3/vendor/php-activerecord/lib/Model.php(333): ActiveRecord\Model->read_attribute('fecha')
+#1 /home/fronteradigitalc/public_html/plataforma/application/views/blueline/empresa/_profile.php(104): ActiveRecord\Model->__get('fecha')
+#2 /home/fronteradigitalc/public_html/plataforma/system/core/Loader.php(833): include('/home/fronterad...')
+#3 /home/fronteradigitalc/public_html/plataforma/system/core/Loader.php(419): CI_Loader->_ci_load(Array)
+#4 /home/fronteradigitalc/public_html/plataforma/application/core/MY_Controller.php(64): CI_Loader->view('blueline/empres...', Array in /home/fronteradigitalc/public_html/plataforma/sparks/php-activerecord/0.0.3/vendor/php-activerecord/lib/Model.php on line 521
+[01-Sep-2016 13:31:58 UTC] PHP Fatal error:  Uncaught exception 'ActiveRecord\UndefinedPropertyException' with message 'Undefined property: Archivo->fecha in /home/fronteradigitalc/public_html/plataforma/sparks/php-activerecord/0.0.3/vendor/php-activerecord/lib/Model.php on line 521' in /home/fronteradigitalc/public_html/plataforma/sparks/php-activerecord/0.0.3/vendor/php-activerecord/lib/Model.php:521
+Stack trace:
+#0 /home/fronteradigitalc/public_html/plataforma/sparks/php-activerecord/0.0.3/vendor/php-activerecord/lib/Model.php(333): ActiveRecord\Model->read_attribute('fecha')
+#1 /home/fronteradigitalc/public_html/plataforma/application/views/blueline/empresa/_profile.php(104): ActiveRecord\Model->__get('fecha')
+#2 /home/fronteradigitalc/public_html/plataforma/system/core/Loader.php(833): include('/home/fronterad...')
+#3 /home/fronteradigitalc/public_html/plataforma/system/core/Loader.php(419): CI_Loader->_ci_load(Array)
+#4 /home/fronteradigitalc/public_html/plataforma/application/core/MY_Controller.php(64): CI_Loader->view('blueline/empres...', Array in /home/fronteradigitalc/public_html/plataforma/sparks/php-activerecord/0.0.3/vendor/php-activerecord/lib/Model.php on line 521
+[01-Sep-2016 13:32:42 UTC] PHP Fatal error:  Uncaught exception 'ActiveRecord\UndefinedPropertyException' with message 'Undefined property: Archivo->fecha in /home/fronteradigitalc/public_html/plataforma/sparks/php-activerecord/0.0.3/vendor/php-activerecord/lib/Model.php on line 521' in /home/fronteradigitalc/public_html/plataforma/sparks/php-activerecord/0.0.3/vendor/php-activerecord/lib/Model.php:521
+Stack trace:
+#0 /home/fronteradigitalc/public_html/plataforma/sparks/php-activerecord/0.0.3/vendor/php-activerecord/lib/Model.php(333): ActiveRecord\Model->read_attribute('fecha')
+#1 /home/fronteradigitalc/public_html/plataforma/application/views/blueline/empresa/_profile.php(104): ActiveRecord\Model->__get('fecha')
+#2 /home/fronteradigitalc/public_html/plataforma/system/core/Loader.php(833): include('/home/fronterad...')
+#3 /home/fronteradigitalc/public_html/plataforma/system/core/Loader.php(419): CI_Loader->_ci_load(Array)
+#4 /home/fronteradigitalc/public_html/plataforma/application/core/MY_Controller.php(64): CI_Loader->view('blueline/empres...', Array in /home/fronteradigitalc/public_html/plataforma/sparks/php-activerecord/0.0.3/vendor/php-activerecord/lib/Model.php on line 521
+[01-Sep-2016 13:32:43 UTC] PHP Fatal error:  Uncaught exception 'ActiveRecord\UndefinedPropertyException' with message 'Undefined property: Archivo->fecha in /home/fronteradigitalc/public_html/plataforma/sparks/php-activerecord/0.0.3/vendor/php-activerecord/lib/Model.php on line 521' in /home/fronteradigitalc/public_html/plataforma/sparks/php-activerecord/0.0.3/vendor/php-activerecord/lib/Model.php:521
+Stack trace:
+#0 /home/fronteradigitalc/public_html/plataforma/sparks/php-activerecord/0.0.3/vendor/php-activerecord/lib/Model.php(333): ActiveRecord\Model->read_attribute('fecha')
+#1 /home/fronteradigitalc/public_html/plataforma/application/views/blueline/empresa/_profile.php(104): ActiveRecord\Model->__get('fecha')
+#2 /home/fronteradigitalc/public_html/plataforma/system/core/Loader.php(833): include('/home/fronterad...')
+#3 /home/fronteradigitalc/public_html/plataforma/system/core/Loader.php(419): CI_Loader->_ci_load(Array)
+#4 /home/fronteradigitalc/public_html/plataforma/application/core/MY_Controller.php(64): CI_Loader->view('blueline/empres...', Array in /home/fronteradigitalc/public_html/plataforma/sparks/php-activerecord/0.0.3/vendor/php-activerecord/lib/Model.php on line 521
+[01-Sep-2016 13:33:49 UTC] PHP Fatal error:  Uncaught exception 'ActiveRecord\UndefinedPropertyException' with message 'Undefined property: Archivo->fecha in /home/fronteradigitalc/public_html/plataforma/sparks/php-activerecord/0.0.3/vendor/php-activerecord/lib/Model.php on line 521' in /home/fronteradigitalc/public_html/plataforma/sparks/php-activerecord/0.0.3/vendor/php-activerecord/lib/Model.php:521
+Stack trace:
+#0 /home/fronteradigitalc/public_html/plataforma/sparks/php-activerecord/0.0.3/vendor/php-activerecord/lib/Model.php(333): ActiveRecord\Model->read_attribute('fecha')
+#1 /home/fronteradigitalc/public_html/plataforma/application/views/blueline/empresa/_profile.php(104): ActiveRecord\Model->__get('fecha')
+#2 /home/fronteradigitalc/public_html/plataforma/system/core/Loader.php(833): include('/home/fronterad...')
+#3 /home/fronteradigitalc/public_html/plataforma/system/core/Loader.php(419): CI_Loader->_ci_load(Array)
+#4 /home/fronteradigitalc/public_html/plataforma/application/core/MY_Controller.php(64): CI_Loader->view('blueline/empres...', Array in /home/fronteradigitalc/public_html/plataforma/sparks/php-activerecord/0.0.3/vendor/php-activerecord/lib/Model.php on line 521
+[01-Sep-2016 13:34:24 UTC] PHP Fatal error:  Uncaught exception 'ActiveRecord\UndefinedPropertyException' with message 'Undefined property: Archivo->fecha in /home/fronteradigitalc/public_html/plataforma/sparks/php-activerecord/0.0.3/vendor/php-activerecord/lib/Model.php on line 521' in /home/fronteradigitalc/public_html/plataforma/sparks/php-activerecord/0.0.3/vendor/php-activerecord/lib/Model.php:521
+Stack trace:
+#0 /home/fronteradigitalc/public_html/plataforma/sparks/php-activerecord/0.0.3/vendor/php-activerecord/lib/Model.php(333): ActiveRecord\Model->read_attribute('fecha')
+#1 /home/fronteradigitalc/public_html/plataforma/application/views/blueline/empresa/_profile.php(104): ActiveRecord\Model->__get('fecha')
+#2 /home/fronteradigitalc/public_html/plataforma/system/core/Loader.php(833): include('/home/fronterad...')
+#3 /home/fronteradigitalc/public_html/plataforma/system/core/Loader.php(419): CI_Loader->_ci_load(Array)
+#4 /home/fronteradigitalc/public_html/plataforma/application/core/MY_Controller.php(64): CI_Loader->view('blueline/empres...', Array in /home/fronteradigitalc/public_html/plataforma/sparks/php-activerecord/0.0.3/vendor/php-activerecord/lib/Model.php on line 521
+[01-Sep-2016 13:34:54 UTC] PHP Fatal error:  Uncaught exception 'ActiveRecord\UndefinedPropertyException' with message 'Undefined property: Archivo->fecha in /home/fronteradigitalc/public_html/plataforma/sparks/php-activerecord/0.0.3/vendor/php-activerecord/lib/Model.php on line 521' in /home/fronteradigitalc/public_html/plataforma/sparks/php-activerecord/0.0.3/vendor/php-activerecord/lib/Model.php:521
+Stack trace:
+#0 /home/fronteradigitalc/public_html/plataforma/sparks/php-activerecord/0.0.3/vendor/php-activerecord/lib/Model.php(333): ActiveRecord\Model->read_attribute('fecha')
+#1 /home/fronteradigitalc/public_html/plataforma/application/views/blueline/empresa/_profile.php(104): ActiveRecord\Model->__get('fecha')
+#2 /home/fronteradigitalc/public_html/plataforma/system/core/Loader.php(833): include('/home/fronterad...')
+#3 /home/fronteradigitalc/public_html/plataforma/system/core/Loader.php(419): CI_Loader->_ci_load(Array)
+#4 /home/fronteradigitalc/public_html/plataforma/application/core/MY_Controller.php(64): CI_Loader->view('blueline/empres...', Array in /home/fronteradigitalc/public_html/plataforma/sparks/php-activerecord/0.0.3/vendor/php-activerecord/lib/Model.php on line 521
+[01-Sep-2016 13:34:56 UTC] PHP Fatal error:  Uncaught exception 'ActiveRecord\UndefinedPropertyException' with message 'Undefined property: Archivo->fecha in /home/fronteradigitalc/public_html/plataforma/sparks/php-activerecord/0.0.3/vendor/php-activerecord/lib/Model.php on line 521' in /home/fronteradigitalc/public_html/plataforma/sparks/php-activerecord/0.0.3/vendor/php-activerecord/lib/Model.php:521
+Stack trace:
+#0 /home/fronteradigitalc/public_html/plataforma/sparks/php-activerecord/0.0.3/vendor/php-activerecord/lib/Model.php(333): ActiveRecord\Model->read_attribute('fecha')
+#1 /home/fronteradigitalc/public_html/plataforma/application/views/blueline/empresa/_profile.php(104): ActiveRecord\Model->__get('fecha')
+#2 /home/fronteradigitalc/public_html/plataforma/system/core/Loader.php(833): include('/home/fronterad...')
+#3 /home/fronteradigitalc/public_html/plataforma/system/core/Loader.php(419): CI_Loader->_ci_load(Array)
+#4 /home/fronteradigitalc/public_html/plataforma/application/core/MY_Controller.php(64): CI_Loader->view('blueline/empres...', Array in /home/fronteradigitalc/public_html/plataforma/sparks/php-activerecord/0.0.3/vendor/php-activerecord/lib/Model.php on line 521
+[01-Sep-2016 13:36:36 UTC] PHP Fatal error:  Uncaught exception 'ActiveRecord\UndefinedPropertyException' with message 'Undefined property: Archivo->fecha in /home/fronteradigitalc/public_html/plataforma/sparks/php-activerecord/0.0.3/vendor/php-activerecord/lib/Model.php on line 521' in /home/fronteradigitalc/public_html/plataforma/sparks/php-activerecord/0.0.3/vendor/php-activerecord/lib/Model.php:521
+Stack trace:
+#0 /home/fronteradigitalc/public_html/plataforma/sparks/php-activerecord/0.0.3/vendor/php-activerecord/lib/Model.php(333): ActiveRecord\Model->read_attribute('fecha')
+#1 /home/fronteradigitalc/public_html/plataforma/application/views/blueline/empresa/_profile.php(104): ActiveRecord\Model->__get('fecha')
+#2 /home/fronteradigitalc/public_html/plataforma/system/core/Loader.php(833): include('/home/fronterad...')
+#3 /home/fronteradigitalc/public_html/plataforma/system/core/Loader.php(419): CI_Loader->_ci_load(Array)
+#4 /home/fronteradigitalc/public_html/plataforma/application/core/MY_Controller.php(64): CI_Loader->view('blueline/empres...', Array in /home/fronteradigitalc/public_html/plataforma/sparks/php-activerecord/0.0.3/vendor/php-activerecord/lib/Model.php on line 521
+[01-Sep-2016 13:37:06 UTC] PHP Fatal error:  Uncaught exception 'ActiveRecord\UndefinedPropertyException' with message 'Undefined property: Archivo->fecha in /home/fronteradigitalc/public_html/plataforma/sparks/php-activerecord/0.0.3/vendor/php-activerecord/lib/Model.php on line 521' in /home/fronteradigitalc/public_html/plataforma/sparks/php-activerecord/0.0.3/vendor/php-activerecord/lib/Model.php:521
+Stack trace:
+#0 /home/fronteradigitalc/public_html/plataforma/sparks/php-activerecord/0.0.3/vendor/php-activerecord/lib/Model.php(333): ActiveRecord\Model->read_attribute('fecha')
+#1 /home/fronteradigitalc/public_html/plataforma/application/views/blueline/empresa/_profile.php(104): ActiveRecord\Model->__get('fecha')
+#2 /home/fronteradigitalc/public_html/plataforma/system/core/Loader.php(833): include('/home/fronterad...')
+#3 /home/fronteradigitalc/public_html/plataforma/system/core/Loader.php(419): CI_Loader->_ci_load(Array)
+#4 /home/fronteradigitalc/public_html/plataforma/application/core/MY_Controller.php(64): CI_Loader->view('blueline/empres...', Array in /home/fronteradigitalc/public_html/plataforma/sparks/php-activerecord/0.0.3/vendor/php-activerecord/lib/Model.php on line 521
+[01-Sep-2016 13:37:08 UTC] PHP Fatal error:  Uncaught exception 'ActiveRecord\UndefinedPropertyException' with message 'Undefined property: Archivo->fecha in /home/fronteradigitalc/public_html/plataforma/sparks/php-activerecord/0.0.3/vendor/php-activerecord/lib/Model.php on line 521' in /home/fronteradigitalc/public_html/plataforma/sparks/php-activerecord/0.0.3/vendor/php-activerecord/lib/Model.php:521
+Stack trace:
+#0 /home/fronteradigitalc/public_html/plataforma/sparks/php-activerecord/0.0.3/vendor/php-activerecord/lib/Model.php(333): ActiveRecord\Model->read_attribute('fecha')
+#1 /home/fronteradigitalc/public_html/plataforma/application/views/blueline/empresa/_profile.php(104): ActiveRecord\Model->__get('fecha')
+#2 /home/fronteradigitalc/public_html/plataforma/system/core/Loader.php(833): include('/home/fronterad...')
+#3 /home/fronteradigitalc/public_html/plataforma/system/core/Loader.php(419): CI_Loader->_ci_load(Array)
+#4 /home/fronteradigitalc/public_html/plataforma/application/core/MY_Controller.php(64): CI_Loader->view('blueline/empres...', Array in /home/fronteradigitalc/public_html/plataforma/sparks/php-activerecord/0.0.3/vendor/php-activerecord/lib/Model.php on line 521
+[01-Sep-2016 13:37:35 UTC] PHP Fatal error:  Uncaught exception 'ActiveRecord\UndefinedPropertyException' with message 'Undefined property: Archivo->fecha in /home/fronteradigitalc/public_html/plataforma/sparks/php-activerecord/0.0.3/vendor/php-activerecord/lib/Model.php on line 521' in /home/fronteradigitalc/public_html/plataforma/sparks/php-activerecord/0.0.3/vendor/php-activerecord/lib/Model.php:521
+Stack trace:
+#0 /home/fronteradigitalc/public_html/plataforma/sparks/php-activerecord/0.0.3/vendor/php-activerecord/lib/Model.php(333): ActiveRecord\Model->read_attribute('fecha')
+#1 /home/fronteradigitalc/public_html/plataforma/application/views/blueline/empresa/_profile.php(104): ActiveRecord\Model->__get('fecha')
+#2 /home/fronteradigitalc/public_html/plataforma/system/core/Loader.php(833): include('/home/fronterad...')
+#3 /home/fronteradigitalc/public_html/plataforma/system/core/Loader.php(419): CI_Loader->_ci_load(Array)
+#4 /home/fronteradigitalc/public_html/plataforma/application/core/MY_Controller.php(64): CI_Loader->view('blueline/empres...', Array in /home/fronteradigitalc/public_html/plataforma/sparks/php-activerecord/0.0.3/vendor/php-activerecord/lib/Model.php on line 521
+[01-Sep-2016 14:23:03 UTC] PHP Parse error:  syntax error, unexpected '{' in /home/fronteradigitalc/public_html/plataforma/application/views/blueline/empresa/_agregar.php on line 102
+[01-Sep-2016 14:23:09 UTC] PHP Parse error:  syntax error, unexpected '{' in /home/fronteradigitalc/public_html/plataforma/application/views/blueline/empresa/_agregar.php on line 102
+[01-Sep-2016 14:23:12 UTC] PHP Parse error:  syntax error, unexpected '{' in /home/fronteradigitalc/public_html/plataforma/application/views/blueline/empresa/_agregar.php on line 102
+[01-Sep-2016 14:57:35 UTC] PHP Fatal error:  Uncaught exception 'ActiveRecord\UndefinedPropertyException' with message 'Undefined property: Archivo->nombre in /home/fronteradigitalc/public_html/plataforma/sparks/php-activerecord/0.0.3/vendor/php-activerecord/lib/Model.php on line 420' in /home/fronteradigitalc/public_html/plataforma/sparks/php-activerecord/0.0.3/vendor/php-activerecord/lib/Model.php:1203
+Stack trace:
+#0 /home/fronteradigitalc/public_html/plataforma/sparks/php-activerecord/0.0.3/vendor/php-activerecord/lib/Model.php(261): ActiveRecord\Model->set_attributes_via_mass_assignment(Array, true)
+#1 /home/fronteradigitalc/public_html/plataforma/sparks/php-activerecord/0.0.3/vendor/php-activerecord/lib/Model.php(757): ActiveRecord\Model->__construct(Array)
+#2 /home/fronteradigitalc/public_html/plataforma/application/controllers/archivos.php(53): ActiveRecord\Model::create(Array)
+#3 [internal function]: archivos->index()
+#4 /home/fronteradigitalc/public_html/plataforma/system/core/CodeIgniter.php(359): call_user_func_array(Array, Array)
+#5 /home/f in /home/fronteradigitalc/public_html/plataforma/sparks/php-activerecord/0.0.3/vendor/php-activerecord/lib/Model.php on line 1203
+[01-Sep-2016 14:57:50 UTC] PHP Fatal error:  Uncaught exception 'ActiveRecord\UndefinedPropertyException' with message 'Undefined property: Archivo->nombre in /home/fronteradigitalc/public_html/plataforma/sparks/php-activerecord/0.0.3/vendor/php-activerecord/lib/Model.php on line 420' in /home/fronteradigitalc/public_html/plataforma/sparks/php-activerecord/0.0.3/vendor/php-activerecord/lib/Model.php:1203
+Stack trace:
+#0 /home/fronteradigitalc/public_html/plataforma/sparks/php-activerecord/0.0.3/vendor/php-activerecord/lib/Model.php(261): ActiveRecord\Model->set_attributes_via_mass_assignment(Array, true)
+#1 /home/fronteradigitalc/public_html/plataforma/sparks/php-activerecord/0.0.3/vendor/php-activerecord/lib/Model.php(757): ActiveRecord\Model->__construct(Array)
+#2 /home/fronteradigitalc/public_html/plataforma/application/controllers/archivos.php(53): ActiveRecord\Model::create(Array)
+#3 [internal function]: archivos->index()
+#4 /home/fronteradigitalc/public_html/plataforma/system/core/CodeIgniter.php(359): call_user_func_array(Array, Array)
+#5 /home/f in /home/fronteradigitalc/public_html/plataforma/sparks/php-activerecord/0.0.3/vendor/php-activerecord/lib/Model.php on line 1203
+[01-Sep-2016 14:58:18 UTC] PHP Fatal error:  Uncaught exception 'ActiveRecord\UndefinedPropertyException' with message 'Undefined property: Archivo->nombre in /home/fronteradigitalc/public_html/plataforma/sparks/php-activerecord/0.0.3/vendor/php-activerecord/lib/Model.php on line 420' in /home/fronteradigitalc/public_html/plataforma/sparks/php-activerecord/0.0.3/vendor/php-activerecord/lib/Model.php:1203
+Stack trace:
+#0 /home/fronteradigitalc/public_html/plataforma/sparks/php-activerecord/0.0.3/vendor/php-activerecord/lib/Model.php(261): ActiveRecord\Model->set_attributes_via_mass_assignment(Array, true)
+#1 /home/fronteradigitalc/public_html/plataforma/sparks/php-activerecord/0.0.3/vendor/php-activerecord/lib/Model.php(757): ActiveRecord\Model->__construct(Array)
+#2 /home/fronteradigitalc/public_html/plataforma/application/controllers/archivos.php(53): ActiveRecord\Model::create(Array)
+#3 [internal function]: archivos->index()
+#4 /home/fronteradigitalc/public_html/plataforma/system/core/CodeIgniter.php(359): call_user_func_array(Array, Array)
+#5 /home/f in /home/fronteradigitalc/public_html/plataforma/sparks/php-activerecord/0.0.3/vendor/php-activerecord/lib/Model.php on line 1203
+[01-Sep-2016 15:31:14 UTC] PHP Parse error:  syntax error, unexpected 'else' (T_ELSE), expecting function (T_FUNCTION) in /home/fronteradigitalc/public_html/plataforma/application/controllers/company.php on line 40
+[01-Sep-2016 15:31:18 UTC] PHP Parse error:  syntax error, unexpected 'else' (T_ELSE), expecting function (T_FUNCTION) in /home/fronteradigitalc/public_html/plataforma/application/controllers/company.php on line 40
+[01-Sep-2016 15:31:22 UTC] PHP Parse error:  syntax error, unexpected 'else' (T_ELSE), expecting function (T_FUNCTION) in /home/fronteradigitalc/public_html/plataforma/application/controllers/company.php on line 40
+[01-Sep-2016 15:31:25 UTC] PHP Parse error:  syntax error, unexpected 'else' (T_ELSE), expecting function (T_FUNCTION) in /home/fronteradigitalc/public_html/plataforma/application/controllers/company.php on line 40
+[01-Sep-2016 15:31:46 UTC] PHP Parse error:  syntax error, unexpected 'else' (T_ELSE), expecting function (T_FUNCTION) in /home/fronteradigitalc/public_html/plataforma/application/controllers/company.php on line 40
+[01-Sep-2016 15:31:49 UTC] PHP Parse error:  syntax error, unexpected 'else' (T_ELSE), expecting function (T_FUNCTION) in /home/fronteradigitalc/public_html/plataforma/application/controllers/company.php on line 40
+[01-Sep-2016 15:31:56 UTC] PHP Parse error:  syntax error, unexpected 'else' (T_ELSE), expecting function (T_FUNCTION) in /home/fronteradigitalc/public_html/plataforma/application/controllers/company.php on line 40
+[01-Sep-2016 15:33:48 UTC] PHP Parse error:  syntax error, unexpected 'redirect' (T_STRING), expecting function (T_FUNCTION) in /home/fronteradigitalc/public_html/plataforma/application/controllers/company.php on line 116
+[01-Sep-2016 15:33:50 UTC] PHP Parse error:  syntax error, unexpected 'redirect' (T_STRING), expecting function (T_FUNCTION) in /home/fronteradigitalc/public_html/plataforma/application/controllers/company.php on line 116
+[01-Sep-2016 15:34:03 UTC] PHP Parse error:  syntax error, unexpected 'redirect' (T_STRING), expecting function (T_FUNCTION) in /home/fronteradigitalc/public_html/plataforma/application/controllers/company.php on line 116
+[01-Sep-2016 15:34:05 UTC] PHP Parse error:  syntax error, unexpected 'redirect' (T_STRING), expecting function (T_FUNCTION) in /home/fronteradigitalc/public_html/plataforma/application/controllers/company.php on line 116
+[01-Sep-2016 15:34:57 UTC] PHP Parse error:  syntax error, unexpected 'else' (T_ELSE), expecting function (T_FUNCTION) in /home/fronteradigitalc/public_html/plataforma/application/controllers/company.php on line 41
+[01-Sep-2016 15:35:09 UTC] PHP Parse error:  syntax error, unexpected 'else' (T_ELSE), expecting function (T_FUNCTION) in /home/fronteradigitalc/public_html/plataforma/application/controllers/company.php on line 41
+[01-Sep-2016 15:37:08 UTC] PHP Fatal error:  Uncaught exception 'ActiveRecord\UndefinedPropertyException' with message 'Undefined property: Archivo->nombre in /home/fronteradigitalc/public_html/plataforma/sparks/php-activerecord/0.0.3/vendor/php-activerecord/lib/Model.php on line 420' in /home/fronteradigitalc/public_html/plataforma/sparks/php-activerecord/0.0.3/vendor/php-activerecord/lib/Model.php:1203
+Stack trace:
+#0 /home/fronteradigitalc/public_html/plataforma/sparks/php-activerecord/0.0.3/vendor/php-activerecord/lib/Model.php(261): ActiveRecord\Model->set_attributes_via_mass_assignment(Array, true)
+#1 /home/fronteradigitalc/public_html/plataforma/sparks/php-activerecord/0.0.3/vendor/php-activerecord/lib/Model.php(757): ActiveRecord\Model->__construct(Array)
+#2 /home/fronteradigitalc/public_html/plataforma/application/controllers/archivos.php(53): ActiveRecord\Model::create(Array)
+#3 [internal function]: archivos->index()
+#4 /home/fronteradigitalc/public_html/plataforma/system/core/CodeIgniter.php(359): call_user_func_array(Array, Array)
+#5 /home/f in /home/fronteradigitalc/public_html/plataforma/sparks/php-activerecord/0.0.3/vendor/php-activerecord/lib/Model.php on line 1203
+[01-Sep-2016 15:38:27 UTC] PHP Fatal error:  Uncaught exception 'ActiveRecord\RecordNotFound' with message 'Couldn't find Quinessomo with ID=' in /home/fronteradigitalc/public_html/plataforma/sparks/php-activerecord/0.0.3/vendor/php-activerecord/lib/Model.php:1596
+Stack trace:
+#0 /home/fronteradigitalc/public_html/plataforma/sparks/php-activerecord/0.0.3/vendor/php-activerecord/lib/Model.php(1564): ActiveRecord\Model::find_by_pk(false, Array)
+#1 /home/fronteradigitalc/public_html/plataforma/application/controllers/company.php(165): ActiveRecord\Model::find(false)
+#2 [internal function]: company->delete()
+#3 /home/fronteradigitalc/public_html/plataforma/system/core/CodeIgniter.php(359): call_user_func_array(Array, Array)
+#4 /home/fronteradigitalc/public_html/plataforma/index.php(210): require_once('/home/fronterad...')
+#5 {main}
+  thrown in /home/fronteradigitalc/public_html/plataforma/sparks/php-activerecord/0.0.3/vendor/php-activerecord/lib/Model.php on line 1596
+[01-Sep-2016 15:39:08 UTC] PHP Fatal error:  Uncaught exception 'ActiveRecord\RecordNotFound' with message 'Couldn't find Empresa with ID=' in /home/fronteradigitalc/public_html/plataforma/sparks/php-activerecord/0.0.3/vendor/php-activerecord/lib/Model.php:1596
+Stack trace:
+#0 /home/fronteradigitalc/public_html/plataforma/sparks/php-activerecord/0.0.3/vendor/php-activerecord/lib/Model.php(1564): ActiveRecord\Model::find_by_pk(false, Array)
+#1 /home/fronteradigitalc/public_html/plataforma/application/controllers/company.php(164): ActiveRecord\Model::find(false)
+#2 [internal function]: company->delete()
+#3 /home/fronteradigitalc/public_html/plataforma/system/core/CodeIgniter.php(359): call_user_func_array(Array, Array)
+#4 /home/fronteradigitalc/public_html/plataforma/index.php(210): require_once('/home/fronterad...')
+#5 {main}
+  thrown in /home/fronteradigitalc/public_html/plataforma/sparks/php-activerecord/0.0.3/vendor/php-activerecord/lib/Model.php on line 1596
+[01-Sep-2016 15:39:49 UTC] PHP Fatal error:  Uncaught exception 'ActiveRecord\RecordNotFound' with message 'Couldn't find Empresa with ID=' in /home/fronteradigitalc/public_html/plataforma/sparks/php-activerecord/0.0.3/vendor/php-activerecord/lib/Model.php:1596
+Stack trace:
+#0 /home/fronteradigitalc/public_html/plataforma/sparks/php-activerecord/0.0.3/vendor/php-activerecord/lib/Model.php(1564): ActiveRecord\Model::find_by_pk(false, Array)
+#1 /home/fronteradigitalc/public_html/plataforma/application/controllers/company.php(164): ActiveRecord\Model::find(false)
+#2 [internal function]: company->delete()
+#3 /home/fronteradigitalc/public_html/plataforma/system/core/CodeIgniter.php(359): call_user_func_array(Array, Array)
+#4 /home/fronteradigitalc/public_html/plataforma/index.php(210): require_once('/home/fronterad...')
+#5 {main}
+  thrown in /home/fronteradigitalc/public_html/plataforma/sparks/php-activerecord/0.0.3/vendor/php-activerecord/lib/Model.php on line 1596
+[01-Sep-2016 15:39:55 UTC] PHP Fatal error:  Uncaught exception 'ActiveRecord\RecordNotFound' with message 'Couldn't find Empresa with ID=' in /home/fronteradigitalc/public_html/plataforma/sparks/php-activerecord/0.0.3/vendor/php-activerecord/lib/Model.php:1596
+Stack trace:
+#0 /home/fronteradigitalc/public_html/plataforma/sparks/php-activerecord/0.0.3/vendor/php-activerecord/lib/Model.php(1564): ActiveRecord\Model::find_by_pk(false, Array)
+#1 /home/fronteradigitalc/public_html/plataforma/application/controllers/company.php(164): ActiveRecord\Model::find(false)
+#2 [internal function]: company->delete()
+#3 /home/fronteradigitalc/public_html/plataforma/system/core/CodeIgniter.php(359): call_user_func_array(Array, Array)
+#4 /home/fronteradigitalc/public_html/plataforma/index.php(210): require_once('/home/fronterad...')
+#5 {main}
+  thrown in /home/fronteradigitalc/public_html/plataforma/sparks/php-activerecord/0.0.3/vendor/php-activerecord/lib/Model.php on line 1596
+[01-Sep-2016 15:40:31 UTC] PHP Fatal error:  Uncaught exception 'ActiveRecord\RecordNotFound' with message 'Couldn't find Empresa with ID=' in /home/fronteradigitalc/public_html/plataforma/sparks/php-activerecord/0.0.3/vendor/php-activerecord/lib/Model.php:1596
+Stack trace:
+#0 /home/fronteradigitalc/public_html/plataforma/sparks/php-activerecord/0.0.3/vendor/php-activerecord/lib/Model.php(1564): ActiveRecord\Model::find_by_pk(false, Array)
+#1 /home/fronteradigitalc/public_html/plataforma/application/controllers/company.php(164): ActiveRecord\Model::find(false)
+#2 [internal function]: company->delete()
+#3 /home/fronteradigitalc/public_html/plataforma/system/core/CodeIgniter.php(359): call_user_func_array(Array, Array)
+#4 /home/fronteradigitalc/public_html/plataforma/index.php(210): require_once('/home/fronterad...')
+#5 {main}
+  thrown in /home/fronteradigitalc/public_html/plataforma/sparks/php-activerecord/0.0.3/vendor/php-activerecord/lib/Model.php on line 1596
+[01-Sep-2016 15:44:19 UTC] PHP Fatal error:  Uncaught exception 'ActiveRecord\UndefinedPropertyException' with message 'Undefined property: Empresa->empresa in /home/fronteradigitalc/public_html/plataforma/sparks/php-activerecord/0.0.3/vendor/php-activerecord/lib/Model.php on line 521' in /home/fronteradigitalc/public_html/plataforma/sparks/php-activerecord/0.0.3/vendor/php-activerecord/lib/Model.php:521
+Stack trace:
+#0 /home/fronteradigitalc/public_html/plataforma/sparks/php-activerecord/0.0.3/vendor/php-activerecord/lib/Model.php(333): ActiveRecord\Model->read_attribute('empresa')
+#1 /home/fronteradigitalc/public_html/plataforma/application/controllers/company.php(166): ActiveRecord\Model->__get('empresa')
+#2 [internal function]: company->delete('36')
+#3 /home/fronteradigitalc/public_html/plataforma/system/core/CodeIgniter.php(359): call_user_func_array(Array, Array)
+#4 /home/fronteradigitalc/public_html/plataforma/index.php(210): require_once('/home/fronterad...')
+#5 {main}
+  thrown in /home/fronteradigitalc/public_html/plataforma/sparks/php-activerecord/0.0.3/vendor/php-activerecord/lib/Model.php on line 521
+[01-Sep-2016 15:44:23 UTC] PHP Fatal error:  Uncaught exception 'ActiveRecord\RecordNotFound' with message 'Couldn't find Empresa with ID=36' in /home/fronteradigitalc/public_html/plataforma/sparks/php-activerecord/0.0.3/vendor/php-activerecord/lib/Model.php:1596
+Stack trace:
+#0 /home/fronteradigitalc/public_html/plataforma/sparks/php-activerecord/0.0.3/vendor/php-activerecord/lib/Model.php(1564): ActiveRecord\Model::find_by_pk('36', Array)
+#1 /home/fronteradigitalc/public_html/plataforma/application/controllers/company.php(164): ActiveRecord\Model::find('36')
+#2 [internal function]: company->delete('36')
+#3 /home/fronteradigitalc/public_html/plataforma/system/core/CodeIgniter.php(359): call_user_func_array(Array, Array)
+#4 /home/fronteradigitalc/public_html/plataforma/index.php(210): require_once('/home/fronterad...')
+#5 {main}
+  thrown in /home/fronteradigitalc/public_html/plataforma/sparks/php-activerecord/0.0.3/vendor/php-activerecord/lib/Model.php on line 1596
+[01-Sep-2016 15:46:58 UTC] PHP Fatal error:  Uncaught exception 'ActiveRecord\RecordNotFound' with message 'Couldn't find Empresa with ID=36' in /home/fronteradigitalc/public_html/plataforma/sparks/php-activerecord/0.0.3/vendor/php-activerecord/lib/Model.php:1596
+Stack trace:
+#0 /home/fronteradigitalc/public_html/plataforma/sparks/php-activerecord/0.0.3/vendor/php-activerecord/lib/Model.php(1564): ActiveRecord\Model::find_by_pk('36', Array)
+#1 /home/fronteradigitalc/public_html/plataforma/application/controllers/company.php(164): ActiveRecord\Model::find('36')
+#2 [internal function]: company->delete('36')
+#3 /home/fronteradigitalc/public_html/plataforma/system/core/CodeIgniter.php(359): call_user_func_array(Array, Array)
+#4 /home/fronteradigitalc/public_html/plataforma/index.php(210): require_once('/home/fronterad...')
+#5 {main}
+  thrown in /home/fronteradigitalc/public_html/plataforma/sparks/php-activerecord/0.0.3/vendor/php-activerecord/lib/Model.php on line 1596
+[01-Sep-2016 15:49:29 UTC] PHP Parse error:  syntax error, unexpected 'else' (T_ELSE), expecting function (T_FUNCTION) in /home/fronteradigitalc/public_html/plataforma/application/controllers/company.php on line 172
+[01-Sep-2016 20:26:09 UTC] PHP Fatal error:  Uncaught exception 'ActiveRecord\UndefinedPropertyException' with message 'Undefined property: Archivo->nombre in /home/fronteradigitalc/public_html/plataforma/sparks/php-activerecord/0.0.3/vendor/php-activerecord/lib/Model.php on line 420' in /home/fronteradigitalc/public_html/plataforma/sparks/php-activerecord/0.0.3/vendor/php-activerecord/lib/Model.php:1203
+Stack trace:
+#0 /home/fronteradigitalc/public_html/plataforma/sparks/php-activerecord/0.0.3/vendor/php-activerecord/lib/Model.php(261): ActiveRecord\Model->set_attributes_via_mass_assignment(Array, true)
+#1 /home/fronteradigitalc/public_html/plataforma/sparks/php-activerecord/0.0.3/vendor/php-activerecord/lib/Model.php(757): ActiveRecord\Model->__construct(Array)
+#2 /home/fronteradigitalc/public_html/plataforma/application/controllers/archivos.php(53): ActiveRecord\Model::create(Array)
+#3 [internal function]: archivos->index()
+#4 /home/fronteradigitalc/public_html/plataforma/system/core/CodeIgniter.php(359): call_user_func_array(Array, Array)
+#5 /home/f in /home/fronteradigitalc/public_html/plataforma/sparks/php-activerecord/0.0.3/vendor/php-activerecord/lib/Model.php on line 1203
+[02-Sep-2016 04:02:50 UTC] PHP Fatal error:  Uncaught exception 'ActiveRecord\UndefinedPropertyException' with message 'Undefined property: Archivo->nombre in /home/fronteradigitalc/public_html/plataforma/sparks/php-activerecord/0.0.3/vendor/php-activerecord/lib/Model.php on line 420' in /home/fronteradigitalc/public_html/plataforma/sparks/php-activerecord/0.0.3/vendor/php-activerecord/lib/Model.php:1203
+Stack trace:
+#0 /home/fronteradigitalc/public_html/plataforma/sparks/php-activerecord/0.0.3/vendor/php-activerecord/lib/Model.php(261): ActiveRecord\Model->set_attributes_via_mass_assignment(Array, true)
+#1 /home/fronteradigitalc/public_html/plataforma/sparks/php-activerecord/0.0.3/vendor/php-activerecord/lib/Model.php(757): ActiveRecord\Model->__construct(Array)
+#2 /home/fronteradigitalc/public_html/plataforma/application/controllers/archivos.php(53): ActiveRecord\Model::create(Array)
+#3 [internal function]: archivos->index()
+#4 /home/fronteradigitalc/public_html/plataforma/system/core/CodeIgniter.php(359): call_user_func_array(Array, Array)
+#5 /home/f in /home/fronteradigitalc/public_html/plataforma/sparks/php-activerecord/0.0.3/vendor/php-activerecord/lib/Model.php on line 1203
+[02-Sep-2016 05:24:05 UTC] PHP Fatal error:  Uncaught exception 'ActiveRecord\UndefinedPropertyException' with message 'Undefined property: Archivo->nombre in /home/fronteradigitalc/public_html/plataforma/sparks/php-activerecord/0.0.3/vendor/php-activerecord/lib/Model.php on line 420' in /home/fronteradigitalc/public_html/plataforma/sparks/php-activerecord/0.0.3/vendor/php-activerecord/lib/Model.php:1203
+Stack trace:
+#0 /home/fronteradigitalc/public_html/plataforma/sparks/php-activerecord/0.0.3/vendor/php-activerecord/lib/Model.php(261): ActiveRecord\Model->set_attributes_via_mass_assignment(Array, true)
+#1 /home/fronteradigitalc/public_html/plataforma/sparks/php-activerecord/0.0.3/vendor/php-activerecord/lib/Model.php(757): ActiveRecord\Model->__construct(Array)
+#2 /home/fronteradigitalc/public_html/plataforma/application/controllers/archivos.php(53): ActiveRecord\Model::create(Array)
+#3 [internal function]: archivos->index()
+#4 /home/fronteradigitalc/public_html/plataforma/system/core/CodeIgniter.php(359): call_user_func_array(Array, Array)
+#5 /home/f in /home/fronteradigitalc/public_html/plataforma/sparks/php-activerecord/0.0.3/vendor/php-activerecord/lib/Model.php on line 1203
+[02-Sep-2016 06:19:29 UTC] PHP Fatal error:  Uncaught exception 'ActiveRecord\UndefinedPropertyException' with message 'Undefined property: Archivo->nombre in /home/fronteradigitalc/public_html/plataforma/sparks/php-activerecord/0.0.3/vendor/php-activerecord/lib/Model.php on line 420' in /home/fronteradigitalc/public_html/plataforma/sparks/php-activerecord/0.0.3/vendor/php-activerecord/lib/Model.php:1203
+Stack trace:
+#0 /home/fronteradigitalc/public_html/plataforma/sparks/php-activerecord/0.0.3/vendor/php-activerecord/lib/Model.php(261): ActiveRecord\Model->set_attributes_via_mass_assignment(Array, true)
+#1 /home/fronteradigitalc/public_html/plataforma/sparks/php-activerecord/0.0.3/vendor/php-activerecord/lib/Model.php(757): ActiveRecord\Model->__construct(Array)
+#2 /home/fronteradigitalc/public_html/plataforma/application/controllers/archivos.php(53): ActiveRecord\Model::create(Array)
+#3 [internal function]: archivos->index()
+#4 /home/fronteradigitalc/public_html/plataforma/system/core/CodeIgniter.php(359): call_user_func_array(Array, Array)
+#5 /home/f in /home/fronteradigitalc/public_html/plataforma/sparks/php-activerecord/0.0.3/vendor/php-activerecord/lib/Model.php on line 1203
+[02-Sep-2016 06:21:22 UTC] PHP Fatal error:  Uncaught exception 'ActiveRecord\UndefinedPropertyException' with message 'Undefined property: Archivo->nombre in /home/fronteradigitalc/public_html/plataforma/sparks/php-activerecord/0.0.3/vendor/php-activerecord/lib/Model.php on line 420' in /home/fronteradigitalc/public_html/plataforma/sparks/php-activerecord/0.0.3/vendor/php-activerecord/lib/Model.php:1203
+Stack trace:
+#0 /home/fronteradigitalc/public_html/plataforma/sparks/php-activerecord/0.0.3/vendor/php-activerecord/lib/Model.php(261): ActiveRecord\Model->set_attributes_via_mass_assignment(Array, true)
+#1 /home/fronteradigitalc/public_html/plataforma/sparks/php-activerecord/0.0.3/vendor/php-activerecord/lib/Model.php(757): ActiveRecord\Model->__construct(Array)
+#2 /home/fronteradigitalc/public_html/plataforma/application/controllers/archivos.php(53): ActiveRecord\Model::create(Array)
+#3 [internal function]: archivos->index()
+#4 /home/fronteradigitalc/public_html/plataforma/system/core/CodeIgniter.php(359): call_user_func_array(Array, Array)
+#5 /home/f in /home/fronteradigitalc/public_html/plataforma/sparks/php-activerecord/0.0.3/vendor/php-activerecord/lib/Model.php on line 1203
+[02-Sep-2016 06:21:32 UTC] PHP Fatal error:  Uncaught exception 'ActiveRecord\UndefinedPropertyException' with message 'Undefined property: Archivo->nombre in /home/fronteradigitalc/public_html/plataforma/sparks/php-activerecord/0.0.3/vendor/php-activerecord/lib/Model.php on line 420' in /home/fronteradigitalc/public_html/plataforma/sparks/php-activerecord/0.0.3/vendor/php-activerecord/lib/Model.php:1203
+Stack trace:
+#0 /home/fronteradigitalc/public_html/plataforma/sparks/php-activerecord/0.0.3/vendor/php-activerecord/lib/Model.php(261): ActiveRecord\Model->set_attributes_via_mass_assignment(Array, true)
+#1 /home/fronteradigitalc/public_html/plataforma/sparks/php-activerecord/0.0.3/vendor/php-activerecord/lib/Model.php(757): ActiveRecord\Model->__construct(Array)
+#2 /home/fronteradigitalc/public_html/plataforma/application/controllers/archivos.php(53): ActiveRecord\Model::create(Array)
+#3 [internal function]: archivos->index()
+#4 /home/fronteradigitalc/public_html/plataforma/system/core/CodeIgniter.php(359): call_user_func_array(Array, Array)
+#5 /home/f in /home/fronteradigitalc/public_html/plataforma/sparks/php-activerecord/0.0.3/vendor/php-activerecord/lib/Model.php on line 1203
+[02-Sep-2016 06:21:55 UTC] PHP Fatal error:  Uncaught exception 'ActiveRecord\UndefinedPropertyException' with message 'Undefined property: Archivo->nombre in /home/fronteradigitalc/public_html/plataforma/sparks/php-activerecord/0.0.3/vendor/php-activerecord/lib/Model.php on line 420' in /home/fronteradigitalc/public_html/plataforma/sparks/php-activerecord/0.0.3/vendor/php-activerecord/lib/Model.php:1203
+Stack trace:
+#0 /home/fronteradigitalc/public_html/plataforma/sparks/php-activerecord/0.0.3/vendor/php-activerecord/lib/Model.php(261): ActiveRecord\Model->set_attributes_via_mass_assignment(Array, true)
+#1 /home/fronteradigitalc/public_html/plataforma/sparks/php-activerecord/0.0.3/vendor/php-activerecord/lib/Model.php(757): ActiveRecord\Model->__construct(Array)
+#2 /home/fronteradigitalc/public_html/plataforma/application/controllers/archivos.php(53): ActiveRecord\Model::create(Array)
+#3 [internal function]: archivos->index()
+#4 /home/fronteradigitalc/public_html/plataforma/system/core/CodeIgniter.php(359): call_user_func_array(Array, Array)
+#5 /home/f in /home/fronteradigitalc/public_html/plataforma/sparks/php-activerecord/0.0.3/vendor/php-activerecord/lib/Model.php on line 1203
+[02-Sep-2016 06:22:18 UTC] PHP Fatal error:  Uncaught exception 'ActiveRecord\UndefinedPropertyException' with message 'Undefined property: Archivo->nombre in /home/fronteradigitalc/public_html/plataforma/sparks/php-activerecord/0.0.3/vendor/php-activerecord/lib/Model.php on line 420' in /home/fronteradigitalc/public_html/plataforma/sparks/php-activerecord/0.0.3/vendor/php-activerecord/lib/Model.php:1203
+Stack trace:
+#0 /home/fronteradigitalc/public_html/plataforma/sparks/php-activerecord/0.0.3/vendor/php-activerecord/lib/Model.php(261): ActiveRecord\Model->set_attributes_via_mass_assignment(Array, true)
+#1 /home/fronteradigitalc/public_html/plataforma/sparks/php-activerecord/0.0.3/vendor/php-activerecord/lib/Model.php(757): ActiveRecord\Model->__construct(Array)
+#2 /home/fronteradigitalc/public_html/plataforma/application/controllers/archivos.php(53): ActiveRecord\Model::create(Array)
+#3 [internal function]: archivos->index()
+#4 /home/fronteradigitalc/public_html/plataforma/system/core/CodeIgniter.php(359): call_user_func_array(Array, Array)
+#5 /home/f in /home/fronteradigitalc/public_html/plataforma/sparks/php-activerecord/0.0.3/vendor/php-activerecord/lib/Model.php on line 1203
+[02-Sep-2016 06:24:03 UTC] PHP Fatal error:  Uncaught exception 'ActiveRecord\UndefinedPropertyException' with message 'Undefined property: Archivo->nombre in /home/fronteradigitalc/public_html/plataforma/sparks/php-activerecord/0.0.3/vendor/php-activerecord/lib/Model.php on line 420' in /home/fronteradigitalc/public_html/plataforma/sparks/php-activerecord/0.0.3/vendor/php-activerecord/lib/Model.php:1203
+Stack trace:
+#0 /home/fronteradigitalc/public_html/plataforma/sparks/php-activerecord/0.0.3/vendor/php-activerecord/lib/Model.php(261): ActiveRecord\Model->set_attributes_via_mass_assignment(Array, true)
+#1 /home/fronteradigitalc/public_html/plataforma/sparks/php-activerecord/0.0.3/vendor/php-activerecord/lib/Model.php(757): ActiveRecord\Model->__construct(Array)
+#2 /home/fronteradigitalc/public_html/plataforma/application/controllers/archivos.php(53): ActiveRecord\Model::create(Array)
+#3 [internal function]: archivos->index()
+#4 /home/fronteradigitalc/public_html/plataforma/system/core/CodeIgniter.php(359): call_user_func_array(Array, Array)
+#5 /home/f in /home/fronteradigitalc/public_html/plataforma/sparks/php-activerecord/0.0.3/vendor/php-activerecord/lib/Model.php on line 1203
+[02-Sep-2016 06:25:32 UTC] PHP Fatal error:  Uncaught exception 'ActiveRecord\UndefinedPropertyException' with message 'Undefined property: Archivo->nombre in /home/fronteradigitalc/public_html/plataforma/sparks/php-activerecord/0.0.3/vendor/php-activerecord/lib/Model.php on line 420' in /home/fronteradigitalc/public_html/plataforma/sparks/php-activerecord/0.0.3/vendor/php-activerecord/lib/Model.php:1203
+Stack trace:
+#0 /home/fronteradigitalc/public_html/plataforma/sparks/php-activerecord/0.0.3/vendor/php-activerecord/lib/Model.php(261): ActiveRecord\Model->set_attributes_via_mass_assignment(Array, true)
+#1 /home/fronteradigitalc/public_html/plataforma/sparks/php-activerecord/0.0.3/vendor/php-activerecord/lib/Model.php(757): ActiveRecord\Model->__construct(Array)
+#2 /home/fronteradigitalc/public_html/plataforma/application/controllers/archivos.php(53): ActiveRecord\Model::create(Array)
+#3 [internal function]: archivos->index()
+#4 /home/fronteradigitalc/public_html/plataforma/system/core/CodeIgniter.php(359): call_user_func_array(Array, Array)
+#5 /home/f in /home/fronteradigitalc/public_html/plataforma/sparks/php-activerecord/0.0.3/vendor/php-activerecord/lib/Model.php on line 1203
+[02-Sep-2016 06:26:43 UTC] PHP Fatal error:  Uncaught exception 'ActiveRecord\UndefinedPropertyException' with message 'Undefined property: Setting->empresa in /home/fronteradigitalc/public_html/plataforma/sparks/php-activerecord/0.0.3/vendor/php-activerecord/lib/Model.php on line 521' in /home/fronteradigitalc/public_html/plataforma/sparks/php-activerecord/0.0.3/vendor/php-activerecord/lib/Model.php:521
+Stack trace:
+#0 /home/fronteradigitalc/public_html/plataforma/sparks/php-activerecord/0.0.3/vendor/php-activerecord/lib/Model.php(333): ActiveRecord\Model->read_attribute('empresa')
+#1 /home/fronteradigitalc/public_html/plataforma/application/views/blueline/theme/modal.php(32): ActiveRecord\Model->__get('empresa')
+#2 /home/fronteradigitalc/public_html/plataforma/system/core/Loader.php(833): include('/home/fronterad...')
+#3 /home/fronteradigitalc/public_html/plataforma/system/core/Loader.php(419): CI_Loader->_ci_load(Array)
+#4 /home/fronteradigitalc/public_html/plataforma/application/core/MY_Controller.php(68): CI_Loader->view('blueline/theme/...', Array in /home/fronteradigitalc/public_html/plataforma/sparks/php-activerecord/0.0.3/vendor/php-activerecord/lib/Model.php on line 521
+[02-Sep-2016 14:05:34 UTC] PHP Fatal error:  Cannot use object of type Empresa as array in /home/fronteradigitalc/public_html/plataforma/application/views/blueline/empresa/_profile.php on line 141
+[02-Sep-2016 14:06:53 UTC] PHP Fatal error:  Cannot use object of type Empresa as array in /home/fronteradigitalc/public_html/plataforma/application/views/blueline/empresa/_profile.php on line 143
+[02-Sep-2016 14:09:51 UTC] PHP Fatal error:  Cannot use object of type Empresa as array in /home/fronteradigitalc/public_html/plataforma/application/views/blueline/empresa/_profile.php on line 142
+[02-Sep-2016 14:10:11 UTC] PHP Fatal error:  Cannot use object of type Empresa as array in /home/fronteradigitalc/public_html/plataforma/application/views/blueline/empresa/_profile.php on line 142
+[02-Sep-2016 14:11:04 UTC] PHP Fatal error:  Cannot use object of type Empresa as array in /home/fronteradigitalc/public_html/plataforma/application/views/blueline/empresa/_profile.php on line 142
+[02-Sep-2016 14:11:49 UTC] PHP Fatal error:  Cannot use object of type Empresa as array in /home/fronteradigitalc/public_html/plataforma/application/views/blueline/empresa/_profile.php on line 142
+[02-Sep-2016 14:12:41 UTC] PHP Fatal error:  Cannot use object of type Empresa as array in /home/fronteradigitalc/public_html/plataforma/application/views/blueline/empresa/_profile.php on line 142
+[02-Sep-2016 14:16:47 UTC] PHP Fatal error:  Cannot use object of type Empresa as array in /home/fronteradigitalc/public_html/plataforma/application/views/blueline/empresa/_profile.php on line 154
+[02-Sep-2016 14:18:09 UTC] PHP Fatal error:  Cannot use object of type Empresa as array in /home/fronteradigitalc/public_html/plataforma/application/views/blueline/empresa/_profile.php on line 154
+[02-Sep-2016 14:18:11 UTC] PHP Fatal error:  Cannot use object of type Empresa as array in /home/fronteradigitalc/public_html/plataforma/application/views/blueline/empresa/_profile.php on line 154
+[02-Sep-2016 14:19:01 UTC] PHP Fatal error:  Cannot use object of type Empresa as array in /home/fronteradigitalc/public_html/plataforma/application/views/blueline/empresa/_profile.php on line 174
+[02-Sep-2016 14:19:04 UTC] PHP Fatal error:  Cannot use object of type Empresa as array in /home/fronteradigitalc/public_html/plataforma/application/views/blueline/empresa/_profile.php on line 174
+[02-Sep-2016 14:19:18 UTC] PHP Fatal error:  Cannot use object of type Empresa as array in /home/fronteradigitalc/public_html/plataforma/application/views/blueline/empresa/_profile.php on line 174
+[02-Sep-2016 14:19:20 UTC] PHP Fatal error:  Cannot use object of type Empresa as array in /home/fronteradigitalc/public_html/plataforma/application/views/blueline/empresa/_profile.php on line 174
+[02-Sep-2016 14:19:27 UTC] PHP Fatal error:  Cannot use object of type Empresa as array in /home/fronteradigitalc/public_html/plataforma/application/views/blueline/empresa/_profile.php on line 174
+[02-Sep-2016 14:19:42 UTC] PHP Fatal error:  Cannot use object of type Empresa as array in /home/fronteradigitalc/public_html/plataforma/application/views/blueline/empresa/_profile.php on line 154
+[02-Sep-2016 14:19:43 UTC] PHP Fatal error:  Cannot use object of type Empresa as array in /home/fronteradigitalc/public_html/plataforma/application/views/blueline/empresa/_profile.php on line 154
+[02-Sep-2016 14:19:58 UTC] PHP Fatal error:  Cannot use object of type Empresa as array in /home/fronteradigitalc/public_html/plataforma/application/views/blueline/empresa/_profile.php on line 179
+[02-Sep-2016 14:20:09 UTC] PHP Fatal error:  Cannot use object of type Empresa as array in /home/fronteradigitalc/public_html/plataforma/application/views/blueline/empresa/_profile.php on line 174
+[02-Sep-2016 14:20:46 UTC] PHP Fatal error:  Cannot use object of type Empresa as array in /home/fronteradigitalc/public_html/plataforma/application/views/blueline/empresa/_profile.php on line 174
+[02-Sep-2016 14:21:42 UTC] PHP Fatal error:  Cannot use object of type Empresa as array in /home/fronteradigitalc/public_html/plataforma/application/views/blueline/empresa/_profile.php on line 154
+[02-Sep-2016 14:22:25 UTC] PHP Parse error:  syntax error, unexpected end of file, expecting ',' or ';' in /home/fronteradigitalc/public_html/plataforma/application/views/blueline/empresa/_profile.php on line 64
+[02-Sep-2016 14:22:42 UTC] PHP Fatal error:  Cannot use object of type Empresa as array in /home/fronteradigitalc/public_html/plataforma/application/views/blueline/empresa/_profile.php on line 154
+[02-Sep-2016 14:23:23 UTC] PHP Fatal error:  Cannot use object of type Empresa as array in /home/fronteradigitalc/public_html/plataforma/application/views/blueline/empresa/_profile.php on line 154
+[02-Sep-2016 14:24:38 UTC] PHP Fatal error:  Cannot use object of type Empresa as array in /home/fronteradigitalc/public_html/plataforma/application/views/blueline/empresa/_profile.php on line 154
+[02-Sep-2016 14:25:56 UTC] PHP Fatal error:  Cannot use object of type Empresa as array in /home/fronteradigitalc/public_html/plataforma/application/views/blueline/empresa/_profile.php on line 154
+[02-Sep-2016 14:25:58 UTC] PHP Fatal error:  Cannot use object of type Empresa as array in /home/fronteradigitalc/public_html/plataforma/application/views/blueline/empresa/_profile.php on line 154
+[02-Sep-2016 14:26:19 UTC] PHP Fatal error:  Cannot use object of type Empresa as array in /home/fronteradigitalc/public_html/plataforma/application/views/blueline/empresa/_profile.php on line 154
+[02-Sep-2016 14:27:35 UTC] PHP Fatal error:  Cannot use object of type Empresa as array in /home/fronteradigitalc/public_html/plataforma/application/views/blueline/empresa/_profile.php on line 156
+[02-Sep-2016 14:27:44 UTC] PHP Fatal error:  Cannot use object of type Empresa as array in /home/fronteradigitalc/public_html/plataforma/application/views/blueline/empresa/_profile.php on line 156
+[02-Sep-2016 14:28:15 UTC] PHP Fatal error:  Cannot use object of type Empresa as array in /home/fronteradigitalc/public_html/plataforma/application/views/blueline/empresa/_profile.php on line 156
+[07-Sep-2016 14:04:25 UTC] PHP Fatal error:  Uncaught exception 'ActiveRecord\DatabaseException' with message 'exception 'PDOException' with message 'SQLSTATE[HY000]: General error: 2006 MySQL server has gone away' in /home/fronteradigitalc/public_html/plataforma/sparks/php-activerecord/0.0.3/vendor/php-activerecord/lib/Connection.php:309
+Stack trace:
+#0 /home/fronteradigitalc/public_html/plataforma/sparks/php-activerecord/0.0.3/vendor/php-activerecord/lib/Connection.php(309): PDOStatement->execute(Array)
+#1 /home/fronteradigitalc/public_html/plataforma/sparks/php-activerecord/0.0.3/vendor/php-activerecord/lib/Table.php(218): ActiveRecord\Connection->query('SELECT * FROM `...', Array)
+#2 /home/fronteradigitalc/public_html/plataforma/sparks/php-activerecord/0.0.3/vendor/php-activerecord/lib/Table.php(209): ActiveRecord\Table->find_by_sql('SELECT * FROM `...', Array, false, NULL)
+#3 /home/fronteradigitalc/public_html/plataforma/sparks/php-activerecord/0.0.3/vendor/php-activerecord/lib/Model.php(1567): ActiveRecord\Table->find(Array)
+#4 [internal function] in /home/fronteradigitalc/public_html/plataforma/sparks/php-activerecord/0.0.3/vendor/php-activerecord/lib/Connection.php on line 312
+[09-Sep-2016 15:36:33 UTC] PHP Fatal error:  Call to a member function delete() on a non-object in /home/fronteradigitalc/public_html/plataforma/application/controllers/company.php on line 167
+[09-Sep-2016 15:37:25 UTC] PHP Fatal error:  Call to a member function delete() on a non-object in /home/fronteradigitalc/public_html/plataforma/application/controllers/company.php on line 167
+[09-Sep-2016 15:50:02 UTC] PHP Fatal error:  Call to a member function delete() on a non-object in /home/fronteradigitalc/public_html/plataforma/application/controllers/company.php on line 167
